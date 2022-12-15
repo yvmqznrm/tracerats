@@ -1,0 +1,1012 @@
+﻿Log file open, 12/14/22 14:31:25
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Started CrashReportClient (pid=28660)
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: MayhemsRoom
+LogCore: UnrealTraceServer: Trace store launch successful
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.0-CL-20979098"
+LogCsvProfiler: Display: Metadata set : engineversion="5.0.3-20979098+++UE5+Release-5.0"
+LogCsvProfiler: Display: Metadata set : commandline="" "D:\Unreal Projects\MayhemsRoom\MayhemsRoom.uproject"""
+LogCsvProfiler: Display: Metadata set : os="Windows 10 (Release 1909) [10.0.18363.1556] "
+LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : loginid="6e08f74a4b93172827e553ae1481e9bf"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogPlatformFile: Not using cached read wrapper
+LogStats: Stats thread started at 0.554348
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-4059CE714B2B27E3055A6BB3078F1669
+         Session CrashGUID >====================================================
+LogConfig: Display: Loading HoloLens ini files took 0.33 seconds
+LogConfig: Display: Loading IOS ini files took 0.33 seconds
+LogConfig: Display: Loading Mac ini files took 0.33 seconds
+LogConfig: Display: Loading Android ini files took 0.34 seconds
+LogConfig: Display: Loading Unix ini files took 0.35 seconds
+LogConfig: Display: Loading TVOS ini files took 0.36 seconds
+LogConfig: Display: Loading LinuxArm64 ini files took 0.40 seconds
+LogConfig: Display: Loading Linux ini files took 0.41 seconds
+LogConfig: Display: Loading VulkanPC ini files took 0.08 seconds
+LogConfig: Display: Loading Windows ini files took 0.09 seconds
+LogPluginManager: Mounting Engine plugin Bridge
+LogPluginManager: Mounting Engine plugin FastBuildController
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin XGEController
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin CryptoKeys
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin EditorDebugTools
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin MaterialAnalyzer
+LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting Engine plugin PluginBrowser
+LogPluginManager: Mounting Engine plugin ModelingToolsEditorMode
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin StylusInput
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin TraceDataFilters
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting Engine plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosClothEditor
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin MeshLODToolset
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+LogPluginManager: Mounting Engine plugin OpenImageDenoise
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin Niagara
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin SkeletalReduction
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin AndroidMedia
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin MatineeToLevelSequence
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin OnlineSubsystemNull
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin AndroidPermission
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin AppleMoviePlayer
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin HairStrands
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin MobilePatchingUtils
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogPluginManager: Mounting Engine plugin RuntimePhysXCooking
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Bridge/Content/' mounted to '/Bridge/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/2D/Paper2D/Content/' mounted to '/Paper2D/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRigSpline/Content/' mounted to '/ControlRigSpline/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRig/Content/' mounted to '/ControlRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/IKRig/Content/' mounted to '/IKRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Developer/AnimationSharing/Content/' mounted to '/AnimationSharing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ModelingToolsEditorMode/Content/' mounted to '/ModelingToolsEditorMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/GeometryMode/Content/' mounted to '/GeometryMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/SpeedTreeImporter/Content/' mounted to '/SpeedTreeImporter/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Enterprise/DatasmithContent/Content/' mounted to '/DatasmithContent/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosClothEditor/Content/' mounted to '/ChaosClothEditor/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosNiagara/Content/' mounted to '/ChaosNiagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosSolverPlugin/Content/' mounted to '/ChaosSolverPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/FullBodyIK/Content/' mounted to '/FullBodyIK/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryFlow/Content/' mounted to '/GeometryFlow/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryCollectionPlugin/Content/' mounted to '/GeometryCollectionPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshLODToolset/Content/' mounted to '/MeshLODToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshModelingToolsetExp/Content/' mounted to '/MeshModelingToolsetExp/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/FX/Niagara/Content/' mounted to '/Niagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/PythonScriptPlugin/Content/' mounted to '/PythonScriptPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Media/MediaCompositing/Content/' mounted to '/MediaCompositing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/MovieScene/SequencerScripting/Content/' mounted to '/SequencerScripting/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AudioSynesthesia/Content/' mounted to '/AudioSynesthesia/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/GeometryProcessing/Content/' mounted to '/GeometryProcessing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/HairStrands/Content/' mounted to '/HairStrands/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/MeshModelingToolset/Content/' mounted to '/MeshModelingToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/ResonanceAudio/Content/' mounted to '/ResonanceAudio/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/Synthesis/Content/' mounted to '/Synthesis/'
+SourceControl: Source control is disabled
+SourceControl: Source control is disabled
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: Created online subsystem instance for: NULL
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE5+Release-5.0-CL-20979098
+LogInit: Engine Version: 5.0.3-20979098+++UE5+Release-5.0
+LogInit: Compatible Engine Version: 5.0.0-19505902+++UE5+Release-5.0
+LogInit: Net CL: 19505902
+LogInit: OS: Windows 10 (Release 1909) [10.0.18363.1556] (), CPU: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Jul  7 2022 02:16:06
+LogInit: Compiled with Visual C++: 19.29.30138.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.0
+LogInit: Command Line: 
+LogInit: Base Directory: E:/UE_5.0/Engine/Binaries/Win64/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 34
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 59
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 3
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 59
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 36
+LogDevObjectVersion:   UE5-PrivateFrosty (59DA5D52-1232-4948-B878-597870B8E98B): 8
+LogDevObjectVersion:   UE5-Dev-Cooker (26075A32-730F-4708-88E9-8C32F1599D05): 0
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   UE5-Dev-LWCRendering (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[r.DetectAndWarnOfBadDrivers:0]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+[2022.12.14-13.31.25:949][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2022.12.14-13.31.25:949][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2022.12.14-13.31.25:949][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2022.12.14-13.31.25:949][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2022.12.14-13.31.25:949][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2022.12.14-13.31.25:949][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2022.12.14-13.31.25:949][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2022.12.14-13.31.25:949][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2022.12.14-13.31.25:949][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2022.12.14-13.31.25:949][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2022.12.14-13.31.25:949][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2022.12.14-13.31.25:949][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2022.12.14-13.31.25:950][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2022.12.14-13.31.25:950][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2022.12.14-13.31.25:950][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [Engine]
+[2022.12.14-13.31.25:950][  0]LogConfig: CVar [[DefaultPVRTCQuality:1]] deferred - dummy variable created
+[2022.12.14-13.31.25:950][  0]LogConfig: CVar [[DefaultASTCQualityBySpeed:1]] deferred - dummy variable created
+[2022.12.14-13.31.25:950][  0]LogConfig: CVar [[DefaultASTCQualityBySize:3]] deferred - dummy variable created
+[2022.12.14-13.31.25:950][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:WidgetBlueprint]] deferred - dummy variable created
+[2022.12.14-13.31.25:950][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GroupActor]] deferred - dummy variable created
+[2022.12.14-13.31.25:950][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MetaData]] deferred - dummy variable created
+[2022.12.14-13.31.25:950][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ObjectRedirector]] deferred - dummy variable created
+[2022.12.14-13.31.25:950][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NavMeshRenderingComponent]] deferred - dummy variable created
+[2022.12.14-13.31.25:950][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ReflectionCaptureComponent]] deferred - dummy variable created
+[2022.12.14-13.31.25:950][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:TextRenderComponent]] deferred - dummy variable created
+[2022.12.14-13.31.25:950][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:Font]] deferred - dummy variable created
+[2022.12.14-13.31.25:950][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:InterpCurveEdSetup]] deferred - dummy variable created
+[2022.12.14-13.31.25:950][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MaterialExpression]] deferred - dummy variable created
+[2022.12.14-13.31.25:950][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MatineeActorCameraAnim]] deferred - dummy variable created
+[2022.12.14-13.31.25:950][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraEmitter]] deferred - dummy variable created
+[2022.12.14-13.31.25:950][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraScript]] deferred - dummy variable created
+[2022.12.14-13.31.25:950][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleEmitter]] deferred - dummy variable created
+[2022.12.14-13.31.25:950][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleLODLevel]] deferred - dummy variable created
+[2022.12.14-13.31.25:950][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleModule]] deferred - dummy variable created
+[2022.12.14-13.31.25:950][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SubUVAnimation]] deferred - dummy variable created
+[2022.12.14-13.31.25:950][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SoundNode]] deferred - dummy variable created
+[2022.12.14-13.31.25:950][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GameplayEffectUIData]] deferred - dummy variable created
+[2022.12.14-13.31.25:950][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:WidgetBlueprint]] deferred - dummy variable created
+[2022.12.14-13.31.25:950][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:GroupActor]] deferred - dummy variable created
+[2022.12.14-13.31.25:950][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MetaData]] deferred - dummy variable created
+[2022.12.14-13.31.25:950][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:ObjectRedirector]] deferred - dummy variable created
+[2022.12.14-13.31.25:950][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:InterpCurveEdSetup]] deferred - dummy variable created
+[2022.12.14-13.31.25:950][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MatineeActorCameraAnim]] deferred - dummy variable created
+[2022.12.14-13.31.25:950][  0]LogConfig: CVar [[VersionedIntRValues:r.AllowStaticLighting]] deferred - dummy variable created
+[2022.12.14-13.31.25:950][  0]LogConfig: CVar [[VersionedIntRValues:r.GBuffer]] deferred - dummy variable created
+[2022.12.14-13.31.25:950][  0]LogConfig: CVar [[VersionedIntRValues:r.VelocityOutputPass]] deferred - dummy variable created
+[2022.12.14-13.31.25:951][  0]LogConfig: CVar [[VersionedIntRValues:r.SelectiveBasePassOutputs]] deferred - dummy variable created
+[2022.12.14-13.31.25:951][  0]LogConfig: CVar [[VersionedIntRValues:r.DBuffer]] deferred - dummy variable created
+[2022.12.14-13.31.25:951][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Symbols]] deferred - dummy variable created
+[2022.12.14-13.31.25:951][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.GenerateSymbols]] deferred - dummy variable created
+[2022.12.14-13.31.25:951][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.WriteSymbols]] deferred - dummy variable created
+[2022.12.14-13.31.25:951][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.AllowUniqueSymbols]] deferred - dummy variable created
+[2022.12.14-13.31.25:951][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.ExtraData]] deferred - dummy variable created
+[2022.12.14-13.31.25:951][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Optimize]] deferred - dummy variable created
+[2022.12.14-13.31.25:951][  0]LogConfig: CVar [[VersionedIntRValues:r.CompileShadersForDevelopment]] deferred - dummy variable created
+[2022.12.14-13.31.25:951][  0]LogConfig: CVar [[VersionedIntRValues:r.MobileHDR]] deferred - dummy variable created
+[2022.12.14-13.31.25:951][  0]LogConfig: CVar [[VersionedIntRValues:r.UsePreExposure]] deferred - dummy variable created
+[2022.12.14-13.31.25:959][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2022.12.14-13.31.25:959][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2022.12.14-13.31.25:959][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2022.12.14-13.31.25:959][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2022.12.14-13.31.25:959][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2022.12.14-13.31.25:959][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2022.12.14-13.31.25:959][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2022.12.14-13.31.25:959][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2022.12.14-13.31.25:959][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2022.12.14-13.31.25:959][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2022.12.14-13.31.25:959][  0]LogConfig: CVar [[r.HairStrands.Interpolation.UseSingleGuide:0]] deferred - dummy variable created
+[2022.12.14-13.31.25:982][  0]LogD3D12RHI: Aftermath initialized
+[2022.12.14-13.31.25:982][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+[2022.12.14-13.31.26:154][  0]LogD3D12RHI: Found D3D12 adapter 0: NVIDIA GeForce GTX 1060 6GB (Max supported Feature Level 12_1, shader model 6.6)
+[2022.12.14-13.31.26:154][  0]LogD3D12RHI: Adapter has 6052MB of dedicated video memory, 0MB of dedicated system memory, and 8155MB of shared system memory, 2 output[s]
+[2022.12.14-13.31.26:160][  0]LogD3D12RHI: Found D3D12 adapter 1: Microsoft Basic Render Driver (Max supported Feature Level 12_1, shader model 6.2)
+[2022.12.14-13.31.26:160][  0]LogD3D12RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8155MB of shared system memory, 0 output[s]
+[2022.12.14-13.31.26:160][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
+[2022.12.14-13.31.26:160][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2022.12.14-13.31.26:160][  0]LogDeviceProfileManager: Applying CVar settings loaded from the selected device profile: [WindowsEditor]
+[2022.12.14-13.31.26:160][  0]LogHAL: Display: Platform has ~ 16 GB [17102721024 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.12.14-13.31.26:160][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [Windows]
+[2022.12.14-13.31.26:160][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2022.12.14-13.31.26:161][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.12.14-13.31.26:161][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2022.12.14-13.31.26:161][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Unreal Projects/MayhemsRoom/Saved/Config/WindowsEditor/Editor.ini]
+[2022.12.14-13.31.26:161][  0]LogInit: Computer: DESKTOP-1GVSH2N
+[2022.12.14-13.31.26:161][  0]LogInit: User: mstei
+[2022.12.14-13.31.26:161][  0]LogInit: CPU Page size=4096, Cores=6
+[2022.12.14-13.31.26:161][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.12.14-13.31.26:161][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2022.12.14-13.31.26:161][  0]LogMemory: Platform Memory Stats for WindowsEditor
+[2022.12.14-13.31.26:161][  0]LogMemory: Process Physical Memory: 269.14 MB used, 279.34 MB peak
+[2022.12.14-13.31.26:161][  0]LogMemory: Process Virtual Memory: 226.09 MB used, 226.09 MB peak
+[2022.12.14-13.31.26:161][  0]LogMemory: Physical Memory: 9336.90 MB used,  6973.53 MB free, 16310.43 MB total
+[2022.12.14-13.31.26:161][  0]LogMemory: Virtual Memory: 25065.54 MB used,  16844.89 MB free, 41910.43 MB total
+[2022.12.14-13.31.26:161][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2022.12.14-13.31.26:178][  0]LogWindows: WindowsPlatformFeatures enabled
+[2022.12.14-13.31.26:200][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2022.12.14-13.31.26:208][  0]LogInit: Using OS detected language (en-US).
+[2022.12.14-13.31.26:208][  0]LogInit: Using OS detected locale (en-US).
+[2022.12.14-13.31.26:212][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so 'en' will be used for the language.
+[2022.12.14-13.31.26:455][  0]LogInit: Setting process to per monitor DPI aware
+[2022.12.14-13.31.26:476][  0]LogWindowsTextInputMethodSystem: Activated input method: German (Germany) - (Keyboard).
+[2022.12.14-13.31.26:477][  0]LogWindowsTextInputMethodSystem: Activated input method: German (Germany) - (Keyboard).
+[2022.12.14-13.31.26:480][  0]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2022.12.14-13.31.26:481][  0]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2022.12.14-13.31.26:482][  0]LogWindowsTextInputMethodSystem: Available input methods:
+[2022.12.14-13.31.26:482][  0]LogWindowsTextInputMethodSystem:   - English (United States) - (Keyboard).
+[2022.12.14-13.31.26:482][  0]LogWindowsTextInputMethodSystem:   - English (United States) - Touch Input Correction (TSF IME).
+[2022.12.14-13.31.26:482][  0]LogWindowsTextInputMethodSystem:   - German (Germany) - (Keyboard).
+[2022.12.14-13.31.26:482][  0]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2022.12.14-13.31.26:521][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.12.14-13.31.26:521][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.12.14-13.31.26:808][  0]LogD3D12RHI: InitD3DDevice: -D3DDebug = off -D3D12GPUValidation = off
+[2022.12.14-13.31.26:813][  0]LogD3D12RHI: [Aftermath] Aftermath crash dumping enabled
+[2022.12.14-13.31.26:813][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
+[2022.12.14-13.31.26:891][  0]LogD3D12RHI: [Aftermath] Aftermath enabled and primed
+[2022.12.14-13.31.26:891][  0]LogD3D12RHI: [Aftermath] Aftermath resource tracking enabled
+[2022.12.14-13.31.26:891][  0]LogD3D12RHI: ID3D12Device1 is supported.
+[2022.12.14-13.31.26:891][  0]LogD3D12RHI: ID3D12Device2 is supported.
+[2022.12.14-13.31.26:891][  0]LogD3D12RHI: ID3D12Device3 is supported.
+[2022.12.14-13.31.26:891][  0]LogD3D12RHI: ID3D12Device4 is supported.
+[2022.12.14-13.31.26:891][  0]LogD3D12RHI: ID3D12Device5 is supported.
+[2022.12.14-13.31.26:891][  0]LogD3D12RHI: ID3D12Device6 is supported.
+[2022.12.14-13.31.26:891][  0]LogD3D12RHI: ID3D12Device7 is supported.
+[2022.12.14-13.31.26:891][  0]LogD3D12RHI: D3D12 ray tracing tier 1.0 is supported.
+[2022.12.14-13.31.26:892][  0]LogD3D12RHI: AtomicInt64OnTypedResource is supported
+[2022.12.14-13.31.26:892][  0]LogD3D12RHI: AtomicInt64OnGroupShared is supported
+[2022.12.14-13.31.26:892][  0]LogD3D12RHI: AtomicInt64OnDescriptorHeapResource is supported
+[2022.12.14-13.31.26:892][  0]LogD3D12RHI: Shader Model 6.6 atomic64 is supported
+[2022.12.14-13.31.26:979][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for 3D Queue 0
+[2022.12.14-13.31.26:989][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for Copy Queue 0
+[2022.12.14-13.31.27:005][  0]LogD3D12RHI: [GPUBreadCrumb] Successfully setup breadcrumb resource for Compute Queue 0
+[2022.12.14-13.31.27:028][  0]LogD3D12RHI: Display: Not using pipeline state disk cache per r.D3D12.PSO.DiskCache=0
+[2022.12.14-13.31.27:028][  0]LogD3D12RHI: Display: Not using driver-optimized pipeline state disk cache per r.D3D12.PSO.DriverOptimizedDiskCache=0
+[2022.12.14-13.31.27:087][  0]LogD3D12RHI: Warning: Ray tracing is disabled for NVIDIA cards with the Pascal architecture.
+[2022.12.14-13.31.27:087][  0]LogD3D12RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2022.12.14-13.31.27:087][  0]LogWindows: Attached monitors:
+[2022.12.14-13.31.27:087][  0]LogWindows:     resolution: 1680x1050, work area: (-1680, 34) -> (0, 1044), device: '\\.\DISPLAY1'
+[2022.12.14-13.31.27:088][  0]LogWindows:     resolution: 1920x1080, work area: (0, 0) -> (1920, 1040), device: '\\.\DISPLAY2' [PRIMARY]
+[2022.12.14-13.31.27:088][  0]LogWindows: Found 2 attached monitors.
+[2022.12.14-13.31.27:088][  0]LogWindows: EnumDisplayDevices:
+[2022.12.14-13.31.27:088][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1), name: '\\.\DISPLAY1'
+[2022.12.14-13.31.27:089][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1), name: '\\.\DISPLAY2'
+[2022.12.14-13.31.27:089][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0), name: '\\.\DISPLAY3'
+[2022.12.14-13.31.27:090][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0), name: '\\.\DISPLAY4'
+[2022.12.14-13.31.27:090][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2022.12.14-13.31.27:090][  0]LogD3D12RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2022.12.14-13.31.27:090][  0]LogD3D12RHI:   Driver Version: 517.48 (internal:31.0.15.1748, unified:517.48)
+[2022.12.14-13.31.27:090][  0]LogD3D12RHI:      Driver Date: 9-21-2022
+[2022.12.14-13.31.27:090][  0]LogRHI: Texture pool is 3240 MB (70% of 4629 MB)
+[2022.12.14-13.31.27:090][  0]LogD3D12RHI: Async texture creation enabled
+[2022.12.14-13.31.27:090][  0]LogD3D12RHI: RHI has support for 64 bit atomics
+[2022.12.14-13.31.27:106][  0]LogRHI: GeForceNow SDK initialized: 0
+[2022.12.14-13.31.27:113][  0]LogTurnkeySupport: Running Turnkey SDK detection: ' -ScriptsForProject="D:/Unreal Projects/MayhemsRoom/MayhemsRoom.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="D:/Unreal Projects/MayhemsRoom/Intermediate/TurnkeyReport_0.log" -log="D:/Unreal Projects/MayhemsRoom/Intermediate/TurnkeyLog_0.log" -project="D:/Unreal Projects/MayhemsRoom/MayhemsRoom.uproject"  -platform=all'
+[2022.12.14-13.31.27:113][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""E:/UE_5.0/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="D:/Unreal Projects/MayhemsRoom/MayhemsRoom.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="D:/Unreal Projects/MayhemsRoom/Intermediate/TurnkeyReport_0.log" -log="D:/Unreal Projects/MayhemsRoom/Intermediate/TurnkeyLog_0.log" -project="D:/Unreal Projects/MayhemsRoom/MayhemsRoom.uproject"  -platform=all" ]
+[2022.12.14-13.31.27:151][  0]LogTextureFormatETC2: Display: ETC2 Texture loading DLL: TextureConverter.dll
+[2022.12.14-13.31.27:164][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.5
+[2022.12.14-13.31.27:164][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2022.12.14-13.31.27:173][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2022.12.14-13.31.27:173][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2022.12.14-13.31.27:173][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2022.12.14-13.31.27:173][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2022.12.14-13.31.27:173][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2022.12.14-13.31.27:174][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2022.12.14-13.31.27:174][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2022.12.14-13.31.27:174][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2022.12.14-13.31.27:174][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2022.12.14-13.31.27:174][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2022.12.14-13.31.27:204][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLens'
+[2022.12.14-13.31.27:204][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLensClient'
+[2022.12.14-13.31.27:210][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2022.12.14-13.31.27:210][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2022.12.14-13.31.27:215][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2022.12.14-13.31.27:215][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2022.12.14-13.31.27:215][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2022.12.14-13.31.27:215][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2022.12.14-13.31.27:220][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64'
+[2022.12.14-13.31.27:220][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Server'
+[2022.12.14-13.31.27:220][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Client'
+[2022.12.14-13.31.27:224][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2022.12.14-13.31.27:224][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2022.12.14-13.31.27:232][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2022.12.14-13.31.27:232][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2022.12.14-13.31.27:232][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2022.12.14-13.31.27:232][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2022.12.14-13.31.27:232][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2022.12.14-13.31.27:243][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.12.14-13.31.27:246][  0]LogTargetPlatformManager: Unable to find audio format BINKA from hinted modules, loading all potential format modules to find it
+[2022.12.14-13.31.27:246][  0]LogTargetPlatformManager: Loaded format module AudioFormatADPCM
+[2022.12.14-13.31.27:246][  0]LogTargetPlatformManager:   ADPCM
+[2022.12.14-13.31.27:246][  0]LogTargetPlatformManager:   PCM
+[2022.12.14-13.31.27:250][  0]LogTargetPlatformManager: Loaded format module AudioFormatBink
+[2022.12.14-13.31.27:250][  0]LogTargetPlatformManager:   BINKA
+[2022.12.14-13.31.27:250][  0]LogTargetPlatformManager: Loaded format module AudioFormatOgg
+[2022.12.14-13.31.27:250][  0]LogTargetPlatformManager:   OGG
+[2022.12.14-13.31.27:250][  0]LogTargetPlatformManager: Loaded format module AudioFormatOpus
+[2022.12.14-13.31.27:250][  0]LogTargetPlatformManager:   OPUS
+[2022.12.14-13.31.27:306][  0]LogTargetPlatformManager: Unable to find shader format SF_METAL from hinted modules, loading all potential format modules to find it
+[2022.12.14-13.31.27:313][  0]LogTargetPlatformManager: Loaded format module MetalShaderFormat
+[2022.12.14-13.31.27:313][  0]LogTargetPlatformManager:   SF_METAL
+[2022.12.14-13.31.27:313][  0]LogTargetPlatformManager:   SF_METAL_MRT
+[2022.12.14-13.31.27:313][  0]LogTargetPlatformManager:   SF_METAL_TVOS
+[2022.12.14-13.31.27:313][  0]LogTargetPlatformManager:   SF_METAL_MRT_TVOS
+[2022.12.14-13.31.27:313][  0]LogTargetPlatformManager:   SF_METAL_SM5
+[2022.12.14-13.31.27:313][  0]LogTargetPlatformManager:   SF_METAL_MACES3_1
+[2022.12.14-13.31.27:313][  0]LogTargetPlatformManager:   SF_METAL_MRT_MAC
+[2022.12.14-13.31.27:313][  0]LogTargetPlatformManager: Loaded format module ShaderFormatD3D
+[2022.12.14-13.31.27:313][  0]LogTargetPlatformManager:   PCD3D_SM6
+[2022.12.14-13.31.27:313][  0]LogTargetPlatformManager:   PCD3D_SM5
+[2022.12.14-13.31.27:313][  0]LogTargetPlatformManager:   PCD3D_ES31
+[2022.12.14-13.31.27:313][  0]LogTargetPlatformManager:   D3D_ES3_1_HOLOLENS
+[2022.12.14-13.31.27:313][  0]LogTargetPlatformManager: Loaded format module ShaderFormatOpenGL
+[2022.12.14-13.31.27:313][  0]LogTargetPlatformManager:   GLSL_150_ES31
+[2022.12.14-13.31.27:313][  0]LogTargetPlatformManager:   GLSL_ES3_1_ANDROID
+[2022.12.14-13.31.27:319][  0]LogTargetPlatformManager: Loaded format module ShaderFormatVectorVM
+[2022.12.14-13.31.27:319][  0]LogTargetPlatformManager:   VVM_1_0
+[2022.12.14-13.31.27:319][  0]LogTargetPlatformManager: Loaded format module VulkanShaderFormat
+[2022.12.14-13.31.27:319][  0]LogTargetPlatformManager:   SF_VULKAN_SM5
+[2022.12.14-13.31.27:319][  0]LogTargetPlatformManager:   SF_VULKAN_ES31_ANDROID
+[2022.12.14-13.31.27:319][  0]LogTargetPlatformManager:   SF_VULKAN_ES31
+[2022.12.14-13.31.27:319][  0]LogTargetPlatformManager:   SF_VULKAN_SM5_ANDROID
+[2022.12.14-13.31.27:319][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2022.12.14-13.31.27:319][  0]LogShaderCompilers: Display: Compiling shader autogen file: D:/Unreal Projects/MayhemsRoom/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2022.12.14-13.31.27:327][  0]LogTurnkeySupport: Completed SDK detection: ExitCode = 9009
+[2022.12.14-13.31.27:327][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2022.12.14-13.31.27:328][  0]LogShaderCompilers: Display: Compiling shader autogen file: D:/Unreal Projects/MayhemsRoom/Intermediate/ShaderAutogen/PCD3D_ES31/AutogenShaderHeaders.ush
+[2022.12.14-13.31.27:330][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2022.12.14-13.31.27:335][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Unreal Projects/MayhemsRoom/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.12.14-13.31.27:335][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchy Hierarchy.
+[2022.12.14-13.31.27:335][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Unreal Projects/MayhemsRoom/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.12.14-13.31.27:335][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchy Hierarchy.
+[2022.12.14-13.31.27:363][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1230 MiB)
+[2022.12.14-13.31.27:364][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.12.14-13.31.27:364][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchy Hierarchy.
+[2022.12.14-13.31.27:375][  0]LogDerivedDataCache: Speed tests for C:/Users/mstei/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.01 seconds
+[2022.12.14-13.31.27:375][  0]LogDerivedDataCache: Display: Performance to C:/Users/mstei/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.05ms. RandomReadSpeed=1027.73MBs, RandomWriteSpeed=93.95MBs. Assigned SpeedClass 'Local'
+[2022.12.14-13.31.27:378][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mstei/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.12.14-13.31.27:379][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.12.14-13.31.27:379][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchy Hierarchy.
+[2022.12.14-13.31.27:389][  0]LogVirtualization: VirtualizationSystem name found in ini file: None
+[2022.12.14-13.31.27:389][  0]LogVirtualization: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2022.12.14-13.31.27:389][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (D:/Unreal Projects/MayhemsRoom/Intermediate/Shaders/WorkingDirectory/32336/).
+[2022.12.14-13.31.27:389][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mstei/AppData/Local/Temp/UnrealShaderWorkingDir/0413390A4164EE2776DCEDBF6488BE81/'.
+[2022.12.14-13.31.27:390][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.12.14-13.31.27:390][  0]LogShaderCompilers: Display: Using Local Shader Compiler with 9 workers.
+[2022.12.14-13.31.29:685][  0]LogSlate: Using FreeType 2.10.0
+[2022.12.14-13.31.29:688][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.12.14-13.31.29:742][  0]LogAssetRegistry: FAssetRegistry took 0.0189 seconds to start up
+[2022.12.14-13.31.29:751][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2022.12.14-13.31.30:015][  0]LogSerialization: UsePackageTrailer: 'false'
+[2022.12.14-13.31.30:016][  0]LogTexture: Display: Texture Encode Speed: FinalIfAvailable (editor).
+[2022.12.14-13.31.30:529][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2022.12.14-13.31.30:529][  0]LogDeviceProfileManager: Active device profile: [00000544D44D5080][00000544CA6C7800 50] WindowsEditor
+[2022.12.14-13.31.30:529][  0]LogDeviceProfileManager: Profiles: [00000544D44D4B40][00000544CA6C2800 50] Windows, [00000544D44D5080][00000544CA6C7800 50] WindowsEditor, [00000544D44D2BC0][00000544CA6C0000 50] WindowsServer, [00000544D44D0000][00000544CA5DA000 50] WindowsClient, [00000544D44D1C00][00000544CA6CA000 50] IOS, [00000544D44D5B00][00000544D44E0000 50] iPadAir2, [00000544D44D39C0][00000544D44E7800 50] IPadPro, [00000544D44D32C0][00000544D44E5000 50] iPadAir3, [00000544D44D0380][00000544D44EA000 50] iPadAir4, [00000544D44D4440][00000544D44EC800 50] iPadMini4, [00000544D44D4280][00000544B5F25000 50] iPadMini5, [00000544D44D1DC0][00000544D44F0000 50] iPadMini6, [00000544D44D7FC0][00000544D44FA000 50] iPhone6S, [00000544D44D8340][00000544D44F7800 50] iPhone7, [00000544D44D86C0][00000544D44F5000 50] iPodTouch7, [00000544D44D2840][00000544D44FC800 50] iPhone6SPlus, [00000544D44D3480][00000544D44E2800 50] iPhone7Plus, [00000544D44D6C80][00000544D4520000 50] iPhoneSE, [00000544D44D7540][00000544D4525000 50] iPhone8, [00000544D44D8880][00000544D4527800 50] iPhone8Plus, [00000544D44D5CC0][00000544D452A000 50] iPhoneX, [00000544D44D7380][00000544D452C800 50] iPhoneXS, [00000544D44D6AC0][00000544D44F2800 50] iPhoneXSMax, [00000544D44D8C00][00000544D4530000 50] iPhoneXR, [00000544D44D24C0][00000544D4535000 50] iPhone11, [00000544D44D6740][00000544D4537800 50] iPhone11Pro, [00000544D44D3D40][00000544D453A000 50] iPhone11ProMax, [00000544D44D47C0][00000544D453C800 50] iPhoneSE2, [00000544D44D3640][00000544D4522800 50] iPhone12Mini, [00000544D44D6200][00000544D4550000 50] iPhone12, [00000544D44D2F40][00000544D4555000 50] iPhone12Pro, [00000544D44D0FC0][00000544D4557800 50] iPhone12ProMax, [00000544D44D5940][00000544D455A000 50] iPhone13Mini, [00000544D44D5E80][00000544D455C800 50] iPhone13, [00000544D44D71C0][00000544D4532800 50] iPhone13Pro, [00000544D44D5240][00000544D4560000 50] iPhone13ProMax, [00000544D44D08C0][00000544D4565000 50] iPadPro105, [00000544D44D7E00][00000544D4567800 50] iPadPro129, [00000544D44D5780][00000544D456A000 50] iPadPro97, [00000544D44D55C0][00000544D456C800 50] iPadPro2_129, [00000544D44D1180][00000544D4552800 50] iPad5, [00000544D44D8A40][00000544D4570000 50] iPad6, [00000544D44D6040][00000544D4575000 50] iPad7, [00000544D44D01C0][00000544D4577800 50] iPad8, [00000544D44D3800][00000544D457A000 50] iPad9, [00000544D44D0700][00000544D457C800 50] iPadPro11, [00000544D44D2680][00000544D4562800 50] iPadPro2_11, [00000544D44D8500][00000544D4580000 50] iPadPro3_11, [00000544D44D1340][00000544D4585000 50] iPadPro3_129, [00000544D44D3100][00000544D4587800 50] iPadPro4_129, [00000544D44D3B80][00000544D458A000 50] iPadPro5_129, [00000544D44D63C0][00000544D458C800 50] AppleTV, [00000544D44D3F00][00000544D4572800 50] AppleTV4K, [00000544D44D0A80][00000544D4590000 50] TVOS, [00000544D44DA800][00000544D4597800 50] Mac, [00000544D44DAB80][00000544D4595000 50] MacEditor, [00000544D44D9300][00000544D459A000 50] MacClient, [00000544D44DA480][00000544D459C800 50] MacServer, [00000544D44DA9C0][00000544D45E0000 50] Linux, [00000544D44D16C0][00000544D45E2800 50] LinuxEditor, [00000544D44D1880][00000544D45E7800 50] LinuxArm64Editor, [00000544D44DA640][00000544D45EA000 50] LinuxArm64, [00000544D44D0C40][00000544D45EC800 50] LinuxClient, [00000544D44D8DC0][00000544D4582800 50] LinuxArm64Client, [00000544D44D4600][00000544D45E5000 50] LinuxServer, [00000544D44D9BC0][00000544D45A0000 50] LinuxArm64Server, [00000544D44D2140][00000544D45A5000 50] Android, [00000544D44D8F80][00000544D45A7800 50] Android_Preview_OpenGL, [00000544D44D4980][00000544D45AA000 50] Android_Preview_Vulkan, [00000544D44D9840][00000544D45AC800 50] Android_Low, [00000544D44D2300][00000544D4592800 50] Android_Mid, [00000544D44D2A00][00000544D45B0000 50] Android_High, [00000544D44DA2C0][00000544D45B5000 50] Android_Default, [00000544D44D7A80][00000544D45B7800 50] Android_Adreno4xx, [00000544D44D9D80][00000544D45BA000 50] Android_Adreno5xx_Low, [00000544D44D7000][00000544D45BC800 50] Android_Adreno5xx, [00000544D44D9140][00000544D45A2800 50] Android_Adreno6xx, [00000544D44D7C40][00000544D45C0000 50] Android_Adreno6xx_Vulkan, [00000544D44D40C0][00000544D45C5000 50] Android_Adreno7xx, [00000544D44D9680][00000544D45C7800 50] Android_Adreno7xx_Vulkan, [00000544D44DB440][00000544D45CA000 50] Android_Mali_T6xx, [00000544D44D0540][00000544D45CC800 50] Android_Mali_T7xx, [00000544D44D7700][00000544D45B2800 50] Android_Mali_T8xx, [00000544D44D78C0][00000544D45D0000 50] Android_Mali_G71, [00000544D44DB600][00000544D45D5000 50] Android_Mali_G72, [00000544D44D9A00][00000544D45D7800 50] Android_Mali_G72_Vulkan, [00000544D44DB980][00000544D45DA000 50] Android_Mali_G76, [00000544D44D6900][00000544D45DC800 50] Android_Mali_G76_Vulkan, [00000544D44D2D80][00000544D45C2800 50] Android_Mali_G77, [00000544D44DC400][00000544D45F0000 50] Android_Mali_G77_Vulkan, [00000544D44D8180][00000544D45F5000 50] Android_Mali_G78, [00000544D44D94C0][00000544D45F7800 50] Android_Mali_G78_Vulkan, [00000544D44DBB40][00000544D45FA000 50] Android_Mali_G710, [00000544D44D0E00][00000544D45FC800 50] Android_Mali_G710_Vulkan, [00000544D44D6E40][00000544D45D2800 50] Android_Xclipse_920, [00000544D44DC940][00000544D4600000 50] Android_Xclipse_920_Vulkan, [00000544D44DCE80][00000544D4605000 50] Android_Vulkan_SM5, [00000544D44D5400][00000544D4607800 50] Android_PowerVR_G6xxx, [00000544D44DD740][00000544D460A000 50] Android_PowerVR_GT7xxx, [00000544D44D1F80][00000544D460C800 50] Android_PowerVR_GE8xxx, [00000544D44DCCC0][00000544D45F2800 50] Android_PowerVR_GM9xxx, [00000544D44DBD00][00000544D4610000 50] Android_PowerVR_GM9xxx_Vulkan, [00000544D44DD900][00000544D4615000 50] Android_TegraK1, [00000544D44DC080][00000544D4617800 50] Android_Unknown_Vulkan, [00000544D44DDE40][00000544D461A000 50] Oculus_Quest, [00000544D44D4EC0][00000544D461C800 50] Oculus_Quest2, [00000544D44DE700][00000544D4602800 50] HoloLens, 
+[2022.12.14-13.31.30:529][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2022.12.14-13.31.30:743][  0]LogTexture: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2022.12.14-13.31.31:073][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.12.14-13.31.31:074][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.12.14-13.31.31:074][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.12.14-13.31.31:074][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.12.14-13.31.31:074][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.12.14-13.31.31:105][  0]LogNetVersion: MayhemsRoom 1.0.0, NetCL: 19505902, EngineNetVer: 23, GameNetVer: 0 (Checksum: 3337093182)
+[2022.12.14-13.31.31:321][  0]LogSlate: Border
+[2022.12.14-13.31.31:322][  0]LogSlate: BreadcrumbButton
+[2022.12.14-13.31.31:322][  0]LogSlate: Default
+[2022.12.14-13.31.31:322][  0]LogSlate: Icons.Save
+[2022.12.14-13.31.31:322][  0]LogSlate: Icons.Toolbar.Settings
+[2022.12.14-13.31.31:322][  0]LogSlate: ListView
+[2022.12.14-13.31.31:322][  0]LogSlate: SoftwareCursor_CardinalCross
+[2022.12.14-13.31.31:322][  0]LogSlate: SoftwareCursor_Grab
+[2022.12.14-13.31.31:322][  0]LogSlate: TableView.DarkRow
+[2022.12.14-13.31.31:322][  0]LogSlate: TableView.Row
+[2022.12.14-13.31.31:322][  0]LogSlate: TreeView
+[2022.12.14-13.31.31:660][  0]SourceControl: Source control is disabled
+[2022.12.14-13.31.31:726][  0]SourceControl: Source control is disabled
+[2022.12.14-13.31.31:726][  0]SourceControl: Source control is disabled
+[2022.12.14-13.31.31:935][  0]LogUObjectArray: 20557 objects as part of root set at end of initial load.
+[2022.12.14-13.31.31:935][  0]LogUObjectAllocator: 5584256 out of 0 bytes used by permanent object pool.
+[2022.12.14-13.31.31:935][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.12.14-13.31.32:523][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 1236BDBD4F552B7A860BB8A01CBE746A | Instance: AE459E1148C5FE4C68BC668700F358B9 (DESKTOP-1GVSH2N-32336).
+[2022.12.14-13.31.32:576][  0]LogPython: Using Python 3.9.7
+[2022.12.14-13.31.34:016][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.12.14-13.31.34:023][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.12.14-13.31.35:636][  0]SourceControl: Source control is disabled
+[2022.12.14-13.31.35:640][  0]SourceControl: Source control is disabled
+[2022.12.14-13.31.35:654][  0]SourceControl: Source control is disabled
+[2022.12.14-13.31.35:663][  0]LogUProjectInfo: Found projects:
+[2022.12.14-13.31.35:781][  0]LogOpenImageDenoise: OIDN starting up
+[2022.12.14-13.31.35:882][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.12.14-13.31.35:915][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.12.14-13.31.35:915][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.12.14-13.31.36:072][  0]LogCollectionManager: Loaded 0 collections in 0.001332 seconds
+[2022.12.14-13.31.36:198][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/MayhemsRoom/Saved/Collections/' took 0.00s
+[2022.12.14-13.31.36:199][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/MayhemsRoom/Content/Developers/mstei/Collections/' took 0.00s
+[2022.12.14-13.31.36:199][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/MayhemsRoom/Content/Collections/' took 0.00s
+[2022.12.14-13.31.36:690][  0]LogEngine: Initializing Engine...
+[2022.12.14-13.31.36:715][  0]LogStylusInput: Initializing StylusInput subsystem.
+[2022.12.14-13.31.36:717][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2022.12.14-13.31.37:358][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.12.14-13.31.37:359][  0]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.12.14-13.31.37:375][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.14-13.31.37:422][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.12.14-13.31.37:423][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2022.12.14-13.31.37:461][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2022.12.14-13.31.37:463][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2022.12.14-13.31.37:463][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2022.12.14-13.31.37:464][  0]LogAudio: Display: Audio Device Manager Initialized
+[2022.12.14-13.31.37:464][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2022.12.14-13.31.37:464][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.14-13.31.37:464][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.14-13.31.37:464][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.14-13.31.37:464][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.14-13.31.37:464][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.14-13.31.37:464][  0]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.12.14-13.31.37:464][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.14-13.31.37:464][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.14-13.31.37:464][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.14-13.31.37:464][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.14-13.31.37:464][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.14-13.31.37:471][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.12.14-13.31.37:549][  0]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Crusher Evo Stereo)
+[2022.12.14-13.31.37:550][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.14-13.31.37:553][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.14-13.31.37:553][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.14-13.31.37:556][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2022.12.14-13.31.37:556][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.12.14-13.31.37:557][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.12.14-13.31.37:558][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2022.12.14-13.31.37:558][  0]LogInit: FAudioDevice initialized.
+[2022.12.14-13.31.37:558][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2022.12.14-13.31.37:558][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.12.14-13.31.37:558][  0]LogInit: Texture streaming: Enabled
+[2022.12.14-13.31.37:618][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 5.0.3-20979098+++UE5+Release-5.0
+[2022.12.14-13.31.37:635][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.12.14-13.31.37:680][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2022.12.14-13.31.37:692][  0]LogLiveCoding: Display: Starting LiveCoding
+[2022.12.14-13.31.37:692][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: UnrealEditor Win64 Development
+[2022.12.14-13.31.41:332][  0]LogLiveCoding: Display: First instance in process group "UE_MayhemsRoom_0x3e6b14b0", spawning console
+[2022.12.14-13.31.41:332][  0]LogLiveCoding: Display: Waiting for server
+[2022.12.14-13.31.41:332][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2022.12.14-13.31.41:389][  0]LogInit: Transaction tracking system initialized
+[2022.12.14-13.31.41:517][  0]BlueprintLog: New page: Editor Load
+[2022.12.14-13.31.41:854][  0]LocalizationService: Localization service is disabled
+[2022.12.14-13.31.41:937][  0]TimingProfiler: Initialize
+[2022.12.14-13.31.41:937][  0]TimingProfiler: OnSessionChanged
+[2022.12.14-13.31.41:937][  0]LoadingProfiler: Initialize
+[2022.12.14-13.31.41:937][  0]LoadingProfiler: OnSessionChanged
+[2022.12.14-13.31.41:937][  0]NetworkingProfiler: Initialize
+[2022.12.14-13.31.41:937][  0]NetworkingProfiler: OnSessionChanged
+[2022.12.14-13.31.41:937][  0]MemoryProfiler: Initialize
+[2022.12.14-13.31.41:937][  0]MemoryProfiler: OnSessionChanged
+[2022.12.14-13.31.43:059][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/MayhemsRoom/Content/' took 0.03s
+[2022.12.14-13.31.43:059][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2022.12.14-13.31.43:182][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2022.12.14-13.31.43:185][  0]SourceControl: Source control is disabled
+[2022.12.14-13.31.43:185][  0]LogUnrealEdMisc: Loading editor; pre map load, took 20.284
+[2022.12.14-13.31.43:185][  0]Cmd: MAP LOAD FILE="D:/Unreal Projects/MayhemsRoom/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.12.14-13.31.43:210][  0]LightingResults: New page: Lighting Build
+[2022.12.14-13.31.43:219][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.12.14-13.31.43:220][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.14-13.31.43:220][  0]MapCheck: New page: Map Check
+[2022.12.14-13.31.43:220][  0]LightingResults: New page: Lighting Build
+[2022.12.14-13.31.43:226][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.14-13.31.43:229][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2022.12.14-13.31.57:929][  0]LogMaterial: Display: Missing cached shadermap for Material_078 in PCD3D_SM5, Default, SM5 (DDC key hash: 470A11DA662D9F77F781D7053DB15A8E5C1FD8E2), compiling. 
+[2022.12.14-13.31.57:931][  0]LogMaterial: Warning: [AssetLog] D:\Unreal Projects\MayhemsRoom\Content\Material_078.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSample) Sampler type is Color, should be Linear Color for /Game/TexturesCom_Wall_BrickPainted5_1_5x1_5_1K_albedo.TexturesCom_Wall_BrickPainted5_1_5x1_5_1K_albedo
+
+[2022.12.14-13.31.58:959][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Minimal_Default'.
+[2022.12.14-13.31.58:959][  0]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.12.14-13.31.58:959][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.14-13.31.58:960][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2022.12.14-13.31.59:003][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Fussleiste' which is static to it. Aborting.
+[2022.12.14-13.31.59:003][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.floor' which is static to it. Aborting.
+[2022.12.14-13.31.59:004][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.schreibtischplatte' which is static to it. Aborting.
+[2022.12.14-13.31.59:004][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.rechtes schraenkchen' which is static to it. Aborting.
+[2022.12.14-13.31.59:004][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.linkes schraenkchen' which is static to it. Aborting.
+[2022.12.14-13.31.59:004][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Schubladen' which is static to it. Aborting.
+[2022.12.14-13.31.59:005][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.glow rainbow' which is static to it. Aborting.
+[2022.12.14-13.31.59:005][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.lack' which is static to it. Aborting.
+[2022.12.14-13.31.59:005][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.widowsill' which is static to it. Aborting.
+[2022.12.14-13.31.59:005][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Lamp (desk)' which is static to it. Aborting.
+[2022.12.14-13.31.59:006][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.cable 1' which is static to it. Aborting.
+[2022.12.14-13.31.59:006][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.cable 2' which is static to it. Aborting.
+[2022.12.14-13.31.59:006][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.cable 2_001' which is static to it. Aborting.
+[2022.12.14-13.31.59:006][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.cable 2_002' which is static to it. Aborting.
+[2022.12.14-13.31.59:006][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.cable 2_004' which is static to it. Aborting.
+[2022.12.14-13.31.59:006][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.cable 1_001' which is static to it. Aborting.
+[2022.12.14-13.31.59:007][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.tv screen' which is static to it. Aborting.
+[2022.12.14-13.31.59:007][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.tv2' which is static to it. Aborting.
+[2022.12.14-13.31.59:007][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.mch flag' which is static to it. Aborting.
+[2022.12.14-13.31.59:007][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Circle_002' which is static to it. Aborting.
+[2022.12.14-13.31.59:007][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.art2' which is static to it. Aborting.
+[2022.12.14-13.31.59:007][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.art7' which is static to it. Aborting.
+[2022.12.14-13.31.59:007][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.art10' which is static to it. Aborting.
+[2022.12.14-13.31.59:008][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.art9' which is static to it. Aborting.
+[2022.12.14-13.31.59:008][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.art5' which is static to it. Aborting.
+[2022.12.14-13.31.59:008][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.art1' which is static to it. Aborting.
+[2022.12.14-13.31.59:008][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.art8' which is static to it. Aborting.
+[2022.12.14-13.31.59:008][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.art3' which is static to it. Aborting.
+[2022.12.14-13.31.59:008][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.art4' which is static to it. Aborting.
+[2022.12.14-13.31.59:008][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.art6' which is static to it. Aborting.
+[2022.12.14-13.31.59:008][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.art' which is static to it. Aborting.
+[2022.12.14-13.31.59:008][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.floor_002' which is static to it. Aborting.
+[2022.12.14-13.31.59:009][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cube_011' which is static to it. Aborting.
+[2022.12.14-13.31.59:009][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cube_012' which is static to it. Aborting.
+[2022.12.14-13.31.59:009][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.shutters' which is static to it. Aborting.
+[2022.12.14-13.31.59:009][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.tabble' which is static to it. Aborting.
+[2022.12.14-13.31.59:009][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.knives' which is static to it. Aborting.
+[2022.12.14-13.31.59:009][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.cutting board' which is static to it. Aborting.
+[2022.12.14-13.31.59:009][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cube_016' which is static to it. Aborting.
+[2022.12.14-13.31.59:009][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.3DGeom~7_Defintion' which is static to it. Aborting.
+[2022.12.14-13.31.59:010][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.3DGeom~74_Defintion' which is static to it. Aborting.
+[2022.12.14-13.31.59:010][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.3DGeom~30_Defintion' which is static to it. Aborting.
+[2022.12.14-13.31.59:010][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.oven' which is static to it. Aborting.
+[2022.12.14-13.31.59:010][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.shutters kit' which is static to it. Aborting.
+[2022.12.14-13.31.59:010][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.ShowerCurtain' which is static to it. Aborting.
+[2022.12.14-13.31.59:010][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.BathTub' which is static to it. Aborting.
+[2022.12.14-13.31.59:010][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cube_026' which is static to it. Aborting.
+[2022.12.14-13.31.59:010][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.ShowerCurtain_001' which is static to it. Aborting.
+[2022.12.14-13.31.59:011][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cube_030' which is static to it. Aborting.
+[2022.12.14-13.31.59:011][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Plane' which is static to it. Aborting.
+[2022.12.14-13.31.59:011][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.windowsill' which is static to it. Aborting.
+[2022.12.14-13.31.59:011][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.uploads_files_80163_general_books_OBJ_001' which is static to it. Aborting.
+[2022.12.14-13.31.59:011][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Laptop' which is static to it. Aborting.
+[2022.12.14-13.31.59:011][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.pot yel' which is static to it. Aborting.
+[2022.12.14-13.31.59:011][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.pot pnk' which is static to it. Aborting.
+[2022.12.14-13.31.59:011][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.spiky plant' which is static to it. Aborting.
+[2022.12.14-13.31.59:012][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Keycaps_104' which is static to it. Aborting.
+[2022.12.14-13.31.59:012][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Keycaps_095' which is static to it. Aborting.
+[2022.12.14-13.31.59:012][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Keycaps_094' which is static to it. Aborting.
+[2022.12.14-13.31.59:012][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Keycaps_077' which is static to it. Aborting.
+[2022.12.14-13.31.59:012][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Keycaps_062' which is static to it. Aborting.
+[2022.12.14-13.31.59:012][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Keycaps_056' which is static to it. Aborting.
+[2022.12.14-13.31.59:012][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Keycaps_055' which is static to it. Aborting.
+[2022.12.14-13.31.59:012][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Keycaps_018' which is static to it. Aborting.
+[2022.12.14-13.31.59:013][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Keycaps_017' which is static to it. Aborting.
+[2022.12.14-13.31.59:013][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cylinder_001' which is static to it. Aborting.
+[2022.12.14-13.31.59:013][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cube_035' which is static to it. Aborting.
+[2022.12.14-13.31.59:013][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cube_032' which is static to it. Aborting.
+[2022.12.14-13.31.59:013][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cube_033' which is static to it. Aborting.
+[2022.12.14-13.31.59:013][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.BezierCurve' which is static to it. Aborting.
+[2022.12.14-13.31.59:013][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.laptop cable' which is static to it. Aborting.
+[2022.12.14-13.31.59:014][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.leaf plant' which is static to it. Aborting.
+[2022.12.14-13.31.59:014][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cactus 1_004' which is static to it. Aborting.
+[2022.12.14-13.31.59:014][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.BezierCurve_003' which is static to it. Aborting.
+[2022.12.14-13.31.59:014][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.fairy lights' which is static to it. Aborting.
+[2022.12.14-13.31.59:014][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Torus' which is static to it. Aborting.
+[2022.12.14-13.31.59:015][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Torus_001' which is static to it. Aborting.
+[2022.12.14-13.31.59:015][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cylinder_005' which is static to it. Aborting.
+[2022.12.14-13.31.59:015][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cube_039' which is static to it. Aborting.
+[2022.12.14-13.31.59:015][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cube_038' which is static to it. Aborting.
+[2022.12.14-13.31.59:016][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cube_040' which is static to it. Aborting.
+[2022.12.14-13.31.59:016][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cube_041' which is static to it. Aborting.
+[2022.12.14-13.31.59:016][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.helpmeiwannadie' which is static to it. Aborting.
+[2022.12.14-13.31.59:016][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.helpmeiwannadie_001' which is static to it. Aborting.
+[2022.12.14-13.31.59:017][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.curly plant' which is static to it. Aborting.
+[2022.12.14-13.31.59:017][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.aquarium_001' which is static to it. Aborting.
+[2022.12.14-13.31.59:017][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.ivy_004' which is static to it. Aborting.
+[2022.12.14-13.31.59:017][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.ivy_003' which is static to it. Aborting.
+[2022.12.14-13.31.59:017][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.ivy_002' which is static to it. Aborting.
+[2022.12.14-13.31.59:017][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.ivy_001' which is static to it. Aborting.
+[2022.12.14-13.31.59:017][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.aquarium' which is static to it. Aborting.
+[2022.12.14-13.31.59:018][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Area' which is static to it. Aborting.
+[2022.12.14-13.31.59:018][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cylinder' which is static to it. Aborting.
+[2022.12.14-13.31.59:018][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.fish' which is static to it. Aborting.
+[2022.12.14-13.31.59:018][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.bath ceiling lights' which is static to it. Aborting.
+[2022.12.14-13.31.59:018][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.pc' which is static to it. Aborting.
+[2022.12.14-13.31.59:018][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.socket2' which is static to it. Aborting.
+[2022.12.14-13.31.59:018][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.walls' which is static to it. Aborting.
+[2022.12.14-13.31.59:019][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Door_Panel001_003' which is static to it. Aborting.
+[2022.12.14-13.31.59:019][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Ceiling' which is static to it. Aborting.
+[2022.12.14-13.31.59:019][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.rug bath' which is static to it. Aborting.
+[2022.12.14-13.31.59:019][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Toilet_01' which is static to it. Aborting.
+[2022.12.14-13.31.59:019][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cube_017' which is static to it. Aborting.
+[2022.12.14-13.31.59:019][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.sink' which is static to it. Aborting.
+[2022.12.14-13.31.59:019][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cube_018' which is static to it. Aborting.
+[2022.12.14-13.31.59:020][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cube_022' which is static to it. Aborting.
+[2022.12.14-13.31.59:020][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cube_031' which is static to it. Aborting.
+[2022.12.14-13.31.59:020][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cube_042' which is static to it. Aborting.
+[2022.12.14-13.31.59:020][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cube_023' which is static to it. Aborting.
+[2022.12.14-13.31.59:020][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cube_028' which is static to it. Aborting.
+[2022.12.14-13.31.59:020][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.brush' which is static to it. Aborting.
+[2022.12.14-13.31.59:020][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cylinder_006' which is static to it. Aborting.
+[2022.12.14-13.31.59:020][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cylinder_008' which is static to it. Aborting.
+[2022.12.14-13.31.59:021][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cylinder_009' which is static to it. Aborting.
+[2022.12.14-13.31.59:021][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cylinder_010' which is static to it. Aborting.
+[2022.12.14-13.31.59:021][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cylinder_011' which is static to it. Aborting.
+[2022.12.14-13.31.59:021][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cylinder_012' which is static to it. Aborting.
+[2022.12.14-13.31.59:021][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cylinder_013' which is static to it. Aborting.
+[2022.12.14-13.31.59:021][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cylinder_014' which is static to it. Aborting.
+[2022.12.14-13.31.59:021][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cube_037' which is static to it. Aborting.
+[2022.12.14-13.31.59:021][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cube_044' which is static to it. Aborting.
+[2022.12.14-13.31.59:022][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cube_043' which is static to it. Aborting.
+[2022.12.14-13.31.59:022][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cylinder_016' which is static to it. Aborting.
+[2022.12.14-13.31.59:022][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cylinder_017' which is static to it. Aborting.
+[2022.12.14-13.31.59:022][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.BezierCurve_006' which is static to it. Aborting.
+[2022.12.14-13.31.59:022][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cube_045' which is static to it. Aborting.
+[2022.12.14-13.31.59:023][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cylinder_018' which is static to it. Aborting.
+[2022.12.14-13.31.59:023][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cube_049' which is static to it. Aborting.
+[2022.12.14-13.31.59:023][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cube_029' which is static to it. Aborting.
+[2022.12.14-13.31.59:023][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cylinder_019' which is static to it. Aborting.
+[2022.12.14-13.31.59:023][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cactus 1_005' which is static to it. Aborting.
+[2022.12.14-13.31.59:024][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.ivy' which is static to it. Aborting.
+[2022.12.14-13.31.59:024][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.sugar bowl cap_003' which is static to it. Aborting.
+[2022.12.14-13.31.59:024][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.sugar bowl cap_005' which is static to it. Aborting.
+[2022.12.14-13.31.59:024][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.sugar bowl cap_007' which is static to it. Aborting.
+[2022.12.14-13.31.59:024][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.ShakerSalt' which is static to it. Aborting.
+[2022.12.14-13.31.59:024][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.towel' which is static to it. Aborting.
+[2022.12.14-13.31.59:025][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Towel Crumpled' which is static to it. Aborting.
+[2022.12.14-13.31.59:025][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Kitchen Glove' which is static to it. Aborting.
+[2022.12.14-13.31.59:025][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Plastic trash' which is static to it. Aborting.
+[2022.12.14-13.31.59:025][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Circle_002_Circle_005' which is static to it. Aborting.
+[2022.12.14-13.31.59:025][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cylinder_022' which is static to it. Aborting.
+[2022.12.14-13.31.59:026][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cylinder_023' which is static to it. Aborting.
+[2022.12.14-13.31.59:026][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cylinder_024' which is static to it. Aborting.
+[2022.12.14-13.31.59:026][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cylinder_025' which is static to it. Aborting.
+[2022.12.14-13.31.59:026][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cylinder_026' which is static to it. Aborting.
+[2022.12.14-13.31.59:026][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.linkes schraenkchen_001' which is static to it. Aborting.
+[2022.12.14-13.31.59:027][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cube_053' which is static to it. Aborting.
+[2022.12.14-13.31.59:027][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cube_055' which is static to it. Aborting.
+[2022.12.14-13.31.59:027][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.ShakerSalt_001' which is static to it. Aborting.
+[2022.12.14-13.31.59:027][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cylinder_027' which is static to it. Aborting.
+[2022.12.14-13.31.59:027][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cylinder_028' which is static to it. Aborting.
+[2022.12.14-13.31.59:028][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.BathTubShowerHead_001' which is static to it. Aborting.
+[2022.12.14-13.31.59:028][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.cable 2_003' which is static to it. Aborting.
+[2022.12.14-13.31.59:028][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cylinder_021' which is static to it. Aborting.
+[2022.12.14-13.31.59:028][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.napkin box_001' which is static to it. Aborting.
+[2022.12.14-13.31.59:028][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.napkins_001' which is static to it. Aborting.
+[2022.12.14-13.31.59:028][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cube_046' which is static to it. Aborting.
+[2022.12.14-13.31.59:029][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cube_013' which is static to it. Aborting.
+[2022.12.14-13.31.59:029][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cube_014' which is static to it. Aborting.
+[2022.12.14-13.31.59:029][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cube_015' which is static to it. Aborting.
+[2022.12.14-13.31.59:029][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cube_047' which is static to it. Aborting.
+[2022.12.14-13.31.59:029][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Cube_048' which is static to it. Aborting.
+[2022.12.14-13.31.59:029][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.socket1' which is static to it. Aborting.
+[2022.12.14-13.31.59:030][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.socket3' which is static to it. Aborting.
+[2022.12.14-13.31.59:030][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.socket4' which is static to it. Aborting.
+[2022.12.14-13.31.59:030][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.socket5' which is static to it. Aborting.
+[2022.12.14-13.31.59:030][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.socket6' which is static to it. Aborting.
+[2022.12.14-13.31.59:030][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.socket7' which is static to it. Aborting.
+[2022.12.14-13.31.59:030][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.socket7_001' which is static to it. Aborting.
+[2022.12.14-13.31.59:030][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.socket8' which is static to it. Aborting.
+[2022.12.14-13.31.59:030][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.socket9' which is static to it. Aborting.
+[2022.12.14-13.31.59:031][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.socket10' which is static to it. Aborting.
+[2022.12.14-13.31.59:031][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Plug_2' which is static to it. Aborting.
+[2022.12.14-13.31.59:031][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Plug_2_001' which is static to it. Aborting.
+[2022.12.14-13.31.59:031][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Plug_2_002' which is static to it. Aborting.
+[2022.12.14-13.31.59:031][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Plug_2_003' which is static to it. Aborting.
+[2022.12.14-13.31.59:031][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Plug_2_004' which is static to it. Aborting.
+[2022.12.14-13.31.59:032][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.BezierCurve_112' which is static to it. Aborting.
+[2022.12.14-13.31.59:032][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Door_Panel001_001' which is static to it. Aborting.
+[2022.12.14-13.31.59:032][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Door_Panel001_002' which is static to it. Aborting.
+[2022.12.14-13.31.59:032][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.helpmeiwannadie_002' which is static to it. Aborting.
+[2022.12.14-13.31.59:032][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.helpmeiwannadie_003' which is static to it. Aborting.
+[2022.12.14-13.31.59:033][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.helpmeiwannadie_004' which is static to it. Aborting.
+[2022.12.14-13.31.59:033][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.walls_001' which is static to it. Aborting.
+[2022.12.14-13.31.59:033][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.rug corner' which is static to it. Aborting.
+[2022.12.14-13.31.59:033][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Shelf' which is static to it. Aborting.
+[2022.12.14-13.31.59:034][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.USB' which is static to it. Aborting.
+[2022.12.14-13.31.59:034][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.lava lamp' which is static to it. Aborting.
+[2022.12.14-13.31.59:034][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Lamp (round)' which is static to it. Aborting.
+[2022.12.14-13.31.59:034][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.wardrobe back' which is static to it. Aborting.
+[2022.12.14-13.31.59:034][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.screen1' which is static to it. Aborting.
+[2022.12.14-13.31.59:034][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.screen2' which is static to it. Aborting.
+[2022.12.14-13.31.59:034][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.phone' which is static to it. Aborting.
+[2022.12.14-13.31.59:035][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.nightstand' which is static to it. Aborting.
+[2022.12.14-13.31.59:035][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.bed' which is static to it. Aborting.
+[2022.12.14-13.31.59:035][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Pot org' which is static to it. Aborting.
+[2022.12.14-13.31.59:035][  0]PIE: Warning: AttachTo: '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_mayhems_room_ladybug"), cannot attach '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.FbxScene_mayhems_room_ladybug_C_0.Books' which is static to it. Aborting.
+[2022.12.14-13.31.59:082][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.12.14-13.31.59:099][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2022.12.14-13.31.59:100][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.12.14-13.31.59:100][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.474ms to complete.
+[2022.12.14-13.31.59:101][  0]LogFileHelpers: Loading map 'Minimal_Default' took 15.916
+[2022.12.14-13.31.59:124][  0]LogUnrealEdMisc: Total Editor Startup Time, took 36.223
+[2022.12.14-13.31.59:124][  0]LogShaderCompilers: Display: ================================================
+[2022.12.14-13.31.59:124][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.12.14-13.31.59:124][  0]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2022.12.14-13.31.59:124][  0]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2022.12.14-13.31.59:124][  0]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2022.12.14-13.31.59:124][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.12.14-13.31.59:124][  0]LogShaderCompilers: Display: Shaders Compiled: 0
+[2022.12.14-13.31.59:124][  0]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2022.12.14-13.31.59:124][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2022.12.14-13.31.59:124][  0]LogShaderCompilers: Display: ================================================
+[2022.12.14-13.31.59:262][  0]LogSlate: The tab "TopLeftModeTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2022.12.14-13.31.59:263][  0]LogSlate: The tab "LevelEditorToolBar" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2022.12.14-13.31.59:279][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.14-13.31.59:288][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.14-13.31.59:296][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.14-13.31.59:304][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.14-13.31.59:335][  0]LogPakFile: Display: Mounted Pak file 'E:/UE_5.0/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2022.12.14-13.31.59:335][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.12.14-13.31.59:337][  0]LogPakFile: Display: Mounted Pak file 'E:/UE_5.0/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2022.12.14-13.31.59:337][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.12.14-13.31.59:340][  0]LogPakFile: Display: Mounted Pak file 'E:/UE_5.0/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2022.12.14-13.31.59:340][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.12.14-13.31.59:342][  0]LogPakFile: Display: Mounted Pak file 'E:/UE_5.0/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2022.12.14-13.31.59:342][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.12.14-13.31.59:348][  0]LogPakFile: Display: Mounted Pak file 'E:/UE_5.0/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2022.12.14-13.31.59:348][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.12.14-13.31.59:351][  0]LogPakFile: Display: Mounted Pak file 'E:/UE_5.0/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2022.12.14-13.31.59:351][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.12.14-13.31.59:354][  0]LogPakFile: Display: Mounted Pak file 'E:/UE_5.0/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2022.12.14-13.31.59:354][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.12.14-13.31.59:356][  0]LogPakFile: Display: Mounted Pak file 'E:/UE_5.0/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2022.12.14-13.31.59:356][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.12.14-13.31.59:358][  0]LogPakFile: Display: Mounted Pak file 'E:/UE_5.0/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2022.12.14-13.31.59:358][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.12.14-13.31.59:361][  0]LogPakFile: Display: Mounted Pak file 'E:/UE_5.0/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2022.12.14-13.31.59:361][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.12.14-13.31.59:361][  0]LogFeaturePack: Error: Error in Feature pack E:/UE_5.0/FeaturePacks/TP_VirtualRealityBP.upack. Failed to parse manifest: Invalid Json Token. Line: 43 Ch: 4
+[2022.12.14-13.31.59:650][  0]LogSlate: Took 0.000323 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.12.14-13.31.59:651][  0]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.12.14-13.31.59:655][  0]LogSlate: Took 0.000260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.12.14-13.31.59:657][  0]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.12.14-13.31.59:658][  0]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.12.14-13.31.59:711][  0]LogViewport: Scene viewport resized to 1032x537, mode Windowed.
+[2022.12.14-13.31.59:806][  0]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.12.14-13.32.00:774][  0]LogStall: Startup...
+[2022.12.14-13.32.00:776][  0]LogStall: Startup complete.
+[2022.12.14-13.32.00:793][  0]LogLoad: (Engine Initialization) Total time: 37.89 seconds
+[2022.12.14-13.32.00:793][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.12.14-13.32.00:913][  0]LogAssetRegistry: Asset discovery search completed in 31.1724 seconds
+[2022.12.14-13.32.00:929][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2022.12.14-13.32.00:963][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.12.14-13.33.30:631][291]LogDerivedDataCache: C:/Users/mstei/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.145 and deleted 0 file(s) with total size 0 MiB.
+[2022.12.14-13.33.34:633][302]LogViewport: Scene viewport resized to 783x357, mode Windowed.
+[2022.12.14-13.33.35:702][302]LogViewport: Scene viewport resized to 1181x555, mode Windowed.
+[2022.12.14-13.36.48:642][917]LogViewport: Scene viewport resized to 1181x567, mode Windowed.
+[2022.12.14-13.36.48:772][919]LogViewport: Scene viewport resized to 1181x658, mode Windowed.
+[2022.12.14-13.36.48:855][921]LogViewport: Scene viewport resized to 1181x680, mode Windowed.
+[2022.12.14-13.36.48:944][923]LogViewport: Scene viewport resized to 1181x705, mode Windowed.
+[2022.12.14-13.36.49:040][925]LogViewport: Scene viewport resized to 1181x739, mode Windowed.
+[2022.12.14-13.36.49:126][927]LogViewport: Scene viewport resized to 1181x761, mode Windowed.
+[2022.12.14-13.36.49:290][936]LogViewport: Scene viewport resized to 1181x767, mode Windowed.
+[2022.12.14-13.36.49:354][938]LogViewport: Scene viewport resized to 1181x779, mode Windowed.
+[2022.12.14-13.36.49:424][940]LogViewport: Scene viewport resized to 1181x790, mode Windowed.
+[2022.12.14-13.36.49:603][951]LogViewport: Scene viewport resized to 1181x794, mode Windowed.
+[2022.12.14-13.36.51:548][ 14]LogViewport: Scene viewport resized to 1209x794, mode Windowed.
+[2022.12.14-13.36.51:680][ 16]LogViewport: Scene viewport resized to 1303x794, mode Windowed.
+[2022.12.14-13.36.51:779][ 18]LogViewport: Scene viewport resized to 1318x794, mode Windowed.
+[2022.12.14-13.37.21:669][ 66]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Material_105.Material_105
+[2022.12.14-13.37.21:735][ 66]LogMaterial: Display: Missing cached shadermap for Preview:Material_105 in PCD3D_SM5, Default, SM5 (DDC key hash: C1FA9AD2C80D0CC02595453DDE52980EC0370CFD), compiling. 
+[2022.12.14-13.37.21:924][ 66]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.14-13.37.22:075][ 66]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/EditorMeshes/AssetViewer/Sphere_inversenormals) ...
+[2022.12.14-13.37.22:162][ 66]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/EditorMeshes/AssetViewer/Floor_Mesh) ...
+[2022.12.14-13.37.22:726][ 66]LogMaterial: Display: Missing cached shadermap for Preview:Material_105 in PCD3D_SM5, Default, SM5 (DDC key hash: 57757F415985D71ECA08BA030902A9EBC89EF12B), compiling. 
+[2022.12.14-13.37.22:731][ 66]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: F7BB2C5F461CE844CA4D81A07DB1AEB85BA87E23), compiling. 
+[2022.12.14-13.37.22:775][ 66]MaterialEditorStats: Texture samplers: 0/16
+[2022.12.14-13.37.22:775][ 66]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.12.14-13.37.22:775][ 66]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.14-13.37.22:775][ 66]MaterialEditorStats: Shader Count: 0
+[2022.12.14-13.37.22:821][ 66]LogSlate: Took 0.025979 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.12.14-13.37.22:826][ 66]LogViewport: Scene viewport resized to 375x384, mode Windowed.
+[2022.12.14-13.37.24:076][ 90]LogShaderCompilers: Display: ================================================
+[2022.12.14-13.37.24:076][ 90]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.12.14-13.37.24:076][ 90]LogShaderCompilers: Display: Total job queries 18, among them cache hits 0 (0.00%)
+[2022.12.14-13.37.24:076][ 90]LogShaderCompilers: Display: Tracking 1 distinct input hashes that result in 1 distinct outputs (100.00%)
+[2022.12.14-13.37.24:076][ 90]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2022.12.14-13.37.24:076][ 90]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.12.14-13.37.24:076][ 90]LogShaderCompilers: Display: Shaders Compiled: 14
+[2022.12.14-13.37.24:076][ 90]LogShaderCompilers: Display: Jobs assigned 6, completed 1 (16.67%)
+[2022.12.14-13.37.24:076][ 90]LogShaderCompilers: Display: Time job spent in pending queue: average 0.03 s, longest 0.04 s
+[2022.12.14-13.37.24:076][ 90]LogShaderCompilers: Display: Job execution time: average 1.17 s, max 1.17 s
+[2022.12.14-13.37.24:076][ 90]LogShaderCompilers: Display: Job life time (pending + execution): average 1.19 s, max 1.19
+[2022.12.14-13.37.24:076][ 90]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.19 s
+[2022.12.14-13.37.24:076][ 90]LogShaderCompilers: Display: Jobs were issued in 6 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.12.14-13.37.24:077][ 90]LogShaderCompilers: Display: Average processing rate: 0.84 jobs/sec
+[2022.12.14-13.37.24:077][ 90]LogShaderCompilers: Display: Effective parallelization: 0.60 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.12.14-13.37.24:077][ 90]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2022.12.14-13.37.24:077][ 90]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.72 sec, max 0.72 sec, min 0.72 sec)
+[2022.12.14-13.37.24:077][ 90]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2022.12.14-13.37.24:077][ 90]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 100.00% of total time (compiled    1 times, average 0.72 sec, max 0.72 sec, min 0.72 sec)
+[2022.12.14-13.37.24:077][ 90]LogShaderCompilers: Display: ================================================
+[2022.12.14-13.37.24:113][ 91]MaterialEditorStats: Texture samplers: 1/16
+[2022.12.14-13.37.24:113][ 91]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.12.14-13.37.24:113][ 91]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.14-13.37.24:113][ 91]MaterialEditorStats: Shader Count: 1
+[2022.12.14-13.37.25:781][179]MaterialEditorStats: Texture samplers: 3/16
+[2022.12.14-13.37.25:781][179]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.12.14-13.37.25:781][179]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.14-13.37.25:781][179]MaterialEditorStats: Shader Count: 4
+[2022.12.14-13.37.57:005][290]LogMaterial: Display: Missing cached shadermap for Preview:Material_105 in PCD3D_SM5, Default, SM5 (DDC key hash: E96A863A2C50C2CA0582B7774B443F32CCB39891), compiling. 
+[2022.12.14-13.37.57:013][290]LogMaterial: Display: Missing cached shadermap for Preview:Material_105 in PCD3D_SM5, Default, SM5 (DDC key hash: A16C445D4884FEA960330DAE63D5CCEAF27B260D), compiling. 
+[2022.12.14-13.37.57:020][290]LogMaterial: Display: Missing cached shadermap for Preview:Material_105 in PCD3D_SM5, Default, SM5 (DDC key hash: 7E4AEFC5D54B3AE894FBA359550E96F6D20C1BCD), compiling. 
+[2022.12.14-13.37.57:024][290]MaterialEditorStats: Texture samplers: 0/16
+[2022.12.14-13.37.57:024][290]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.12.14-13.37.57:024][290]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.14-13.37.57:024][290]MaterialEditorStats: Shader Count: 0
+[2022.12.14-13.37.58:425][326]MaterialEditorStats: Texture samplers: 1/16
+[2022.12.14-13.37.58:425][326]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.12.14-13.37.58:425][326]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.14-13.37.58:425][326]MaterialEditorStats: Shader Count: 2
+[2022.12.14-13.37.59:218][349]MaterialEditorStats: Texture samplers: 3/16
+[2022.12.14-13.37.59:218][349]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.12.14-13.37.59:218][349]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.14-13.37.59:218][349]MaterialEditorStats: Shader Count: 6
+[2022.12.14-14.33.30:133][158]LogDerivedDataCache: C:/Users/mstei/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.714 and deleted 0 file(s) with total size 0 MiB.
+[2022.12.14-15.33.29:581][904]LogDerivedDataCache: C:/Users/mstei/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.107 and deleted 0 file(s) with total size 0 MiB.
+[2022.12.14-16.33.31:025][647]LogDerivedDataCache: C:/Users/mstei/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.389 and deleted 0 file(s) with total size 0 MiB.
+[2022.12.14-17.33.29:646][388]LogDerivedDataCache: C:/Users/mstei/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.160 and deleted 0 file(s) with total size 0 MiB.
+[2022.12.14-18.33.30:305][138]LogDerivedDataCache: C:/Users/mstei/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.726 and deleted 0 file(s) with total size 0 MiB.
+[2022.12.14-19.33.29:562][887]LogDerivedDataCache: C:/Users/mstei/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.996 and deleted 0 file(s) with total size 0 MiB.
+[2022.12.14-20.33.29:791][644]LogDerivedDataCache: C:/Users/mstei/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.132 and deleted 0 file(s) with total size 0 MiB.
+[2022.12.14-21.33.30:463][395]LogDerivedDataCache: C:/Users/mstei/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.913 and deleted 0 file(s) with total size 0 MiB.
+[2022.12.14-22.33.31:225][144]LogDerivedDataCache: C:/Users/mstei/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.556 and deleted 0 file(s) with total size 0 MiB.
+[2022.12.14-23.33.29:295][885]LogDerivedDataCache: C:/Users/mstei/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.878 and deleted 0 file(s) with total size 0 MiB.
+[2022.12.15-00.33.30:429][634]LogDerivedDataCache: C:/Users/mstei/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.945 and deleted 0 file(s) with total size 0 MiB.
+[2022.12.15-01.33.29:757][370]LogDerivedDataCache: C:/Users/mstei/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.271 and deleted 0 file(s) with total size 0 MiB.
+[2022.12.15-02.33.30:084][112]LogDerivedDataCache: C:/Users/mstei/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.554 and deleted 0 file(s) with total size 0 MiB.
+[2022.12.15-03.33.29:747][851]LogDerivedDataCache: C:/Users/mstei/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.070 and deleted 0 file(s) with total size 0 MiB.
+[2022.12.15-04.13.59:505][100]LogHttp: Warning: 00000545199BDC00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B869D9981-4CBF-5A1E-1928-2BABCD85EFF8%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=6e08f74a4b93172827e553ae1481e9bf%7C58cd659deefc4a3ea2fd82d4c9c67733%7C8ed15257-1696-4a8b-916d-0a151106711d&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.12.15-04.13.59:529][100]LogHttp: Warning: 00000545199BDC00: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2022.12.15-04.13.59:541][100]LogHttp: Warning: 00000545199BDC00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x544c28d0000 [can pipeline])
+[2022.12.15-04.13.59:541][100]LogHttp: Warning: 00000545199BDC00: libcurl info message cache 1 (Re-using existing connection! (#0) with host datarouter.ol.epicgames.com)
+[2022.12.15-04.13.59:541][100]LogHttp: Warning: 00000545199BDC00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.222.224.180) port 443 (#0))
+[2022.12.15-04.13.59:541][100]LogHttp: Warning: 00000545199BDC00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2022.12.15-04.13.59:541][100]LogHttp: Warning: 00000545199BDC00: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2022.12.15-04.13.59:541][100]LogHttp: Warning: 00000545199BDC00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2022.12.15-04.13.59:541][100]LogHttp: Warning: 00000545199BDC00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2022.12.15-04.13.59:541][100]LogHttp: Warning: 00000545199BDC00: libcurl info message cache 7 (Closing connection 0)
+[2022.12.15-04.13.59:548][100]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B869D9981-4CBF-5A1E-1928-2BABCD85EFF8%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=6e08f74a4b93172827e553ae1481e9bf%7C58cd659deefc4a3ea2fd82d4c9c67733%7C8ed15257-1696-4a8b-916d-0a151106711d&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.12.15-04.33.30:510][594]LogDerivedDataCache: C:/Users/mstei/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.801 and deleted 0 file(s) with total size 0 MiB.
+[2022.12.15-05.33.34:173][346]LogDerivedDataCache: C:/Users/mstei/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:06.680 and deleted 0 file(s) with total size 0 MiB.
+[2022.12.15-06.33.29:847][ 74]LogDerivedDataCache: C:/Users/mstei/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.127 and deleted 0 file(s) with total size 0 MiB.
+[2022.12.15-07.33.29:911][815]LogDerivedDataCache: C:/Users/mstei/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.494 and deleted 0 file(s) with total size 0 MiB.
+[2022.12.15-08.33.29:739][579]LogDerivedDataCache: C:/Users/mstei/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.061 and deleted 0 file(s) with total size 0 MiB.
