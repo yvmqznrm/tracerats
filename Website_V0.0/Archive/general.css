@@ -1,0 +1,79 @@
+:root {
+  --Bckd: #1f1f29;
+  --Light: #96a2b3;
+  --Middle: #596070;
+  --Dark: #413a42;
+  --PERMsStorm: #3055c3;
+  --PERMdStorm: #565d8a;
+  --PERMsMayhem: #d0a908;
+  --PERMdMayhem: #6d5e46;
+  --PERMsSoph: #059f8b;
+  --PERMdSoph: #4a696b;
+  --PERMsAshley: #5b890c;
+  --PERMdAshley: #526954;
+  --PERMsMichael: #941b2a;
+  --PERMdMichael: #715663;
+  --PERMsDev: #d36019;
+  --PERMdDev: #7a5452;
+  --PERMsNova: #FF00FF;
+  --PERMdNova: #952d95;
+
+
+  --sStorm: #3055c3;
+  --dStorm: #565d8a;
+  --sMayhem: #d0a908;
+  --dMayhem: #6d5e46;
+  --sSoph: #059f8b;
+  --dSoph: #4a696b;
+  --sAshley: #5b890c;
+  --dAshley: #526954;
+  --sMichael: #941b2a;
+  --dMichael: #715663;
+  --sDev: #d36019;
+  --dDev: #7a5452;
+  --sNova: #FF00FF;
+  --dNova: #952d95;
+}
+
+body{
+  background-color: var(--Bckd);
+  font-family: /*"courier new", */monospace;
+  color: var(--Middle);
+  margin: 0%;
+  font-size: 100%;
+}
+
+hr{
+  border: none;
+}
+
+hr.a{
+  height: 0.25rem;
+  background-color: var(--Light);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+hr.b{
+  height: 0.08rem;
+  background-color: var(--Middle);
+  margin-bottom: 1rem;
+}
+
+h1{
+  margin-bottom: 1rem;
+  color: var(--Light);
+  font-size: 2rem;
+  border-bottom-style: solid;
+  border-bottom-width: 0.08rem;
+  border-bottom-color: var(--Middle);
+  padding-bottom: 0.38rem;
+}
+
+h2{
+  color: var(--Light)
+}
+
+h3{
+  color: var(--Light)
+}

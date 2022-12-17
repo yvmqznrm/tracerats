@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>CTFs</title>
+<link rel="icon" type="image/x-icon" href="favicon.png">
+<base href="http://127.0.0.1:8000/" target="_top">
+<!--<base href="https://darioacg.org/" target="_top">-->
+<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+
+
+<!------- General ------->
+<link rel="stylesheet" href="stylesheets/general.css">
+
+
+<!------- Character Colouring ------->
+<link rel="stylesheet" href="stylesheets/character_colouring.css">
+
+
+<!------- Dimensions ------->
+<style>
+    
+._6x6 {
+    width: 6rem;
+    height: 6rem;
+}
+
+</style>
+</head>
+
+
+
+
+
+
+
+
+
+
+<body>
+
+<style>
+.navbar {
+  background-color: var(--Dark);
+  overflow: hidden;
+  padding: 0% 2.5%;
+  display: flex;
+  align-items: center;
+}
+
+.navbar a {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  color: var(--Light);
+  text-align: center;
+  padding: 0rem 1.25rem;
+  height: 3.3rem;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+.navbar a:hover, .navbar a.active {
+  background-color: var(--Middle);
+}
+
+.navbar button {
+  display: none;
+}
+
+.pageContent {
+  padding: 0% 2.5%;
+  clear: both;
+}
+
+@media screen and (max-width: 90rem) {
+  .navbar a {display: none;}
+  .navbar a.active {display: flex;}
+  .navbar button {
+    /*float: left;*/
+    display: block;
+  }
+}
+
+@media screen and (max-width: 90rem) {
+  .navbar.responsive {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  /*.navbar.responsive {position: relative;}*/
+  /*.navbar.responsive button {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }*/
+  .navbar.responsive a {
+    /*float: none;*/
+    display: flex;
+    text-align: left;
+  }
+}
+</style>
+
+
+<nav class="navbar" id="navbar">
+
+  <button style="border:none; padding:0rem; margin-top:0.6rem; margin-bottom:0.6rem; margin-right:1.25rem; height:2.1rem; width:2.1rem; cursor:pointer; background-color:var(--Dark);" type="button" onclick="hbMenu()">
+    <style>
+      .hbSVG {
+        width: 2.1rem;
+        height: 2.1rem;
+        fill: var(--Light);
+      }
+      .hbSVG:hover {
+        fill: var(--Middle)
+      }
+    </style>
+    <svg class="hbSVG" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+      <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/>
+    </svg>
+  </button>
+
+  <a href="welcome.html">welcome</a>
+  <a href="ctfs.html" class="active">CTFs</a>
+  <a href="story.html">story</a>
+  <a href="characters.html">characters</a>
+  <a href="places.html">places</a>
+  <a href="updates.html">updates</a>
+  <a href="participate.html">participate</a>
+  <a href="https://github.com/yvmqznrm/tracerats" target="_blank">downloads</a>
+  
+  <!------- Disable Colours ------->
+  <div style="float:right; display:flex; align-items:center; height:3.3rem; flex-grow:1; justify-content:flex-end;">
+
+    <p style="margin:0rem; font-size: 1rem; color: var(--Light)">disable colours</p>
+
+      <!------- Disable Colours CSS ------->
+      <style>
+      /* The switch - the box around the slider */
+      .switch {
+          position: relative;
+          display: inline-block;
+          width: 3rem;
+          height: 1.6875rem;
+      }
+
+      /* Hide default HTML checkbox */
+      .switch input {
+          opacity: 0;
+          width: 0;
+          height: 0;
+      }
+
+      /* The slider */
+      .slider {
+          position: absolute;
+          cursor: pointer;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-color: var(--Bckd);
+          -webkit-transition: .4s;
+          transition: .4s;
+      }
+
+      .slider:before {
+          position: absolute;
+          content: "";
+          height: 1.3125rem;
+          width: 1.3125rem;
+          left: 0.1875rem;
+          bottom: 0.1875rem;
+          background-color: var(--Light);
+          -webkit-transition: .4s;
+          transition: .4s;
+      }
+
+      input:checked + .slider {
+          background-color: var(--Middle);
+      }
+
+      input:checked + .slider:before {
+          -webkit-transform: translateX(1.3125rem);
+          -ms-transform: translateX(1.3125rem);
+          transform: translateX(1.3125rem);
+      }
+
+      /* Rounded sliders */
+      .slider.round {
+          border-radius: 1.6875rem;
+      }
+
+      .slider.round:before {
+          border-radius: 50%;
+      }
+      </style>
+    
+      <label class="switch" id="cbSlider" style="margin-left:1rem;">
+          <input id="dcCheckbox" type="checkbox" onclick="dcToggle()">
+          <span class="slider round"></span>
+      </label>
+    
+  </div>
+
+  <script src="scripts/disable_colours.js"></script>
+
+</nav>
+
+<script>
+document.getElementById("navbar").className = "navbar";
+
+function hbMenu() {
+  var x = document.getElementById("navbar");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
+  }
+} 
+</script>
+
+
+
+
+
+<div class="pageContent">
+
+<style>
+.ctfCategories {
+  display: flex;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 35rem) {
+  .ctfCategories {
+    flex-direction: column;
+  }
+}
+
+.ctfCategory {
+  width: 47%;
+}
+
+@media screen and (max-width: 35rem) {
+  .ctfCategory {
+    width: 100%;
+  }
+}
+</style>
+
+<h1>what is CTF?</h1>
+
+<p>capture the flag in a cybersecurity context is a competition meant to teach fundamentals of information security from an attacker's perspective. the two most common forms of ctf competitions are attack and defense and jeopardy.
+  <br><br>attack and defense usually entails players attacking other player's machines in an attempt of capturing their flag while attempting to defend their own against cyber attacks. these kinds of competitions are usually reserved for the finals of a competition.
+  <br><br>jeopardy which is the more common of the two usually has various challenges aimed at testing different areas of knowledge. they are also meant to range in difficulty to let players of all skill levels participate and learn. the category a challenge is under usually can give an insight of what kind of skills will be required and in many cases, a small blurb will also provide a hint which can direct new players on what areas they might want to study or touch up on before taking on said challenge. the goal for players is to utilize various hacking techniques to find and submit the flag hidden in the challenge. this will provide the player with points which usually coincide with the level of difficulty for the challenge.
+</p>
+
+<h2 style="margin-top: 3rem">common categories:</h2>
+
+<div class="ctfCategories">
+  <div class="ctfCategory">
+    <h3 style="color:var(--sSoph)">pwn:</h3>
+    <p style="color:var(--dSoph)">a challenge that typically requires exploitation of a binary to gain access to the flag. these are typically solved by discovering vulnerabilities common in binaries such as memory corruption (buffer overflows, use after frees, etc), race conditions, or the like.</p>
+  </div>
+
+  <div class="ctfCategory">
+    <h3 style="color:var(--sMayhem)">web:</h3>
+    <p style="color:var(--dMayhem)">similarly to pwn, these typically require exploitation of a target, however, these are specifically web based. these challenges typically require common web application vulnerability knowledge such as cross-site scripting (XSS), path traversal, SQL injection and the like.</p>
+  </div>
+
+  <div class="ctfCategory">
+    <h3 style="color:var(--sStorm)">reverse engineering / RE:</h3>
+    <p style="color:var(--dStorm)">although these sometimes require exploitation, the goal of reverse engineering challenges typically is to understand how a program or application functions in order to discover a secret in the application. it is common for this category to overlap with the crypto category as this also typically requires understanding of the algorithms used. this category typically requires disassembly or decompiling of binaries so tools such as Ghidra are recommended.</p>
+  </div>
+
+  <div class="ctfCategory">
+    <h3 style="color:var(--sMichael)">forensics:</h3>
+    <p style="color:var(--dMichael)">not as common as the other categories, this category usually centers around a more defensive approach of finding hidden information or attempt of compromise. some examples could include finding hidden files in network traffic, finding hidden flags in image or files (steganography), or simply finding files in a data dump.</p>
+  </div>
+
+  <div class="ctfCategory">
+    <h3 style="color:var(--sNova)">crypto:</h3>
+    <p style="color:var(--dNova)">this type of challenge usually centers around the breaking of cryptographic algorithms. this can either take the form of custom crypto algorithms with mathematical flaws, or, the use of algorithms known to have issues such as padding oracles or simple brute force attacks. this category typically is more mathematically focused compared to the others.</p>
+  </div>
+
+  <div class="ctfCategory">
+    <h3 style="color:var(--sDev)">misc:</h3>
+    <p style="color:var(--dDev)">a category usually reserved for miscellaneous and fun challenges that do not exactly fit in the other categories. this can sometimes include fun recon problems that involve finding information about a certain person to finding information in RF frequencies or even sometimes making phone calls. the possibilities here are endless :)</p>
+  </div>
+</div>
+
+
+<hr class="a" style="clear:left">
+
+
+
+
+
+<div style="position:relative; height:2rem; margin-bottom:1rem;">
+<p style="margin:0rem; position:absolute; top:50%; transform:translateY(-50%);">ur mom is a spaghetti (code).</p>
+<img src="https://cdn.discordapp.com/attachments/946539417655447582/1023020220706717737/Dev.png" style="width:2rem; border-radius:50%; object-fit:cover; float:right" title="diagnostic dev">
+</div>
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+:root {
+  --Bckd: #1a1b26;
+  --Light: #a9b1d6;
+  /*--Middle: #42465d;*/
+  --Text: #62667e;
+  --Middle: #2c3044;
+  /*--Dark: #2c3044;*/
+  --Dark: #16161f;
+  --PERMsStorm: #2a71e9;
+  --PERMdStorm: #21549e;
+  --PERMsMayhem: #e0c024;
+  --PERMdMayhem: #96851d;
+  --PERMsSoph: #5bceff;
+  --PERMdSoph: #458daa;
+  --PERMsAshley: #7cce6a;
+  --PERMdAshley: #5c8d52;
+  --PERMsMichael: #db372f;
+  --PERMdMichael: #942a26;
+  --PERMsDev: #ff7a3a;
+  --PERMdDev: #a65b2e;
+  --PERMsNova: #9764c1;
+  --PERMdNova: #6d4b88;
+
+
+  --sStorm: #2a71e9;
+  --dStorm: #565d8a;
+  --sMayhem: #e0c024;
+  --dMayhem: #6d5e46;
+  --sSoph: #5bceff;
+  --dSoph: #4a696b;
+  --sAshley: #7cce6a;
+  --dAshley: #526954;
+  --sMichael: #db372f;
+  --dMichael: #715663;
+  --sDev: #ff7a3a;
+  --dDev: #7a5452;
+  --sNova: #FF00FF;
+  --dNova: #952d95;
+}
+
+body{
+  background-color: var(--Bckd);
+  font-family: /*"courier new", */monospace;
+  color: var(--Text);
+  margin: 0%;
+  font-size: 100%;
+}
+
+hr{
+  border: none;
+}
+
+hr.a{
+  height: 0.12rem;
+  background-color: var(--Light);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+hr.b{
+  height: 0.08rem;
+  background-color: var(--Light);
+  margin-bottom: 1rem;
+}
+
+h1{
+  margin-bottom: 1rem;
+  color: var(--Light);
+  font-size: 2rem;
+  border-bottom-style: solid;
+  border-bottom-width: 0.12rem;
+  border-bottom-color: var(--Light);
+  padding-bottom: 0.38rem;
+}
+
+h2{
+  color: var(--Light)
+}
+
+h3{
+  color: var(--Light)
+}
+
+.fillsText, .filldText:hover {
+  fill: var(--Light)
+}
+
+.filldText, .fillsText:hover {
+  fill: var(--Text)
+}

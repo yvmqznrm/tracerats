@@ -1,0 +1,125 @@
+/* --- Header Text --- */
+
+.sStorm{
+  color: var(--sStorm);
+}
+
+.sMayhem{
+  color: var(--sMayhem);
+}
+
+.sSoph{
+  color: var(--sSoph);
+}
+
+.sAshley{
+  color: var(--sAshley);
+}
+
+.sMichael{
+  color: var(--sMichael);
+}
+
+.sDev{
+  color: var(--sDev);
+}
+
+.sNova{
+  color: var(--sNova);
+}
+
+
+/* --- Paragraph Text --- */
+
+.dStorm{
+  color: var(--dStorm);
+}
+
+.dMayhem{
+  color: var(--dMayhem);
+}
+
+.dSoph{
+  color: var(--dSoph);
+}
+
+.dAshley{
+  color: var(--dAshley);
+}
+
+.dMichael{
+  color: var(--dMichael);
+}
+
+.dDev{
+  color: var(--dDev);
+}
+
+.dNova{
+  color: var(--dNova);
+}
+
+
+/* --- Fills --- */
+
+.fillsStorm, .filldStorm:hover {
+  fill: var(--sStorm)
+}
+
+.filldStorm, .fillsStorm:hover {
+  fill: var(--dStorm)
+}
+
+
+.fillsMayhem, .filldMayhem:hover {
+  fill: var(--sMayhem)
+}
+
+.filldMayhem, .fillsMayhem:hover {
+  fill: var(--dMayhem)
+}
+
+
+.fillsSoph, .filldSoph:hover {
+  fill: var(--sSoph)
+}
+
+.filldSoph, .fillsSoph:hover {
+  fill: var(--dSoph)
+}
+
+
+.fillsAshley, .filldAshley:hover {
+  fill: var(--sAshley)
+}
+
+.filldAshley, .fillsAshley:hover {
+  fill: var(--dAshley)
+}
+
+
+.fillsMichael, .filldMichael:hover {
+  fill: var(--sMichael)
+}
+
+.filldMichael, .fillsMichael:hover {
+  fill: var(--dMichael)
+}
+
+
+.fillsDev, .filldDev:hover {
+  fill: var(--sDev)
+}
+
+.filldDev, .fillsDev:hover {
+  fill: var(--dDev)
+}
+
+
+.fillsNova, .filldNova:hover {
+  fill: var(--sNova)
+}
+
+.filldNova, .fillsNova:hover {
+  fill: var(--dNova)
+}

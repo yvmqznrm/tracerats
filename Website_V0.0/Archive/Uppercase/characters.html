@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>Characters</title>
+<link rel="icon" type="image/x-icon" href="favicon.png">
+<base href="http://127.0.0.1:8000/" target="_top">
+<!--<base href="https://darioacg.org/" target="_top">-->
+<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+
+
+<!------- General ------->
+<link rel="stylesheet" href="stylesheets/general.css">
+
+
+<!------- Character Colouring ------->
+<link rel="stylesheet" href="stylesheets/character_colouring.css">
+
+
+<!------- Dimensions ------->
+<style>
+    
+._6x6 {
+    width: 6rem;
+    height: 6rem;
+}
+
+</style>
+</head>
+
+
+
+
+
+
+
+
+
+
+<body>
+
+<style>
+.navbar {
+  background-color: var(--Dark);
+  overflow: hidden;
+  padding: 0% 2.5%;
+  display: flex;
+  align-items: center;
+}
+
+.navbar a {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  color: var(--Light);
+  text-align: center;
+  padding: 0rem 1.25rem;
+  height: 3.3rem;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+.navbar a:hover, .navbar a.active {
+  background-color: var(--Middle);
+}
+
+.navbar button {
+  display: none;
+}
+
+.pageContent {
+  padding: 0% 2.5%;
+  clear: both;
+}
+
+@media screen and (max-width: 90rem) {
+  .navbar a {display: none;}
+  .navbar a.active {display: flex;}
+  .navbar button {
+    /*float: left;*/
+    display: block;
+  }
+}
+
+@media screen and (max-width: 90rem) {
+  .navbar.responsive {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  /*.navbar.responsive {position: relative;}*/
+  /*.navbar.responsive button {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }*/
+  .navbar.responsive a {
+    /*float: none;*/
+    display: flex;
+    text-align: left;
+  }
+}
+</style>
+
+
+<nav class="navbar" id="navbar">
+
+    <button style="border:none; padding:0rem; margin-top:0.6rem; margin-bottom:0.6rem; margin-right:1.25rem; height:2.1rem; width:2.1rem; cursor:pointer; background-color:var(--Dark);" type="button" onclick="hbMenu()">
+      <style>
+        .hbSVG {
+          width: 2.1rem;
+          height: 2.1rem;
+          fill: var(--Light);
+        }
+        .hbSVG:hover {
+          fill: var(--Middle)
+        }
+      </style>
+      <svg class="hbSVG" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+        <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/>
+      </svg>
+    </button>
+
+  <a href="welcome.html">Welcome</a>
+  <a href="ctfs.html">CTFs</a>
+  <a href="story.html">Story</a>
+  <a href="characters.html" class="active">Characters</a>
+  <a href="places.html">Places</a>
+  <a href="updates.html">Updates</a>
+  <a href="participate.html">Participate</a>
+  <a href="https://github.com/" target="_blank">Downloads</a>
+  
+  <!------- Disable Colours ------->
+  <div style="float:right; display:flex; align-items:center; height:3.3rem; flex-grow:1; justify-content:flex-end;">
+
+    <p style="margin:0rem; font-size: 1rem; color: var(--Light)">Disable Colours</p>
+
+      <!------- Disable Colours CSS ------->
+      <style>
+      /* The switch - the box around the slider */
+      .switch {
+          position: relative;
+          display: inline-block;
+          width: 3rem;
+          height: 1.6875rem;
+      }
+
+      /* Hide default HTML checkbox */
+      .switch input {
+          opacity: 0;
+          width: 0;
+          height: 0;
+      }
+
+      /* The slider */
+      .slider {
+          position: absolute;
+          cursor: pointer;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-color: var(--Bckd);
+          -webkit-transition: .4s;
+          transition: .4s;
+      }
+
+      .slider:before {
+          position: absolute;
+          content: "";
+          height: 1.3125rem;
+          width: 1.3125rem;
+          left: 0.1875rem;
+          bottom: 0.1875rem;
+          background-color: var(--Light);
+          -webkit-transition: .4s;
+          transition: .4s;
+      }
+
+      input:checked + .slider {
+          background-color: var(--Middle);
+      }
+
+      input:checked + .slider:before {
+          -webkit-transform: translateX(1.3125rem);
+          -ms-transform: translateX(1.3125rem);
+          transform: translateX(1.3125rem);
+      }
+
+      /* Rounded sliders */
+      .slider.round {
+          border-radius: 1.6875rem;
+      }
+
+      .slider.round:before {
+          border-radius: 50%;
+      }
+      </style>
+    
+      <label class="switch" id="cbSlider" style="margin-left:1rem;">
+          <input id="dcCheckbox" type="checkbox" onclick="dcToggle()">
+          <span class="slider round"></span>
+      </label>
+    
+  </div>
+
+  <script src="scripts/disable_colours.js"></script>
+
+</nav>
+
+<script>
+document.getElementById("navbar").className = "navbar";
+
+function hbMenu() {
+  var x = document.getElementById("navbar");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
+  }
+} 
+</script>
+
+
+
+
+
+<div class="pageContent">
+
+<h1>Characters</h1>
+
+<!------- Profiles ------->
+<div>
+<!------- Profiles CSS ------->
+<style>
+
+.pfContent {
+    display: none;
+    /*overflow: hidden;*/
+    clear: left;
+}
+
+.pf{
+    /*width: 8rem;
+    height: 10rem;*/
+    border-radius: 2rem;
+    padding: 1.5rem 1.5rem 0.8rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+    float: left;
+    border: 0.2rem solid var(--Bckd);
+    color: var(--Light);
+    background-color: var(--Bckd);
+    font-family: monospace;
+}
+
+.pfPic {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 8rem;
+    margin-bottom: 0.5rem;
+}
+
+.pfName{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0rem 0.5rem;
+}
+
+.pf:hover{
+    background-color: var(--Bckd);
+}
+
+
+
+/* --- Character Specific --- */
+.pfStorm{
+}
+
+.pfStorm:hover{
+    border-color: var(--sStorm);
+    color: var(--sStorm);
+}
+
+.pfStorm-a{
+    background-color: var(--sStorm);
+    border-color: var(--sStorm);
+    color: var(--Bckd);
+}
+
+
+.pfMayhem{
+}
+
+.pfMayhem:hover{
+    border-color: var(--sMayhem);
+    color: var(--sMayhem);
+}
+
+.pfMayhem-a{
+    background-color: var(--sMayhem);
+    border-color: var(--sMayhem);
+    color: var(--Bckd);
+}
+
+
+.pfSoph{
+}
+
+.pfSoph:hover{
+    border-color: var(--sSoph);
+    color: var(--sSoph);
+}
+
+.pfSoph-a{
+    background-color: var(--sSoph);
+    border-color: var(--sSoph);
+    color: var(--Bckd);
+}
+
+
+.pfAshley{
+}
+
+.pfAshley:hover{
+    border-color: var(--sAshley);
+    color: var(--sAshley);
+}
+
+.pfAshley-a{
+    background-color: var(--sAshley);
+    border-color: var(--sAshley);
+    color: var(--Bckd);
+}
+
+
+.pfMichael{
+}
+
+.pfMichael:hover{
+    border-color: var(--sMichael);
+    color: var(--sMichael);
+}
+
+.pfMichael-a{
+    background-color: var(--sMichael);
+    border-color: var(--sMichael);
+    color: var(--Bckd);
+}
+
+
+.pfDev{
+}
+
+.pfDev:hover{
+    border-color: var(--sDev);
+    color: var(--sDev);
+}
+
+.pfDev-a{
+    background-color: var(--sDev);
+    border-color: var(--sDev);
+    color: var(--Bckd);
+}
+
+
+.pfNova{
+}
+
+.pfNova:hover{
+    border-color: var(--sNova);
+    color: var(--sNova);
+}
+
+.pfNova-a{
+    background-color: var(--sNova);
+    border-color: var(--sNova);
+    color: var(--Bckd);
+}
+
+</style>
+
+
+<!------- Profile HTML ------->
+<!-- Profile Cards -->
+<div>
+<button class="pf pfStorm">
+    <img src="https://cdn.discordapp.com/attachments/946539417655447582/1023904476983209984/Storm.png" class="pfPic">
+    <p class="pfName">storm</p>
+</button>
+
+<button class="pf pfMayhem">
+    <img src="https://cdn.discordapp.com/attachments/946539417655447582/1023905254347124767/Mayhem.png" class="pfPic">
+    <p class="pfName">Mayhem</p>
+</button>
+
+<button class="pf pfSoph">
+    <img src="https://cdn.discordapp.com/attachments/946539417655447582/1023020221495255121/Soph.png" class="pfPic">
+    <p class="pfName">Soph</p>
+</button>
+
+<button class="pf pfAshley">
+    <img src="https://cdn.discordapp.com/attachments/946539417655447582/1023020220358602883/Ashley.png" class="pfPic">
+    <p class="pfName">Ashley</p>
+</button>
+
+<button class="pf pfMichael">
+    <img src="https://cdn.discordapp.com/attachments/946539417655447582/1023022200921542757/Michael.png" class="pfPic">
+    <p class="pfName">Michael</p>
+</button>
+
+<button class="pf pfDev">
+    <img src="https://cdn.discordapp.com/attachments/946539417655447582/1023020220706717737/Dev.png" class="pfPic">
+    <p class="pfName">Dev</p>
+</button>
+
+<button class="pf pfNova">
+    <img src="https://cdn.discordapp.com/attachments/946539417655447582/1051558408995741806/Nova.png" class="pfPic">
+    <p class="pfName">Nova</p>
+</button>
+</div>
+
+<!-- Profile Content -->
+<div class="pfContent dStorm" id="pfStormContent">
+
+    <h3 class="sStorm">Age:</h3>
+    <ul>
+        <li>23</li>
+    </ul>
+
+    <h3 class="sStorm">Hacking motivations:</h3>
+    <ul>
+        <li>Was incompetently thought to be a national security threat in past, which resulted in the suicide of his friend. He's against “Sicherheitstheater”.</li>
+    </ul>
+
+    <h3 class="sStorm">What drives him in general?</h3>
+    <ul>
+        <li>storm has an idea for doing something to rectify an injustice which he’s very emotionally invested in, and after spending a decent amount of time planning this idea, he is beginning to play the long game and becomes extremely emotionally invested in the success of his plan, to the point where it becomes his perceived predominant purpose in life. Feeling that he is responsible for the safety and well being of the other group members, storm holds this also as an important purpose for him, which pushes him into taking on a leadership role.</li>
+    </ul>
+
+    <h3 class="sStorm">Strengths:</h3>
+    <ul>
+        <li>Logical thinking + (mostly) rational behaviour</li>
+        <li>Curiosity + Technical creativity</li>
+        <li>Passionate / Driven</li>
+        <li>Unafraid</li>
+    </ul>
+
+    <h3 class="sStorm">Flaws:</h3>
+    <ul>
+        <li>Occasional violent outbursts, disapproving of things if they aren't being done his way (except for with mayhem, he's seen her smarts and trusts her), trust issues.</li>
+        <li>Perfectionism</li>
+        <li>Sometimes unpredictable</li>
+        <li>Ego</li>
+        <p>(altered version for when younger: reckless, lack of awareness of limitations)</p>
+    </ul>
+
+    <h3 class="sStorm">Job:</h3>
+    <ul>
+        <li>Works at a Certificate Authority (a gateway to being able to make certificates is helpful).</li>
+    </ul>
+
+    <h3 class="sStorm">Other notes:</h3>
+    <ul>
+        <li>storm founded the group with Mayhem and is the driving force behind it.</li>
+    </ul>
+
+    <h3 class="sStorm">Moodboard:</h3>
+    <ul>
+        <a href="https://www.pinterest.co.uk/solarblips/storm/" target="_blank">
+            <svg class="_6x6 filldStorm" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
+</div>
+
+<div class="pfContent dMayhem" id="pfMayhemContent">
+
+    <h3 class="sMayhem">Age:</h3>
+    <ul>
+        <li>21</li>
+    </ul>
+
+    <h3 class="sMayhem">Hacking motivations:</h3>
+    <ul>
+        <li>Free speech - people try to shut her up too often.</li>
+    </ul>
+
+    <h3 class="sMayhem">What drives her in general?</h3>
+    <ul>
+        <li>Curious AF, so learns about all sorts of things and picks up useful skills.</li>
+        <li>Has personally experienced racial injustice, so she is very driven to utilise her skills to rectify injustices in general.</li>
+    </ul>
+
+    <h3 class="sMayhem">Strengths:</h3>
+    <ul>
+        <li>Creative</li>
+        <li>Intelligent + Clever</li>
+        <li>Brave</li>
+        <li>Empathetic</li>
+        <li>Positive outlook on life</li>
+    </ul>
+
+    <h3 class="sMayhem">Flaws:</h3>
+    <ul>
+        <li>Does not think far enough ahead / is sometimes irresponsible (her and storm complement each other very well in the sense that he's very rational and grounds her sometimes, and he's kinda too unable to have fun because of it, so she keeps him going and her positive vibes and energy leak into him)</li>
+        <li>Stubborn</li>
+        <li>Impatient</li>
+    </ul>
+
+    <h3 class="sMayhem">Job:</h3>
+    <ul>
+        <li>Freelance web development</li>
+    </ul>
+
+    <h3 class="sMayhem">Other notes:</h3>
+    <ul>
+        <li>Mayhem co-founded the group out of interest for hacking, and investment in the issues it goes against.</li>
+        <li>Chews gum and often has headphones on.</li>
+    </ul>
+
+    <h3 class="sMayhem">Moodboard:</h3>
+    <ul>
+        <a href="https://www.pinterest.co.uk/solarblips/mayhem/" target="_blank">
+            <svg class="_6x6 filldMayhem" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
+</div>
+
+<div class="pfContent dSoph" id="pfSophContent">
+
+    <h3 class="sSoph">Age:</h3>
+    <ul>
+        <li>23</li>
+    </ul>
+
+    <h3 class="sSoph">Hacking motivations:</h3>
+    <ul>
+        <li>Initially, she just likes to fuck around with tech, with no higher motivation (for her it is an escape from the struggles of real life). As she talks more with the other group members, she sees and understands the injustices they try to fight against (as a group) better.</li>
+        <li>Cipherpunk</li>
+    </ul>
+
+    <h3 class="sSoph">What drives her in general?</h3>
+    <ul>
+        <li>Intense drive to keep learning</li>
+        <li>Applying the things she has learned to help improve the world.</li>
+    </ul>
+
+    <h3 class="sSoph">Strengths:</h3>
+    <ul>
+        <li>Knowledge</li>
+        <li>Impressive</li>
+        <li>Curious</li>
+        <li>Driven</li>
+    </ul>
+
+    <h3 class="sSoph">Flaws:</h3>
+    <ul>
+        <li>Addictive personality (substances in the past, now redirected to hunger for knowledge, she needs to always be learning, this could make her burnt out).</li>
+        <li>Fear of limitations</li>
+        <li>Manipulates in the direction of better hacking techniques, and feels empowered to do so.</li>
+    </ul>
+
+    <h3 class="sSoph">Job:</h3>
+    <ul>
+        <li>Reverse engineering and exploit development, finding stuff like zero days for a big company she doesn't like, but she likes the job because she's always learning new stuff.</li>
+    </ul>
+
+    <h3 class="sSoph">Other notes:</h3>
+    <ul>
+        <li>She can be a bit cold sometimes.</li>
+        <li>She's in a relationship with Ashley.</li>
+    </ul>
+
+    <h3 class="sSoph">Moodboard:</h3>
+    <ul>
+        <a href="https://www.pinterest.co.uk/solarblips/soph/" target="_blank">
+            <svg class="_6x6 filldSoph" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
+</div>
+
+<div class="pfContent dAshley" id="pfAshleyContent">
+
+    <h3 class="sAshley">Age:</h3>
+    <ul>
+        <li>24</li>
+    </ul>
+
+    <h3 class="sAshley">What does she do/what drives her?</h3>
+    <ul>
+        <li>Creates music (bassist in "Ugly Giants") for the passion of the music itself and the lifestyle of playing concerts.</li>
+    </ul>
+
+    <h3 class="sAshley">Strengths:</h3>
+    <ul>
+        <li>Empathy + Charisma</li>
+        <li>Creativity + Passion</li>
+    </ul>
+
+    <h3 class="sAshley">Flaws:</h3>
+    <ul>
+        <li>Overly concerned / worried about her loved ones (including her gf Soph) to the point where it negatively impacts her and possibly her relationships.</li>
+        <li>Moody + Impulsive</li>
+    </ul>
+
+    <h3 class="sAshley">Job:</h3>
+    <ul>
+        <li>Dayjob: Social work in immigration (part time)</li>
+        <li>Nightjob: Bassist in a fairly successful band ("Ugly Giants")</li>
+    </ul>
+
+    <h3 class="sAshley">Other notes:</h3>
+    <ul>
+        <li>She's in a relationship with Soph.</li>
+        <li>She's got a bit of a badass image due to her band.</li>
+        <li>She likes jokingly flirting with people (Soph's okay with that).</li>
+    </ul>
+
+    <h3 class="sAshley">Moodboard:</h3>
+    <ul>
+        <a href="https://www.pinterest.co.uk/solarblips/ashley/" target="_blank">
+            <svg class="_6x6 filldAshley" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
+</div>
+
+<div class="pfContent dMichael" id="pfMichaelContent">
+
+    <h3 class="sMichael">Age:</h3>
+    <ul>
+        <li>28</li>
+    </ul>
+
+    <h3 class="sMichael">Hacking motivations:</h3>
+    <ul>
+        <li>He's in it for sense of community/family within the group, and absorbs the motivations of the others over time (empathy).</li>
+    </ul>
+
+    <h3 class="sMichael">What drives him in general?</h3>
+    <ul>
+        <li>The joy of helping people using his skills (e.g. working on free amd open sourced projects).</li>
+        <li>Friendship</li>
+    </ul>
+
+    <h3 class="sMichael">Strengths:</h3>
+    <ul>
+        <li>Devotion to friendships</li>
+        <li>Passion</li>
+        <li>Empathy</li>
+    </ul>
+
+    <h3 class="sMichael">Flaws:</h3>
+    <ul>
+        <li>Struggles with mental health, which holds him back.</li>
+        <li>Is kind of a follower (goes along with what others say). He is willing to adapt his identity slightly to find friendship, but only to a certain extent.</li>
+        <li>Can be easily taken advantage of.</li>
+    </ul>
+
+    <h3 class="sMichael">Job:</h3>
+    <ul>
+        <li>On disability because of mental health.</li>
+        <li>Volunteers at an animal shelter.</li>
+    </ul>
+
+    <h3 class="sMichael">Other notes:</h3>
+    <ul>
+        <li>Michael meets Storm as he is about to jump off a bridge. Storm persuades him to talk, ends up stopping him, and invites him to spend the night at the squat where the group is set up. They end up talking throughout the night, getting to know that they like each other as people and also have similar/complimentary technical interests, and so Storm ends up recruiting him.</li>
+    </ul>
+
+    <h3 class="sMichael">Moodboard:</h3>
+    <ul>
+        <a href="https://www.pinterest.co.uk/solarblips/michael/" target="_blank">
+            <svg class="_6x6 filldMichael" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
+</div>
+
+<div class="pfContent dDev" id="pfDevContent">
+    
+    <h3 class="sDev">Age:</h3>
+    <ul>
+        <li>83</li>
+    </ul>
+
+    <h3 class="sDev">Hacking motivations:</h3>
+    <ul>
+        <li>Adrenaline rush</li>
+        <li>Starts caring about the others and wants them to succeed.</li>
+
+    </ul>
+
+    <h3 class="sDev">What drives him in general?</h3>
+    <ul>
+        <li>He just wants to enjoy his life to the fullest extent.</li>
+    </ul>
+
+    <h3 class="sDev">Strengths:</h3>
+    <ul>
+        <li>Independent</li>
+        <li>Experience + Practical thinking</li>
+        <li>Carefree + Spontaneous</li>
+        <li>Charismatic</li>
+        <li>Clever / Witty</li>
+    </ul>
+
+    <h3 class="sDev">Flaws:</h3>
+    <ul>
+        <li>Risktaker (flaw due to danger) and sometimes reluctant to accept help (negative side of him being very self sufficient and doing stuff from scratch all the time).</li>
+        <li>Lack of commitment (except for to the group's objective)</li>
+        <li>Unused potential (his projects are only personal (until group objective))</li>
+        <li>Private lifestyle (doesn't talk about personal matters) + not very settled with friends (initially)</li>
+    </ul>
+
+    <h3 class="sDev">Job:</h3>
+    <ul>
+        <li>Retired</li>
+    </ul>
+
+    <h3 class="sDev">Other notes:</h3>
+    <ul>
+        <li>He's the kind of guy to show up at your front door at 2 A.M. with a caprisun and sunglasses and want to take you on an adventure.</li>
+    </ul>
+
+    <h3 class="sDev">Moodboard:</h3>
+    <ul>
+        <a href="https://www.pinterest.co.uk/solarblips/dev/" target="_blank">
+            <svg class="_6x6 filldDev" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
+</div>
+
+<div class="pfContent dNova" id="pfNovaContent">
+    
+    <h3 class="sNova">Age:</h3>
+    <ul>
+        <li>19</li>
+    </ul>
+
+    <h3 class="sNova">Hacking motivations:</h3>
+    <ul>
+        <!--CHECK-->
+        <li>Hacking - especially cryptography stuff - is fun for her, and she enjoys the [learning aspect] [learning process and knowing more after it].</li>
+        <li>She considers the groups motives as helpful to others and wants to contribute to the good cause.</li>
+
+    </ul>
+
+    <h3 class="sNova">What drives her in general?</h3>
+    <ul>
+        <li>She has a lot of drive in general and can't stand <i>not</i> doing things</li>
+        <li>On top of that she thinks that encryption and privacy is important and likes to test its limits - simultaneously learning more about the current state of things.</li>
+    </ul>
+
+    <h3 class="sNova">Strengths:</h3>
+    <ul>
+        <li>A lot of drive/energy</li>
+        <li>honesty</li> 
+        <li>sees the positive in things but stays realistic</li>
+        <li>handles criticism well</li>
+        <li>sees others as equals, not above or below and treats them like it</li>
+    </ul>
+
+    <h3 class="sNova">Flaws:</h3>
+    <ul>
+        <li>Impulsive + sometimes not careful</li>
+        <li>undisciplined, can't keep schedules and sometimes inattentive</li>
+        <li>sometimes bordering selfish in her desire to make the best ouf of "the meaningless void of existence" (nihilism)</li>
+        <li>gets into deep conversations even if the other person doesn't want that in that moment</li>
+    </ul>
+
+    <h3 class="sNova">Job:</h3>
+    <ul>
+        <li>still in university (university of east london), studies Computer Science and Digital Technologies OR Maths</li>
+    </ul>
+
+    <h3 class="sNova">Other notes:</h3>
+    <ul>
+        <li>She likes getting into deep philosophical conversations and subscribes to the school of thought of nihilism. She's also very fidgety and definitely drinks way too much coffee.</li>
+    </ul>
+
+    <h3 class="sNova">Moodboard:</h3>
+    <ul>
+        <a href="https://www.pinterest.co.uk/solarblips/nova/" target="_blank">
+            <svg class="_6x6 filldNova" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
+</div>
+
+
+
+<!------- Profiles JS ------->
+<script>
+var pfbs = document.getElementsByClassName("pf");
+var pfContentList = document.getElementsByClassName("pfContent");
+var i;
+
+function profiles() {
+    var x;
+    var y;
+    var idContent = this.classList[1] + "Content";
+    var content = document.getElementById(idContent);
+    if (this.classList.length == 2) {
+        for (x = 0; x < pfbs.length; x++) {
+            pfbs[x].classList.remove(pfbs[x].classList[2]);
+        }
+        for (y = 0; y < pfContentList.length; y++) {
+            pfContentList[y].style.display = "none";
+        }
+        this.classList.toggle(this.classList[1] + "-a");
+        content.style.display = "block";
+    } else {
+        this.classList.toggle(this.classList[1] + "-a");
+        content.style.display = "none";
+    }
+}
+
+for (i = 0; i < pfbs.length; i++) {
+    pfbs[i].addEventListener("click", profiles);
+}
+</script>
+</div>
+
+
+
+
+
+<hr class="a" style="clear:left">
+
+
+
+
+
+<div style="position:relative; height:2rem; margin-bottom:1rem;">
+<p style="margin:0rem; position:absolute; top:50%; transform:translateY(-50%);">Ur mom is a spaghetti (code).</p>
+<img src="https://cdn.discordapp.com/attachments/946539417655447582/1023020220706717737/Dev.png" style="width:2rem; border-radius:50%; object-fit:cover; float:right" title="Diagnostic Dev">
+</div>
+
+</div>
+
+
+</body>
+</html>
