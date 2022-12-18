@@ -81,6 +81,14 @@ h3{
   color: var(--Light)
 }
 
+a{
+  color: var(--Light)
+}
+
+a:hover{
+  color: var(--Text)
+}
+
 .fillsText, .filldText:hover {
   fill: var(--Light)
 }
