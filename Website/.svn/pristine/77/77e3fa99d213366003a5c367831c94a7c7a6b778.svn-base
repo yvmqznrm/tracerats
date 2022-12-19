@@ -3,10 +3,9 @@
 <head>
 
 <meta charset="UTF-8">
-<title>updates</title>
+<title>Download</title>
 <link rel="icon" type="image/x-icon" href="favicon.png">
 <base href="http://127.0.0.1:8000/" target="_top">
-<!-- <base href="http://tracerats.org" target="_top"> -->
 <!--<base href="https://darioacg.org/" target="_top">-->
 <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
 
@@ -63,7 +62,7 @@
 }
 
 .navbar a:hover, .navbar a.active {
-  background-color: var(--Middle);
+  background-color: var(--Bckd);
 }
 
 .navbar button {
@@ -75,7 +74,7 @@
   clear: both;
 }
 
-@media screen and (max-width: 90rem) {
+@media screen and (max-width: 1500px) {
   .navbar a {display: none;}
   .navbar a.active {display: flex;}
   .navbar button {
@@ -84,7 +83,7 @@
   }
 }
 
-@media screen and (max-width: 90rem) {
+@media screen and (max-width: 1500px) {
   .navbar.responsive {
     align-items: stretch;
     flex-direction: column;
@@ -104,7 +103,7 @@
 </style>
 
 
-<nav class="navbar" id="navbar">
+<div class="navbar" id="navbar">
 
   <button style="border:none; padding:0rem; margin-top:0.6rem; margin-bottom:0.6rem; margin-right:1.25rem; height:2.1rem; width:2.1rem; cursor:pointer; background-color:var(--Dark);" type="button" onclick="hbMenu()">
     <style>
@@ -122,19 +121,19 @@
     </svg>
   </button>
 
-  <a href="welcome.html">welcome</a>
+  <a href="welcome.html">Welcome</a>
   <a href="ctfs.html">CTFs</a>
-  <a href="story.html">story</a>
-  <a href="characters.html">characters</a>
-  <a href="places.html">places</a>
-  <a href="updates.html" class="active">updates</a>
-  <a href="participate.html">participate</a>
-  <a href="https://github.com/yvmqznrm/tracerats" target="_blank">downloads</a>
+  <a href="story.html">Story</a>
+  <a href="characters.html">Characters</a>
+  <a href="places.html">Places</a>
+  <a href="updates.html">Updates</a>
+  <a href="participate.html">Participate</a>
+  <a href="download.html" class="active">Download</a>
   
   <!------- Disable Colours ------->
   <div style="float:right; display:flex; align-items:center; height:3.3rem; flex-grow:1; justify-content:flex-end;">
 
-    <p style="margin:0rem; font-size: 1rem; color: var(--Light)">disable colours</p>
+    <p style="margin:0rem; font-size: 1rem; color: var(--Light)">Disable Colours</p>
 
       <!------- Disable Colours CSS ------->
       <style>
@@ -205,13 +204,53 @@
     
   </div>
 
-  <script src="scripts/disable_colours.js"></script>
+  <script>
+    var colours = ["sStorm", "dStorm", "sMayhem", "dMayhem", "sSoph", "dSoph", "sAshley", "dAshley", "sMichael", "dMichael", "sDev", "dDev"];
+    var r = document.querySelector(':root');
+    var rs = getComputedStyle(r);
+    
+    function dcEnable() {
+      for(i = 0; i < colours.length; i++) {
+        if(colours[i].substr(0,1) == "s") {
+          r.style.setProperty(("--" + colours[i]), rs.getPropertyValue('--Light'));
+        } else {
+          r.style.setProperty(("--" + colours[i]), rs.getPropertyValue('--Middle'));
+        }
+      }
+    }
 
-</nav>
+    function dcDisable() {
+      for(i = 0; i < colours.length; i++) {
+        r.style.setProperty("--" + colours[i], rs.getPropertyValue("--PERM" + colours[i]));
+      }
+    }
+
+    function dcToggle() {
+      if (dcOn == false) {
+        dcEnable();
+        document.cookie = "dcOn=ON; path=/;";
+        dcOn = true;
+      } else {
+        dcDisable();
+        document.cookie = "dcOn=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+        dcOn = false;
+      }
+    }
+
+    if (document.cookie == "") {
+      dcDisable();
+      var dcOn = false;
+      document.getElementById("dcCheckbox").checked = false;
+    } else {
+      dcEnable();
+      var dcOn = true;
+      document.getElementById("dcCheckbox").checked = true;
+    }
+  </script>
+
+</div>
 
 <script>
-document.getElementById("navbar").className = "navbar";
-
 function hbMenu() {
   var x = document.getElementById("navbar");
   if (x.className === "navbar") {
@@ -228,22 +267,8 @@ function hbMenu() {
 
 <div class="pageContent">
 
-<h1>updates</h1>
+<h1>Title</h1>
 
-<h2>18.12.2022 - first update</h2>
-<p>
-  hi and welcome to the updates page! here we will be posting about anything interesting that happens during the development of this game! <br>
-  you can expect to see infos about the current state of things, new releases, cool events that we will be hosting, etc. <br>
-  in this first update we want to also tell you about a cool thing that will be happening soon:
-  we'll be giving a talk about this project at Hacking in Parallel at the end of december 2022! <br>
-  the talk will be from 1pm to 2:25pm local time on the 28th of december, berlin. <br>
-  it will touch on how the development so far has been teaching especially me(yvmqznrm) a lot about technology and video games
-  and been a helpful resource for dealing with mental health.
-  <br> <br>
-  <a href="https://pretalx.c3voc.de/hip-berlin-2022/talk/SRYJMG/" target="_blank">here's the link to the talk if you want to know more :)</a>
-  <br> <br>
-  -yvmqznrm
-</p>
 
 <hr class="a" style="clear:left">
 
@@ -252,8 +277,8 @@ function hbMenu() {
 
 
 <div style="position:relative; height:2rem; margin-bottom:1rem;">
-<p style="margin:0rem; position:absolute; top:50%; transform:translateY(-50%); color:var(--Bckd)">ur mom is a spaghetti (code).</p>
-<img src="https://cdn.discordapp.com/attachments/946539417655447582/1023020220706717737/Dev.png" style="width:2rem; border-radius:50%; object-fit:cover; float:right" title="diagnostic dev">
+<p style="margin:0rem; position:absolute; top:50%; transform:translateY(-50%);">Ur mom is a spaghetti (code).</p>
+<img src="https://cdn.discordapp.com/attachments/946539417655447582/1023020220706717737/Dev.png" style="width:2rem; border-radius:50%; object-fit:cover; float:right" title="Diagnostic Dev">
 </div>
 
 </div>

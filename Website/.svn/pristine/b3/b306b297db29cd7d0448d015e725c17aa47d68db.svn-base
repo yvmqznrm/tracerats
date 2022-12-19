@@ -3,10 +3,9 @@
 <head>
 
 <meta charset="UTF-8">
-<title>updates</title>
+<title>CTFs</title>
 <link rel="icon" type="image/x-icon" href="favicon.png">
-<base href="http://127.0.0.1:8000/" target="_top">
-<!-- <base href="http://tracerats.org" target="_top"> -->
+<base href="http://tracerats.org" target="_top">
 <!--<base href="https://darioacg.org/" target="_top">-->
 <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
 
@@ -123,11 +122,11 @@
   </button>
 
   <a href="welcome.html">welcome</a>
-  <a href="ctfs.html">CTFs</a>
+  <a href="ctfs.html" class="active">CTFs</a>
   <a href="story.html">story</a>
   <a href="characters.html">characters</a>
   <a href="places.html">places</a>
-  <a href="updates.html" class="active">updates</a>
+  <a href="updates.html">updates</a>
   <a href="participate.html">participate</a>
   <a href="https://github.com/yvmqznrm/tracerats" target="_blank">downloads</a>
   
@@ -228,22 +227,72 @@ function hbMenu() {
 
 <div class="pageContent">
 
-<h1>updates</h1>
+<style>
+.ctfCategories {
+  display: flex;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
-<h2>18.12.2022 - first update</h2>
-<p>
-  hi and welcome to the updates page! here we will be posting about anything interesting that happens during the development of this game! <br>
-  you can expect to see infos about the current state of things, new releases, cool events that we will be hosting, etc. <br>
-  in this first update we want to also tell you about a cool thing that will be happening soon:
-  we'll be giving a talk about this project at Hacking in Parallel at the end of december 2022! <br>
-  the talk will be from 1pm to 2:25pm local time on the 28th of december, berlin. <br>
-  it will touch on how the development so far has been teaching especially me(yvmqznrm) a lot about technology and video games
-  and been a helpful resource for dealing with mental health.
-  <br> <br>
-  <a href="https://pretalx.c3voc.de/hip-berlin-2022/talk/SRYJMG/" target="_blank">here's the link to the talk if you want to know more :)</a>
-  <br> <br>
-  -yvmqznrm
+@media screen and (max-width: 35rem) {
+  .ctfCategories {
+    flex-direction: column;
+  }
+}
+
+.ctfCategory {
+  width: 47%;
+}
+
+@media screen and (max-width: 35rem) {
+  .ctfCategory {
+    width: 100%;
+  }
+}
+</style>
+
+<h1>what are CTFs?</h1>
+
+<p>capture the flag in a cybersecurity context is a competition meant to teach fundamentals of information security from an attacker's perspective. the two most common forms of ctf competitions are attack and defense and jeopardy.
+  <br><br>attack and defense usually entails players attacking other player's machines in an attempt of capturing their flag while attempting to defend their own against cyber attacks. these kinds of competitions are usually reserved for the finals of a competition.
+  <br><br>jeopardy which is the more common of the two usually has various challenges aimed at testing different areas of knowledge. they are also meant to range in difficulty to let players of all skill levels participate and learn. the category a challenge is under usually can give an insight of what kind of skills will be required and in many cases, a small blurb will also provide a hint which can direct new players on what areas they might want to study or touch up on before taking on said challenge. the goal for players is to utilize various hacking techniques to find and submit the flag hidden in the challenge. this will provide the player with points which usually coincide with the level of difficulty for the challenge.
 </p>
+
+<h2 style="margin-top: 3rem">common categories:</h2>
+
+<div class="ctfCategories">
+  <div class="ctfCategory">
+    <h3 style="color:var(--sSoph)">pwn:</h3>
+    <p style="color:var(--dSoph)">a challenge that typically requires exploitation of a binary to gain access to the flag. these are typically solved by discovering vulnerabilities common in binaries such as memory corruption (buffer overflows, use after frees, etc), race conditions, or the like.</p>
+  </div>
+
+  <div class="ctfCategory">
+    <h3 style="color:var(--sMayhem)">web:</h3>
+    <p style="color:var(--dMayhem)">similarly to pwn, these typically require exploitation of a target, however, these are specifically web based. these challenges typically require common web application vulnerability knowledge such as cross-site scripting (XSS), path traversal, SQL injection and the like.</p>
+  </div>
+
+  <div class="ctfCategory">
+    <h3 style="color:var(--sStorm)">reverse engineering / RE:</h3>
+    <p style="color:var(--dStorm)">although these sometimes require exploitation, the goal of reverse engineering challenges typically is to understand how a program or application functions in order to discover a secret in the application. it is common for this category to overlap with the crypto category as this also typically requires understanding of the algorithms used. this category typically requires disassembly or decompiling of binaries so tools such as Ghidra are recommended.</p>
+  </div>
+
+  <div class="ctfCategory">
+    <h3 style="color:var(--sMichael)">forensics:</h3>
+    <p style="color:var(--dMichael)">not as common as the other categories, this category usually centers around a more defensive approach of finding hidden information or attempt of compromise. some examples could include finding hidden files in network traffic, finding hidden flags in image or files (steganography), or simply finding files in a data dump.</p>
+  </div>
+
+  <div class="ctfCategory">
+    <h3 style="color:var(--sNova)">crypto:</h3>
+    <p style="color:var(--dNova)">this type of challenge usually centers around the breaking of cryptographic algorithms. this can either take the form of custom crypto algorithms with mathematical flaws, or, the use of algorithms known to have issues such as padding oracles or simple brute force attacks. this category typically is more mathematically focused compared to the others.</p>
+  </div>
+
+  <div class="ctfCategory">
+    <h3 style="color:var(--sDev)">misc:</h3>
+    <p style="color:var(--dDev)">a category usually reserved for miscellaneous and fun challenges that do not exactly fit in the other categories. this can sometimes include fun recon problems that involve finding information about a certain person to finding information in RF frequencies or even sometimes making phone calls. the possibilities here are endless :)</p>
+  </div>
+</div>
+
 
 <hr class="a" style="clear:left">
 
@@ -252,7 +301,7 @@ function hbMenu() {
 
 
 <div style="position:relative; height:2rem; margin-bottom:1rem;">
-<p style="margin:0rem; position:absolute; top:50%; transform:translateY(-50%); color:var(--Bckd)">ur mom is a spaghetti (code).</p>
+<p style="margin:0rem; position:absolute; top:50%; transform:translateY(-50%); color:var(--Bckd);">ur mom is a spaghetti (code).</p>
 <img src="https://cdn.discordapp.com/attachments/946539417655447582/1023020220706717737/Dev.png" style="width:2rem; border-radius:50%; object-fit:cover; float:right" title="diagnostic dev">
 </div>
 
