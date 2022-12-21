@@ -11,6 +11,11 @@
 <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
 
 
+<script src="scripts/jquery-3.6.2.slim.js"></script>
+
+<script src="scripts/panzoom.min.js"></script>
+
+
 <!------- General ------->
 <link rel="stylesheet" href="stylesheets/general.css">
 
@@ -70,11 +75,6 @@
   display: none;
 }
 
-.pageContent {
-  padding: 0% 2.5%;
-  clear: both;
-}
-
 @media screen and (max-width: 90rem) {
   .navbar a {display: none;}
   .navbar a.active {display: flex;}
@@ -114,7 +114,7 @@
         fill: var(--Light);
       }
       .hbSVG:hover {
-        fill: var(--Middle)
+        fill: var(--Text)
       }
     </style>
     <svg class="hbSVG" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -226,10 +226,44 @@ function hbMenu() {
 
 
 
-<div class="pageContent">
+<div class="pageContent" id="pageContent">
 
-<h1>title</h1>
+<h1 style="margin-bottom:2rem">story</h1>
 
+<style>
+
+#flowchart_container {
+  width: 45%;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 0rem;
+  float: left;
+}
+#story_flowchart {
+  width: 100%;
+}
+</style>
+
+
+<div id="flowchart_container">
+  <img id="story_flowchart" src="images/story_flowchart.png" alt="story flowchart">
+</div>
+
+<script>
+image_to_zoom = document.getElementById("story_flowchart");
+const panzoom = Panzoom(image_to_zoom, {contain: 'outside', maxScale:10});
+image_to_zoom.addEventListener('wheel', panzoom.zoomWithWheel);
+</script>
+
+<p style="margin-top:0rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat orci nulla pellentesque dignissim enim sit amet. Sit amet consectetur adipiscing elit. Posuere morbi leo urna molestie. Diam maecenas sed enim ut sem viverra. Cursus in hac habitasse platea dictumst quisque sagittis purus sit. Nibh ipsum consequat nisl vel pretium lectus quam id. Sit amet consectetur adipiscing elit ut. Volutpat lacus laoreet non curabitur gravida arcu. Gravida arcu ac tortor dignissim convallis aenean et tortor. Amet consectetur adipiscing elit duis tristique sollicitudin. Mauris vitae ultricies leo integer malesuada nunc vel.</p>
+
+<p>Condimentum vitae sapien pellentesque habitant morbi. Vestibulum sed arcu non odio. Est velit egestas dui id ornare. Purus non enim praesent elementum facilisis leo vel. Dolor sed viverra ipsum nunc. Augue neque gravida in fermentum et sollicitudin ac orci. Ut sem viverra aliquet eget. In nibh mauris cursus mattis molestie a iaculis at. Quam pellentesque nec nam aliquam sem. Aliquam purus sit amet luctus venenatis lectus. Rutrum quisque non tellus orci ac auctor augue mauris. Faucibus a pellentesque sit amet porttitor. Malesuada bibendum arcu vitae elementum curabitur vitae nunc sed velit. Ipsum dolor sit amet consectetur adipiscing elit ut. Varius sit amet mattis vulputate. Tempor commodo ullamcorper a lacus vestibulum. Molestie a iaculis at erat pellentesque.</p>
+  
+<p>Tellus id interdum velit laoreet id donec ultrices. Facilisis leo vel fringilla est ullamcorper eget nulla. Tincidunt nunc pulvinar sapien et ligula ullamcorper. Egestas pretium aenean pharetra magna ac placerat vestibulum lectus. Commodo elit at imperdiet dui accumsan sit amet nulla. Nam libero justo laoreet sit amet cursus sit. Netus et malesuada fames ac turpis egestas integer eget. Tellus at urna condimentum mattis pellentesque id nibh. Scelerisque in dictum non consectetur a erat nam at lectus. Nisl purus in mollis nunc sed id semper risus. Tempor orci eu lobortis elementum nibh. Ipsum consequat nisl vel pretium.</p>
+  
+<p>Est placerat in egestas erat imperdiet. Diam maecenas sed enim ut sem. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Cursus vitae congue mauris rhoncus. Euismod elementum nisi quis eleifend quam adipiscing vitae proin sagittis. Erat velit scelerisque in dictum. Eget nunc lobortis mattis aliquam faucibus purus in massa. Consequat nisl vel pretium lectus. Enim sed faucibus turpis in eu mi bibendum neque. Iaculis eu non diam phasellus vestibulum. At tellus at urna condimentum mattis pellentesque. Mattis ullamcorper velit sed ullamcorper morbi tincidunt.</p>
+  
+<p>Eget mi proin sed libero enim sed faucibus turpis in. A erat nam at lectus urna. Urna molestie at elementum eu facilisis sed odio morbi quis. Rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat. Vitae semper quis lectus nulla at. Aliquet risus feugiat in ante metus dictum. Tincidunt augue interdum velit euismod. Tristique nulla aliquet enim tortor. Quam lacus suspendisse faucibus interdum posuere lorem. Mattis aliquam faucibus purus in massa tempor nec feugiat. Ac tortor vitae purus faucibus ornare. Ut etiam sit amet nisl. Sit amet dictum sit amet justo donec enim diam vulputate. Vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa. Nibh tortor id aliquet lectus proin nibh nisl. Morbi blandit cursus risus at ultrices mi.</p>
 
 <hr class="a" style="clear:left">
 

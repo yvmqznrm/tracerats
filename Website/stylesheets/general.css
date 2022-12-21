@@ -8,34 +8,46 @@
   --Dark: #16161f;
   --PERMsStorm: #2a71e9;
   --PERMdStorm: #21549e;
+  --PERMcStorm: #3c567b;
   --PERMsMayhem: #e0c024;
   --PERMdMayhem: #96851d;
+  --PERMcMayhem: #837c4f;
   --PERMsSoph: #5bceff;
   --PERMdSoph: #458daa;
+  --PERMcSoph: #5a7f93;
   --PERMsAshley: #7cce6a;
   --PERMdAshley: #5c8d52;
   --PERMsMichael: #db372f;
   --PERMdMichael: #942a26;
+  --PERMcMichael: #744145;
   --PERMsDev: #ff7a3a;
   --PERMdDev: #a65b2e;
+  --PERMcDev: #866252;
   --PERMsNova: #9764c1;
   --PERMdNova: #6d4b88;
+  --PERMcNova: #67557e;
 
 
   --sStorm: #2a71e9;
-  --dStorm: #565d8a;
+  --dStorm: #21549e;
+  --cStorm: #557ebb;
   --sMayhem: #e0c024;
-  --dMayhem: #6d5e46;
+  --dMayhem: #96851d;
+  --cMayhem: #aea361;
   --sSoph: #5bceff;
-  --dSoph: #4a696b;
+  --dSoph: #458daa;
+  --cSoph: #71a9c4;
   --sAshley: #7cce6a;
-  --dAshley: #526954;
+  --dAshley: #5c8d52;
   --sMichael: #db372f;
-  --dMichael: #715663;
+  --dMichael: #942a26;
+  --cMichael: #ad5e68;
   --sDev: #ff7a3a;
-  --dDev: #7a5452;
-  --sNova: #FF00FF;
-  --dNova: #952d95;
+  --dDev: #a65b2e;
+  --cDev: #ba836d;
+  --sNova: #9764c1;
+  --dNova: #6d4b88;
+  --cNova: #8f77ac;
 }
 
 body{
@@ -58,7 +70,7 @@ hr.a{
 }
 
 hr.b{
-  height: 0.08rem;
+  height: 0.12rem;
   background-color: var(--Light);
   margin-bottom: 1rem;
 }
@@ -90,7 +102,9 @@ a:hover{
 }
 
 .pageContent {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  padding: 0% 2.5%;
+  clear: both;
 }
 
 .fillsText, .filldText:hover {

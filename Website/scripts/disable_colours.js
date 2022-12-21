@@ -1,4 +1,4 @@
-var colours = ["sStorm", "dStorm", "sMayhem", "dMayhem", "sSoph", "dSoph", "sAshley", "dAshley", "sMichael", "dMichael", "sDev", "dDev", "sNova", "dNova"];
+var colours = ["sStorm", "dStorm", "sMayhem", "dMayhem", "sSoph", "dSoph", "sAshley", "dAshley", "sMichael", "dMichael", "sDev", "dDev", "sNova", "dNova", "cStorm", "cMayhem", "cSoph", "cMichael", "cDev", "cNova"];
 var r = document.querySelector(':root');
 var rs = getComputedStyle(r);
 
