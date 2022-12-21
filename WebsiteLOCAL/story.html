@@ -3,12 +3,17 @@
 <head>
 
 <meta charset="UTF-8">
-<title>places</title>
+<title>story</title>
 <link rel="icon" type="image/x-icon" href="favicon.png">
-<!-- <base href="http://127.0.0.1:8000/" target="_top"> -->
-<base href="http://tracerats.org" target="_top">
+<base href="http://127.0.0.1:8000/" target="_top">
+<!-- <base href="http://tracerats.org" target="_top"> -->
 <!--<base href="https://darioacg.org/" target="_top">-->
 <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+
+
+<script src="scripts/jquery-3.6.2.slim.js"></script>
+
+<script src="scripts/panzoom.min.js"></script>
 
 
 <!------- General ------->
@@ -119,9 +124,9 @@
 
   <a href="welcome.html">welcome</a>
   <a href="ctfs.html">CTFs</a>
-  <a href="story.html">story</a>
+  <a href="story.html" class="active">story</a>
   <a href="characters.html">characters</a>
-  <a href="places.html" class="active">places</a>
+  <a href="places.html">places</a>
   <a href="updates.html">updates</a>
   <a href="participate.html">participate</a>
   <a href="https://github.com/yvmqznrm/tracerats" target="_blank">downloads</a>
@@ -221,126 +226,44 @@ function hbMenu() {
 
 
 
-<div class="pageContent">
+<div class="pageContent" id="pageContent">
+
+<h1 style="margin-bottom:2rem">story</h1>
 
 <style>
-#top_button{
-  background-color:var(--Light);
-  color:var(--Bckd);
-  border:none;
-  padding:0.5rem 1rem;
-  font-size:1.5rem;
-  border-radius:5rem;
-  cursor:pointer;
-  font-family: monospace;
-}
 
-#top_button:hover{
-  background-color: var(--Text);
+#flowchart_container {
+  width: 45%;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 0rem;
+  float: left;
+}
+#story_flowchart {
+  width: 100%;
 }
 </style>
 
-<a href="places.html#navbar" style="position:fixed; bottom:5%; right: 5%"><button id="top_button">to top</button></a>
 
-<h1>places within the game</h1>
+<div id="flowchart_container">
+  <img id="story_flowchart" src="images/story_flowchart.png" alt="story flowchart">
+</div>
 
-<a href="places.html#mornington_sports_centre">>mornington_sports_centre</a><br>
-<a href="places.html#st_pauls_cathedral">>saint_paul's_cathedral</a><br>
-<a href="places.html#hackerspace">>hackerspace</a><br>
-<a href="places.html#east_end">>east_end</a><br>
-<a href="places.html#down_street_station">>down_street_station</a><br>
-<a href="places.html#physical_hack_place">>PHYSICAL_HACK_PLACE</a><br>
-<a href="places.html#prison">>prison</a><br>
-<a href="places.html#police_station">>police_station</a><br>
-<a href="places.html#cemetery">>city_of_london_cemetery_and_crematorium</a><br>
-<hr class="b" style="margin-top:1.5rem">
-<br>
+<script>
+image_to_zoom = document.getElementById("story_flowchart");
+const panzoom = Panzoom(image_to_zoom, {contain: 'outside', maxScale:10});
+image_to_zoom.addEventListener('wheel', panzoom.zoomWithWheel);
+</script>
 
-<h2 id="mornington_sports_centre">mornington_sports_centre</h2>
-<img src="https://www.ribapix.com/images/thumbs/030/0306208_RIBA116129.jpeg" alt="Mornington Sports Centre" style="height:20rem"> 
-<p>
-  the mornington sports centre is the place of the squat that tracerats have joined. the anarchist group that squats it has made it into a community project. it looks very chaotic, but cozy!
-</p>
+<p style="margin-top:0rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat orci nulla pellentesque dignissim enim sit amet. Sit amet consectetur adipiscing elit. Posuere morbi leo urna molestie. Diam maecenas sed enim ut sem viverra. Cursus in hac habitasse platea dictumst quisque sagittis purus sit. Nibh ipsum consequat nisl vel pretium lectus quam id. Sit amet consectetur adipiscing elit ut. Volutpat lacus laoreet non curabitur gravida arcu. Gravida arcu ac tortor dignissim convallis aenean et tortor. Amet consectetur adipiscing elit duis tristique sollicitudin. Mauris vitae ultricies leo integer malesuada nunc vel.</p>
 
-<br>
-<br>
-<br>
-
-<h2 id="st_pauls_cathedral">saint_paul's_cathedral</h2>
-<img src="https://i.dailymail.co.uk/i/pix/2011/10/22/article-2052267-0E79826700000578-855_634x426.jpg" alt="Mornington Sports Centre" style="height:20rem"> 
-<p>
-  saint paul's cathedral is the place where the protest in the beginning of the game takes place. it is one of the places that the group could pick up the player character.
-</p>
-
-<br>
-<br>
-<br>
-
-<h2 id="hackerspace">hackerspace</h2>
-<img src="https://external-preview.redd.it/03k_lSkZ7DXgx0LlLMVpQ_Il47nV6T0v1nzfGm-YEhQ.jpg?width=960&crop=smart&auto=webp&s=ff42533f977fc84b899a5b36ccdabe1c759fb075" alt="hackerspace" style="height:20rem"> <!--REPLACE ONCE WE MADE THE 3D THING-->
-<p>
-  the hackerspace is an area within the squat, that tracerats decided to do their hacking in. it's got cool graffiti and fun little trinkets and colourful blinking LED lights everywhere!
-</p>
-
-<br>
-<br>
-<br>
-
-<h2 id="east_end">east_end</h2>
-<img src="http://fotosnet.de/wp-content/uploads/2016/12/final-13.jpg" alt="east end" style="height:20rem"> 
-<p>
-  the east end has lots of cool graffitis. mayhem can take the player and storm graffitiing there at some point during the story.
-</p>
-
-<br>
-<br>
-<br>
-
-<h2 id="down_street_station">down_street_station</h2>
-<img src="https://s19623.pcdn.co/wp-content/uploads/2020/01/Down-Street-main-tunnel.jpg" alt="Down Street Station" style="height:20rem"> 
-<p>
-  Down Street Station is an abandoned tube station which was used as an underground bunker during WWII. it is also where dev, nova and the player go for some urban exploring.
-</p>
-
-<br>
-<br>
-<br>
-
-<h2 id="physical_hack_place">PHYSICAL_HACK_PLACE</h2>
-<img src="INSERT" alt="IMG DESCRIPTION" style="height:20rem"> <!--INSERT ONCE WE KNOW-->
-<p>
-  FILL IN AS SOON AS WE DO THE RESEARCH ON HOW THEY DO THE HACK
-</p>
-
-<br>
-<br>
-<br>
-
-<h2 id="prison">prison</h2>
-<img src="https://static.standard.co.uk/s3fs-public/thumbnails/image/2018/10/09/12/wandsworth-prison333.jpg" alt="prison" style="height:20rem"> <!--REPLACE ONCE WE FOUND THE PRISON-->
-<p>
-  this is the prison where michael's rapist is incarcerated.
-</p>
-
-<br>
-<br>
-<br>
-
-<h2 id="police_station">police_station</h2>
-<img src="https://i2-prod.derbytelegraph.co.uk/incoming/article6938995.ece/ALTERNATES/s615b/0_IMG_0567_resultJPG.jpg" alt="police station" style="height:20rem"> 
-<p>
-  this is the police station where the characters get arrested (if they do).
-</p>
-
-<br>
-<br>
-<br>
-
-<h2 id="cemetery">city_of_london_cemetery_and_crematorium</h2>
-<img src="https://www.cityoflondon.gov.uk/image-library/Images/Green-Spaces/columbarium.xd8a19f3e.JPG?width=768" alt="city of london cemetery and crematorium" style="height:20rem"> 
-<p>
-  city of london cemetery and crematorium is where michael is buried if he dies
-</p>
+<p>Condimentum vitae sapien pellentesque habitant morbi. Vestibulum sed arcu non odio. Est velit egestas dui id ornare. Purus non enim praesent elementum facilisis leo vel. Dolor sed viverra ipsum nunc. Augue neque gravida in fermentum et sollicitudin ac orci. Ut sem viverra aliquet eget. In nibh mauris cursus mattis molestie a iaculis at. Quam pellentesque nec nam aliquam sem. Aliquam purus sit amet luctus venenatis lectus. Rutrum quisque non tellus orci ac auctor augue mauris. Faucibus a pellentesque sit amet porttitor. Malesuada bibendum arcu vitae elementum curabitur vitae nunc sed velit. Ipsum dolor sit amet consectetur adipiscing elit ut. Varius sit amet mattis vulputate. Tempor commodo ullamcorper a lacus vestibulum. Molestie a iaculis at erat pellentesque.</p>
+  
+<p>Tellus id interdum velit laoreet id donec ultrices. Facilisis leo vel fringilla est ullamcorper eget nulla. Tincidunt nunc pulvinar sapien et ligula ullamcorper. Egestas pretium aenean pharetra magna ac placerat vestibulum lectus. Commodo elit at imperdiet dui accumsan sit amet nulla. Nam libero justo laoreet sit amet cursus sit. Netus et malesuada fames ac turpis egestas integer eget. Tellus at urna condimentum mattis pellentesque id nibh. Scelerisque in dictum non consectetur a erat nam at lectus. Nisl purus in mollis nunc sed id semper risus. Tempor orci eu lobortis elementum nibh. Ipsum consequat nisl vel pretium.</p>
+  
+<p>Est placerat in egestas erat imperdiet. Diam maecenas sed enim ut sem. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Cursus vitae congue mauris rhoncus. Euismod elementum nisi quis eleifend quam adipiscing vitae proin sagittis. Erat velit scelerisque in dictum. Eget nunc lobortis mattis aliquam faucibus purus in massa. Consequat nisl vel pretium lectus. Enim sed faucibus turpis in eu mi bibendum neque. Iaculis eu non diam phasellus vestibulum. At tellus at urna condimentum mattis pellentesque. Mattis ullamcorper velit sed ullamcorper morbi tincidunt.</p>
+  
+<p>Eget mi proin sed libero enim sed faucibus turpis in. A erat nam at lectus urna. Urna molestie at elementum eu facilisis sed odio morbi quis. Rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat. Vitae semper quis lectus nulla at. Aliquet risus feugiat in ante metus dictum. Tincidunt augue interdum velit euismod. Tristique nulla aliquet enim tortor. Quam lacus suspendisse faucibus interdum posuere lorem. Mattis aliquam faucibus purus in massa tempor nec feugiat. Ac tortor vitae purus faucibus ornare. Ut etiam sit amet nisl. Sit amet dictum sit amet justo donec enim diam vulputate. Vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa. Nibh tortor id aliquet lectus proin nibh nisl. Morbi blandit cursus risus at ultrices mi.</p>
 
 <hr class="a" style="clear:left">
 

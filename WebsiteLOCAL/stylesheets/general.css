@@ -1,0 +1,116 @@
+:root {
+  --Bckd: #1a1b26;
+  --Light: #a9b1d6;
+  /*--Middle: #42465d;*/
+  --Text: #62667e;
+  --Middle: #2c3044;
+  /*--Dark: #2c3044;*/
+  --Dark: #16161f;
+  --PERMsStorm: #2a71e9;
+  --PERMdStorm: #21549e;
+  --PERMcStorm: #3c567b;
+  --PERMsMayhem: #e0c024;
+  --PERMdMayhem: #96851d;
+  --PERMcMayhem: #837c4f;
+  --PERMsSoph: #5bceff;
+  --PERMdSoph: #458daa;
+  --PERMcSoph: #5a7f93;
+  --PERMsAshley: #7cce6a;
+  --PERMdAshley: #5c8d52;
+  --PERMsMichael: #db372f;
+  --PERMdMichael: #942a26;
+  --PERMcMichael: #744145;
+  --PERMsDev: #ff7a3a;
+  --PERMdDev: #a65b2e;
+  --PERMcDev: #866252;
+  --PERMsNova: #9764c1;
+  --PERMdNova: #6d4b88;
+  --PERMcNova: #67557e;
+
+
+  --sStorm: #2a71e9;
+  --dStorm: #21549e;
+  --cStorm: #557ebb;
+  --sMayhem: #e0c024;
+  --dMayhem: #96851d;
+  --cMayhem: #aea361;
+  --sSoph: #5bceff;
+  --dSoph: #458daa;
+  --cSoph: #71a9c4;
+  --sAshley: #7cce6a;
+  --dAshley: #5c8d52;
+  --sMichael: #db372f;
+  --dMichael: #942a26;
+  --cMichael: #ad5e68;
+  --sDev: #ff7a3a;
+  --dDev: #a65b2e;
+  --cDev: #ba836d;
+  --sNova: #9764c1;
+  --dNova: #6d4b88;
+  --cNova: #8f77ac;
+}
+
+body{
+  background-color: var(--Bckd);
+  font-family: /*"courier new", */monospace;
+  color: var(--Text);
+  margin: 0%;
+  font-size: 100%;
+}
+
+hr{
+  border: none;
+}
+
+hr.a{
+  height: 0.12rem;
+  background-color: var(--Light);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+hr.b{
+  height: 0.12rem;
+  background-color: var(--Light);
+  margin-bottom: 1rem;
+}
+
+h1{
+  margin-bottom: 1rem;
+  color: var(--Light);
+  font-size: 2rem;
+  border-bottom-style: solid;
+  border-bottom-width: 0.12rem;
+  border-bottom-color: var(--Light);
+  padding-bottom: 0.38rem;
+}
+
+h2{
+  color: var(--Light)
+}
+
+h3{
+  color: var(--Light)
+}
+
+a{
+  color: var(--Light)
+}
+
+a:hover{
+  color: var(--Text)
+}
+
+.pageContent {
+  font-size: 1.1rem;
+  padding: 0% 2.5%;
+  clear: both;
+}
+
+.fillsText, .filldText:hover {
+  fill: var(--Light)
+}
+
+.filldText, .fillsText:hover {
+  fill: var(--Text)
+}
