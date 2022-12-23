@@ -1,0 +1,175 @@
+<style>
+  .navbar {
+    background-color: var(--Dark);
+    overflow: hidden;
+    padding: 0% 2.5%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar a {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    color: var(--Light);
+    text-align: center;
+    padding: 0rem 1.25rem;
+    height: 3.3rem;
+    text-decoration: none;
+    font-size: 1.25rem;
+  }
+  
+  .navbar a:hover, .navbar a.active {
+    background-color: var(--Middle);
+  }
+  
+  .navbar button {
+    display: none;
+  }
+  
+  @media screen and (max-width: 90rem) {
+    .navbar a {display: none;}
+    .navbar a.active {display: flex;}
+    .navbar button {
+      /*float: left;*/
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 90rem) {
+    .navbar.responsive {
+      align-items: stretch;
+      flex-direction: column;
+    }
+    /*.navbar.responsive {position: relative;}*/
+    /*.navbar.responsive button {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }*/
+    .navbar.responsive a {
+      /*float: none;*/
+      display: flex;
+      text-align: left;
+    }
+  }
+</style>
+    
+    
+<nav class="navbar" id="navbar">
+    
+  <button style="border:none; padding:0rem; margin-top:0.6rem; margin-bottom:0.6rem; margin-right:1.25rem; height:2.1rem; width:2.1rem; cursor:pointer; background-color:var(--Dark);" type="button" onclick="hbMenu()">
+    <style>
+      .hbSVG {
+        width: 2.1rem;
+        height: 2.1rem;
+        fill: var(--Light);
+      }
+      .hbSVG:hover {
+        fill: var(--Text)
+      }
+    </style>
+    <svg class="hbSVG" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+      <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/>
+    </svg>
+  </button>
+
+  <a href="welcome.html">welcome</a>
+  <a href="ctfs.html">CTFs</a>
+  <a href="story.html">story</a>
+  <a href="characters.html">characters</a>
+  <a href="places.html">places</a>
+  <a href="updates.html">updates</a>
+  <a href="participate.html">participate</a>
+  <a href="https://github.com/yvmqznrm/tracerats" target="_blank">downloads</a>
+  
+  <!------- Disable Colours ------->
+  <div style="float:right; display:flex; align-items:center; height:3.3rem; flex-grow:1; justify-content:flex-end;">
+
+    <p style="margin:0rem; font-size: 1rem; color: var(--Light)">disable colours</p>
+
+      <!------- Disable Colours CSS ------->
+      <style>
+      /* The switch - the box around the slider */
+      .switch {
+          position: relative;
+          display: inline-block;
+          width: 3rem;
+          height: 1.6875rem;
+      }
+
+      /* Hide default HTML checkbox */
+      .switch input {
+          opacity: 0;
+          width: 0;
+          height: 0;
+      }
+
+      /* The slider */
+      .slider {
+          position: absolute;
+          cursor: pointer;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-color: var(--Middle);
+          -webkit-transition: .4s;
+          transition: .4s;
+      }
+
+      .slider:before {
+          position: absolute;
+          content: "";
+          height: 1.3125rem;
+          width: 1.3125rem;
+          left: 0.1875rem;
+          bottom: 0.1875rem;
+          background-color: var(--Light);
+          -webkit-transition: .4s;
+          transition: .4s;
+      }
+
+      input:checked + .slider {
+          background-color: var(--Text);
+      }
+
+      input:checked + .slider:before {
+          -webkit-transform: translateX(1.3125rem);
+          -ms-transform: translateX(1.3125rem);
+          transform: translateX(1.3125rem);
+      }
+
+      /* Rounded sliders */
+      .slider.round {
+          border-radius: 1.6875rem;
+      }
+
+      .slider.round:before {
+          border-radius: 50%;
+      }
+      </style>
+    
+      <label class="switch" id="cbSlider" style="margin-left:1rem;">
+          <input id="dcCheckbox" type="checkbox" onclick="dcToggle()">
+          <span class="slider round"></span>
+      </label>
+    
+  </div>
+
+  <script src="scripts/disable_colours.js"></script>
+    
+</nav>
+    
+<script>
+  document.getElementById("navbar").className = "navbar";
+  
+  function hbMenu() {
+    var x = document.getElementById("navbar");
+    if (x.className === "navbar") {
+      x.className += " responsive";
+    } else {
+      x.className = "navbar";
+    }
+  } 
+</script>

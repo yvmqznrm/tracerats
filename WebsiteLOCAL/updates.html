@@ -3,7 +3,7 @@
 <head>
 
 <meta charset="UTF-8">
-<title>updates</title>
+<title>tracerats - updates</title>
 <link rel="icon" type="image/x-icon" href="favicon.png">
 <base href="http://127.0.0.1:8000/" target="_top">
 <!-- <base href="http://tracerats.org" target="_top"> -->
@@ -73,25 +73,14 @@
 @media screen and (max-width: 90rem) {
   .navbar a {display: none;}
   .navbar a.active {display: flex;}
-  .navbar button {
-    /*float: left;*/
-    display: block;
-  }
-}
+  .navbar button {display: block;}
 
-@media screen and (max-width: 90rem) {
   .navbar.responsive {
     align-items: stretch;
     flex-direction: column;
   }
-  /*.navbar.responsive {position: relative;}*/
-  /*.navbar.responsive button {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }*/
+
   .navbar.responsive a {
-    /*float: none;*/
     display: flex;
     text-align: left;
   }
@@ -124,7 +113,7 @@
   <a href="places.html">places</a>
   <a href="updates.html" class="active">updates</a>
   <a href="participate.html">participate</a>
-  <a href="https://github.com/yvmqznrm/tracerats" target="_blank">downloads</a>
+  <a href="https://github.com/yvmqznrm/tracerats" target="_blank">github</a>
   
   <!------- Disable Colours ------->
   <div style="float:right; display:flex; align-items:center; height:3.3rem; flex-grow:1; justify-content:flex-end;">
@@ -133,7 +122,6 @@
 
       <!------- Disable Colours CSS ------->
       <style>
-      /* The switch - the box around the slider */
       .switch {
           position: relative;
           display: inline-block;
@@ -141,14 +129,12 @@
           height: 1.6875rem;
       }
 
-      /* Hide default HTML checkbox */
       .switch input {
           opacity: 0;
           width: 0;
           height: 0;
       }
 
-      /* The slider */
       .slider {
           position: absolute;
           cursor: pointer;
@@ -156,9 +142,10 @@
           left: 0;
           right: 0;
           bottom: 0;
-          background-color: var(--Bckd);
+          background-color: var(--Middle);
           -webkit-transition: .4s;
           transition: .4s;
+          border-radius: 1.6875rem;
       }
 
       .slider:before {
@@ -171,10 +158,11 @@
           background-color: var(--Light);
           -webkit-transition: .4s;
           transition: .4s;
+          border-radius: 50%;
       }
 
       input:checked + .slider {
-          background-color: var(--Middle);
+          background-color: var(--Text);
       }
 
       input:checked + .slider:before {
@@ -183,14 +171,6 @@
           transform: translateX(1.3125rem);
       }
 
-      /* Rounded sliders */
-      .slider.round {
-          border-radius: 1.6875rem;
-      }
-
-      .slider.round:before {
-          border-radius: 50%;
-      }
       </style>
     
       <label class="switch" id="cbSlider" style="margin-left:1rem;">
