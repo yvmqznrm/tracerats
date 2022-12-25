@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Relentless Wreckers</title>
+  <link rel="icon" type="image/x-icon" href="favicon.png">
+  <base href="http://127.0.0.1:8000/challenges/demo-0/" target="_top">
+  <!-- <base href="http://tracerats.org/challenges/demo-0/" target="_top"> -->
+</head>
+
+
+
+
+
+<body style="margin:0; position: relative;">
+
+<div>
+<style>
+  #url {
+  width: 100%;
+  }
+
+  #urlBar {
+    width: 90%;
+    margin: 0 5%;
+  }
+
+ #topSection {
+  padding:1.5% 0%;
+  background-color: #AAAAAA;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+ }
+</style>
+
+<div id="topSection">
+<form id="urlBar" name="urlBar" onsubmit="search()" method="dialog">
+  <input type="text" name="url" id="url">
+  <input type="submit" hidden>
+</form>
+</div>
+
+<script>
+document.getElementById("url").setAttribute("value", window.location.toString());
+
+function search() {
+  url = document.forms["urlBar"]["url"].value;
+  if(!(url.includes("://"))){url = "http://".concat(url);};
+  window.location = url;
+  }
+
+function emulate() {
+  content = document.getElementById("content");
+  url = document.forms["urlBar"]["url"].value;
+  if(!(url.includes("://"))){url = "http://".concat(url);};
+
+  xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+  if (this.readyState == 4) {
+      if (this.status == 200) {content.innerHTML = this.responseText;}
+      if (this.status == 404) {content.innerHTML = "404 - Not Found";}
+  }
+  }      
+  xhttp.open("GET", url, true);
+  xhttp.send();
+}
+
+function iframe() {
+  content = document.getElementById("content");
+  url = document.forms["urlBar"]["url"].value;
+  if(!(url.includes("://"))){url = "http://".concat(url);};
+  document.getElementById("iframeTest").setAttribute("src", url);
+}
+</script>
+</div>
+
+<!--<iframe id="iframeTest"></iframe>-->
+
+<p style="float: left; margin:1rem 2rem; font-size: 1.2rem; font-weight: bold; text-decoration: underline;">Log in to get the flag</p>
+
+
+</body>
+</html>

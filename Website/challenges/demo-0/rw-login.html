@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Relentless Wreckers</title>
+  <title>Login - Relentless Wreckers</title>
   <link rel="icon" type="image/x-icon" href="favicon.png">
-  <base href="http://127.0.0.1:8000/challenges/" target="_top">
-  <!-- <base href="http://tracerats.org" target="_top"> -->
+  <!-- <base href="http://127.0.0.1:8000/challenges/demo-0/" target="_top"> -->
+  <base href="http://tracerats.org/challenges/demo-0/" target="_top">
 </head>
 
 
@@ -78,10 +78,11 @@ function iframe() {
 
 <!--<iframe id="iframeTest"></iframe>-->
 
+<p style="float: left; margin:1rem 2rem; font-size: 1.2rem; font-weight: bold; text-decoration: underline;">Log in to get the flag</p>
 
-<div id="content" style="display: flex; flex-direction: column; align-items: center; margin-top: 3rem;">
+<div id="content" style="display: flex; flex-direction: column; align-items: center; margin-top: 3rem; clear: both;">
 
-<h2 style="text-align: center;">Relentless Wreckers<br>Newsboard Login</h2><br><br>
+<h2 style="text-align: center;">Relentless Wreckers<br>Newsboard Login</h2><br>
 <form id="login" name="login" onsubmit="loginF()" method="dialog">
   <label>Username:</label><br>
   <input type="text" name="username" id="username"><br><br>
@@ -92,21 +93,17 @@ function iframe() {
 
 
 <script>
-loginForm = document.forms["login"];
-unameIn = loginForm["username"];
-pwordIn = loginForm["password"];
-
-const users = {
-  "old_concrete_bench": "hash0",
-  "jason": "hash1",
-  "Trinity": "hash2",
-  "dancingStickman": "hash3",
-  "JT": "hash4",
-  "liv": "hash5",
-  "Tim": "hash6",
-  "xiong_mao": "hash7",
-  "Guest": "hash8"
-};
+const userList = {
+  old_concrete_bench: "4bf0e1cf6cfe24dff4da723425bed970",
+  jason: "24bab38c1af9f37284e1591339080593",
+  Trinity: "63f7a939212f5d589043edf8242fbdc6",
+  dancingStickman: "7c6a180b36896a0a8c02787eeafb0e4c",
+  JT: "290391bcfbc0839ae76734a5bffbc8bd",
+  liv: "d9542c7b0f444ec7aaa32684d9c5ea71",
+  Tim: "1cf15736b76a1ebd9d4f30ba82563ccd",
+  xiong_mao: "3b9cebf8c76cb1ca44f8b38473f8d45d",
+  Guest: "401a7003241e20fa6a715bb7851e205b"
+}
 </script>
 
 
@@ -547,7 +544,17 @@ const users = {
 
 <script>
 function loginF() {
-  alert("hello");
+  loginForm = document.forms["login"];
+  unameIn = loginForm["username"].value;
+  pwordIn = loginForm["password"].value;
+
+  hashedPwd = userList[unameIn];
+  if (hashedPwd == undefined) {
+    alert("Invalid Credentials");
+    return
+  }
+  hashedPwdIn = md5(pwordIn);
+  if (hashedPwdIn == hashedPwd) {window.location = "rw-logged_in.html";} else {alert("Invalid Credentials");}
 }
 </script>
 
