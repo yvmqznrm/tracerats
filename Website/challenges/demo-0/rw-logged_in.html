@@ -78,7 +78,34 @@ function iframe() {
 
 <!--<iframe id="iframeTest"></iframe>-->
 
-<p style="float: left; margin:1rem 2rem; font-size: 1.2rem; font-weight: bold; text-decoration: underline;">Log in to get the flag</p>
+<div>
+<style>
+@keyframes flagAppear {
+  0% {
+    transform: translateX(-120%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+#flag {
+  animation: flagAppear 1s ease-out 0s 1;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  padding:0.5rem 1rem;
+  background-color: #1d9b1d;
+  color: white;
+  border-radius: 5rem;
+  float: left;
+  font-family: sans-serif;
+}
+</style>
+
+<p id="flag">Flag: @K*`[,*yZtf_C6.></p>
+</div>
+
+<p style="clear:both; margin-top: 5rem; text-align: center; font-size: 1.2rem; font-weight: bold;">Login Successful!<br><br>Flag: @K*`[,*yZtf_C6.><br><br><button>Proceed to Site</button></p>
 
 
 </body>
