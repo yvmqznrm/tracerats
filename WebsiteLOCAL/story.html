@@ -212,22 +212,31 @@ function hbMenu() {
 
 <style>
 
-#flowchart_container {
+#flowchart_container_outer {
   width: 45%;
   margin: 0 2rem 1rem 0;
   float: left;
+  position: relative;
 }
-#story_flowchart {
+#flowchart_container, #story_flowchart, #story_flowchart_spoilered {
   width: 100%;
-}
-.blur {
-  filter: blur(5%);
 }
 </style>
 
+<script>
+function unspoiler(button) {
+  button.previousElementSibling.style.display = "none";
+  button.nextElementSibling.style.display = "block";
+  button.style.display = "none";
+}
+</script>
 
-<div id="flowchart_container">
-  <img id="story_flowchart" src="images/story_flowchart.png" alt="story flowchart">
+<div id="flowchart_container_outer">
+  <img id="story_flowchart_spoilered" src="images/story_flowchart.png" alt="blurred story flowchart" style="filter:blur(10px);">
+  <button style="position:absolute; bottom:50%; right: 50%; transform: translate(50%, 50%);" class="button-0" onclick="unspoiler(this)">unspoiler</button>
+  <div id="flowchart_container" style="display:none">
+    <img id="story_flowchart" src="images/story_flowchart.png" alt="story flowchart">
+  </div>
 </div>
 
 <script>
@@ -241,7 +250,7 @@ image_to_zoom.addEventListener('wheel', panzoom.zoomWithWheel);
 </style>
 
 <div id="text">
-<p style="margin-top:0rem;">while the ingame mechanics are more focussed on teaching the player stuff about technology and ctfs, the purpose of the games story is to demonstrate what real hackers and anarchists are confronted with in their activism as well as touching on mental health. <br><br>
+<p>while the ingame mechanics are more focussed on teaching the player stuff about technology and ctfs, the purpose of the games story is to demonstrate what real hackers and anarchists are confronted with in their activism as well as touching on mental health. <br><br>
   your characters story starts out with one of three scenarios that you can pick between.<br>
   you have the choice between starting out as:<br>
   - an undercover police officer at a protest that some characters from the tracerats are attending<br>
@@ -252,11 +261,12 @@ image_to_zoom.addEventListener('wheel', panzoom.zoomWithWheel);
   how close you are with each of the characters in tracerats also determines which category CTFs you get to play most.<br><br>
   
   since the game also focusses on mental health it is important to be aware that the story is going to include potentially triggering topics. please make sure you're okay with mentions of the triggers below and take a break if the storys contents get too much.
+  <ul>
+    <li>abuse</li>
+    <li>sexual assault</li>
+    <li>suicide</li>
+  </ul>
 </p>
-
-  <p>- abuse</p>
-  <p>- sexual assault</p>
-  <p>- suicide</p>
 </div>
 <hr class="a" style="clear:left">
 
