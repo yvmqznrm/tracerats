@@ -114,3 +114,18 @@ a:hover{
 .filldText, .fillsText:hover {
   fill: var(--Text)
 }
+
+.button-0{
+  background-color:var(--Light);
+  color:var(--Bckd);
+  border:none;
+  padding:0.5rem 1rem;
+  font-size:1.5rem;
+  border-radius:5rem;
+  cursor:pointer;
+  font-family: monospace;
+}
+
+.button-0:hover{
+  background-color: var(--Text);
+}

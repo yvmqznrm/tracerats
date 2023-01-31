@@ -220,6 +220,9 @@ function hbMenu() {
 #story_flowchart {
   width: 100%;
 }
+.blur {
+  filter: blur(5%);
+}
 </style>
 
 
@@ -231,6 +234,7 @@ function hbMenu() {
 image_to_zoom = document.getElementById("story_flowchart");
 const panzoom = Panzoom(image_to_zoom, {contain: 'outside', maxScale:10});
 image_to_zoom.addEventListener('wheel', panzoom.zoomWithWheel);
+document.getElementById("story_flowchart").addEventListener("click", this.classList.toggle("blur"))
 </script>
 
 <style>
