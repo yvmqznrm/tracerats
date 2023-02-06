@@ -223,16 +223,15 @@ function hbMenu() {
 }
 </style>
 
-<script>
-function unspoiler(button) {
-  button.previousElementSibling.style.display = "none";
-  button.nextElementSibling.style.display = "block";
-  button.style.display = "none";
-}
-</script>
-
 <div id="flowchart_container_outer">
-  <img id="story_flowchart_spoilered" src="images/story_flowchart.png" alt="blurred story flowchart" style="filter:blur(10px);">
+  <script>
+  function unspoiler(button) {
+    button.previousElementSibling.style.display = "none";
+    button.nextElementSibling.style.display = "block";
+    button.style.display = "none";
+  }
+  </script>
+  <img id="story_flowchart_spoilered" src="images/story_flowchart.png" alt="blurred story flowchart" style="filter:blur(20px);">
   <button style="position:absolute; bottom:50%; right: 50%; transform: translate(50%, 50%);" class="button-0" onclick="unspoiler(this)">unspoiler</button>
   <div id="flowchart_container" style="display:none">
     <img id="story_flowchart" src="images/story_flowchart.png" alt="story flowchart">
@@ -250,8 +249,14 @@ image_to_zoom.addEventListener('wheel', panzoom.zoomWithWheel);
 </style>
 
 <div id="text">
-<p>while the ingame mechanics are more focussed on teaching the player stuff about technology and ctfs, the purpose of the games story is to demonstrate what real hackers and anarchists are confronted with in their activism as well as touching on mental health. <br><br>
-  your characters story starts out with one of three scenarios that you can pick between.<br>
+
+<style>
+  .spoilerT {
+    background-color: var(--Text);
+  }
+</style>
+<p>while the ingame mechanics are more focussed on teaching the player stuff about technology and ctfs, the purpose of the game's story is to demonstrate what real hackers and anarchists are confronted with in their activism as well as touching on mental health.<br><br>
+  your character's story starts out with one of three scenarios that you can pick between.<br>
   you have the choice between starting out as:<br>
   - an undercover police officer at a protest that some characters from the tracerats are attending<br>
   - a squat member at the place the group has set up their hackerspace<br>
@@ -260,13 +265,24 @@ image_to_zoom.addEventListener('wheel', panzoom.zoomWithWheel);
   over the course of the game your interactions with the characters and how close you are with each of them, as well as decisions you make will determine how your path through the story.<br>
   how close you are with each of the characters in tracerats also determines which category CTFs you get to play most.<br><br>
   
-  since the game also focusses on mental health it is important to be aware that the story is going to include potentially triggering topics. please make sure you're okay with mentions of the triggers below and take a break if the storys contents get too much.
-  <ul>
-    <li>abuse</li>
-    <li>sexual assault</li>
-    <li>suicide</li>
-  </ul>
+  since the game also focusses on mental health it is important to be aware that the story is going to include potentially triggering topics. please make sure you're okay with mentions of the triggers below and take a break if the storys contents get too much. (click or tap the rrectangles to show each trigger)<br><br>
+  
+  - <span class="spoilerT">abuse</span><br>
+  - <span class="spoilerT">sexual assault</span><br>
+  - <span class="spoilerT">suicide</span>
 </p>
+<script>
+function spoiler(){
+  this.style.display = "none";
+  if (this.style.backgroundColor != "none") {
+    this.style.backgroundColor = "none";
+  }
+}
+spoilers = document.getElementsByClassName("spoilerT");
+for (spoilerN = 0; spoilerN < spoilers.length; spoilerN ++) {
+  spoilers[spoilerN].addEventListener("click", spoiler);
+}
+</script>
 </div>
 <hr class="a" style="clear:left">
 
