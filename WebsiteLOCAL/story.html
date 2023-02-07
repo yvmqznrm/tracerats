@@ -210,20 +210,54 @@ function hbMenu() {
 
 <h1 style="margin-bottom:2rem">story</h1>
 
+
+<style>
+#flexdiv {
+  display: flex;
+  flex-direction: row;
+}
+
+#flowchartflex {
+  flex-basis: 45%;
+  margin-right: 2rem;
+}
+
+#textflex {
+  flex-basis: 55%;
+}
+
+#textflex p {
+  margin: 0;
+  text-align: justify;
+}
+
+@media screen and (max-width: 90rem) {
+  #flexdiv {
+    flex-direction: column-reverse;
+  }
+
+  #flowchartflex {
+    flex-basis: auto;
+    width: 80%;
+    margin-top: 3rem;
+    margin-right: 0rem;
+    align-self: center;
+  }
+
+  #textflex {
+    flex-basis: auto;
+  }
+}
+</style>
+
+<div id="flexdiv">
+
+<div id="flowchartflex">
+
 <style>
 
 #flowchart_container_outer {
-  width: 45%;
-  margin: 0 2rem 1rem 0;
-  float: left;
   position: relative;
-}
-
-@media screen and (max-width: 70rem) {
-  #flowchart_container_outer {
-    width: 100%;
-    margin: 0 0 1rem 0;
-  }
 }
 
 #flowchart_container, #story_flowchart, #story_flowchart_spoilered {
@@ -252,12 +286,10 @@ const panzoom = Panzoom(image_to_zoom, {contain: 'outside', maxScale:10});
 image_to_zoom.addEventListener('wheel', panzoom.zoomWithWheel);
 </script>
 
-<style>
-  #text p {margin: 0;}
-</style>
+</div>
 
-<div id="text">
 
+<div id="textflex">
 <p>while the ingame mechanics are more focused on teaching the player stuff about technology and ctfs, the purpose of the game's story is to demonstrate what real hackers and anarchists are confronted with in their activism as well as touching on mental health.<br><br>
   your character's story starts out with one of three scenarios that you can pick between.<br>
   you have the choice between starting out as:<br>
@@ -278,8 +310,14 @@ image_to_zoom.addEventListener('wheel', panzoom.zoomWithWheel);
     </div>
   </details>
 </p>
+</div>
 
 </div>
+
+
+
+
+
 <hr class="a" style="clear:left">
 
 
