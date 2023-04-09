@@ -3,12 +3,17 @@
 <head>
 
 <meta charset="UTF-8">
-<title>tracerats - updates</title>
+<title>tracerats - story</title>
 <link rel="icon" type="image/x-icon" href="favicon.png">
-<base href="http://127.0.0.1:8000/" target="_top">
-<!-- <base href="http://tracerats.org/" target="_top"> -->
+<!-- <base href="http://127.0.0.1:8000/" target="_top"> -->
+<base href="http://tracerats.org/" target="_top">
 <!--<base href="https://darioacg.org/" target="_top">-->
 <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+
+
+<script src="scripts/jquery-3.6.2.slim.js"></script>
+
+<script src="scripts/panzoom.min.js"></script>
 
 
 <!------- General ------->
@@ -108,10 +113,10 @@
 
   <a href="welcome.html">welcome</a>
   <a href="ctfs.html">CTFs</a>
-  <a href="story.html">story</a>
+  <a href="story.html" class="active">story</a>
   <a href="characters.html">characters</a>
   <a href="places.html">places</a>
-  <a href="updates.html" class="active">updates</a>
+  <a href="updates.html">updates</a>
   <a href="participate.html">participate</a>
   <a href="https://github.com/yvmqznrm/tracerats" target="_blank">github</a>
   
@@ -201,37 +206,116 @@ function hbMenu() {
 
 
 
-<div class="pageContent">
+<div class="pageContent" id="pageContent">
 
-<h1>updates</h1>
+<h1 style="margin-bottom:2rem">story</h1>
 
-<h2>17.02.2022 - talk, current dev</h2>
-<p>
-  heyho! so this update is a little bit delayed, but we gave the talk and it went pretty well! we had some technical difficulties making sure we could show the demo we made for tracerats for the talk, but everything turned out fine in the end :)<br>
-  hacking in parallel was also a lot of fun to be at, so that was really nice :D<br>
-  currently we are still getting back into focusing on the development of this project again, because we all got a little busy with university and work, but things are moving!
-  <br> <br>
-  <a href="https://relive.c3voc.de/relive/jev22/49195/muxed.mp4" target="_blank">here's the recording of the talk, in case you're interested! :)</a>
-  <br> <br>
-  -yvmqznrm
+
+<style>
+#flexdiv {
+  display: flex;
+  flex-direction: row;
+}
+
+#flowchartflex {
+  flex-basis: 45%;
+  margin-right: 2rem;
+}
+
+#textflex {
+  flex-basis: 55%;
+}
+
+#textflex p {
+  margin: 0;
+  text-align: justify;
+}
+
+@media screen and (max-width: 90rem) {
+  #flexdiv {
+    flex-direction: column-reverse;
+  }
+
+  #flowchartflex {
+    flex-basis: auto;
+    width: 80%;
+    margin-top: 3rem;
+    margin-right: 0rem;
+    align-self: center;
+  }
+
+  #textflex {
+    flex-basis: auto;
+  }
+}
+</style>
+
+<div id="flexdiv">
+
+<div id="flowchartflex">
+
+<style>
+
+#flowchart_container_outer {
+  position: relative;
+}
+
+#flowchart_container, #story_flowchart, #story_flowchart_spoilered {
+  width: 100%;
+}
+</style>
+
+<div id="flowchart_container_outer">
+  <script>
+  function unspoiler(button) {
+    button.previousElementSibling.style.display = "none";
+    button.nextElementSibling.style.display = "block";
+    button.style.display = "none";
+  }
+  </script>
+  <img id="story_flowchart_spoilered" src="images/story_flowchart.png" alt="blurred story flowchart" style="filter:blur(20px);">
+  <button style="position:absolute; bottom:50%; right:50%; transform:translate(50%, 50%);" class="button-0" onclick="unspoiler(this)">unspoiler</button>
+  <div id="flowchart_container" style="display:none">
+    <img id="story_flowchart" src="images/story_flowchart.png" alt="story flowchart">
+  </div>
+</div>
+
+<script>
+image_to_zoom = document.getElementById("story_flowchart");
+const panzoom = Panzoom(image_to_zoom, {contain: 'outside', maxScale:10});
+image_to_zoom.addEventListener('wheel', panzoom.zoomWithWheel);
+</script>
+
+</div>
+
+
+<div id="textflex">
+<p>while the ingame mechanics are more focused on teaching the player stuff about technology and ctfs, the purpose of the game's story is to demonstrate what real hackers and anarchists are confronted with in their activism as well as touching on mental health.<br><br>
+  your character's story starts out with one of three scenarios that you can pick between.<br>
+  you have the choice between starting out as:<br>
+  - an undercover police officer at a protest that some characters from the tracerats are attending<br>
+  - a squat member at the place the group has set up their hackerspace<br>
+  - a member of the CTF group that dev started a while back<br><br>
+  
+  over the course of the game your interactions with the characters and how close you are with each of them, as well as decisions you make will determine your path through the story.<br>
+  how close you are with each of the characters in tracerats also determines which category CTFs you get to play most.<br><br>
+  
+  since the game also focuses on mental health it is important to be aware that the story is going to include potentially triggering topics. please make sure you're okay with mentions of the triggers below and take a break if the storys contents get too much.<br><br>
+  <details>
+    <summary style="cursor:default; float:left;">triggers</summary>
+    <div style="clear:both">
+    - abuse <br>
+    - sexual assault <br>
+    - suicide
+    </div>
+  </details>
 </p>
+</div>
 
----
+</div>
 
-<h2>18.12.2022 - first update</h2>
-<p>
-  hi and welcome to the updates page! here we will be posting about anything interesting that happens during the development of this game! <br>
-  you can expect to see infos about the current state of things, new releases, cool events that we will be hosting, etc. <br>
-  in this first update we want to also tell you about a cool thing that will be happening soon:
-  we'll be giving a talk about this project at Hacking in Parallel at the end of december 2022! <br>
-  the talk will be from 1pm to 2:25pm local time on the 28th of december, berlin. <br>
-  it will touch on how the development so far has been teaching especially me(yvmqznrm) a lot about technology and video games
-  and been a helpful resource for dealing with mental health.
-  <br> <br>
-  <a href="https://pretalx.c3voc.de/hip-berlin-2022/talk/SRYJMG/" target="_blank">here's the link to the talk if you want to know more :)</a>
-  <br> <br>
-  -yvmqznrm
-</p>
+
+
 
 
 <hr class="a" style="clear:left">
@@ -241,7 +325,7 @@ function hbMenu() {
 
 
 <div style="position:relative; height:2rem; margin-bottom:1rem;">
-<p style="margin:0rem; position:absolute; top:50%; transform:translateY(-50%); color:var(--Bckd)">ur mom is a spaghetti (code).</p>
+<p style="margin:0rem; position:absolute; top:50%; transform:translateY(-50%); color:var(--Bckd);">ur mom is a spaghetti (code).</p>
 <img src="https://cdn.discordapp.com/attachments/946539417655447582/1023020220706717737/Dev.png" style="width:2rem; border-radius:50%; object-fit:cover; float:right" title="diagnostic dev">
 </div>
 

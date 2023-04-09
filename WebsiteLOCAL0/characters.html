@@ -224,7 +224,7 @@ function hbMenu() {
     cursor: pointer;
     margin-bottom: 2rem;
     margin-right: 1rem;
-    float: left;
+    /* float: left; */
     border: 0.2rem solid var(--Bckd);
     color: var(--Light);
     background-color: var(--Bckd);
@@ -248,9 +248,19 @@ function hbMenu() {
     background-color: var(--Bckd);
 }
 
+.pfSection {
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* overflow-x: auto; */
+    /* border: 0.5rem solid #ffd700; */
+}
 
 
 /* --- Character Specific --- */
+
 .pfStorm{
 }
 
@@ -355,46 +365,125 @@ function hbMenu() {
     color: var(--Bckd);
 }
 
+.pfAda{
+    
+}
+
+.pfAda:hover{
+    border-color: var(--sStorm);
+    color: var(--sStorm);
+}
+
+.pfAda-a{
+    background-color: var(--sStorm);
+    border-color: var(--sStorm);
+    color: var(--Bckd);
+}
+
+
+.pfDave{
+    
+}
+
+.pfDave:hover{
+    border-color: var(--sStorm);
+    color: var(--sStorm);
+}
+
+.pfDave-a{
+    background-color: var(--sStorm);
+    border-color: var(--sStorm);
+    color: var(--Bckd);
+}
+
+
+.pfAndrew{
+    
+}
+
+.pfAndrew:hover{
+    border-color: var(--sStorm);
+    color: var(--sStorm);
+}
+
+.pfAndrew-a{
+    background-color: var(--sStorm);
+    border-color: var(--sStorm);
+    color: var(--Bckd);
+}
+
+
+.pfMichelle{
+    
+}
+
+.pfMichelle:hover{
+    border-color: var(--sStorm);
+    color: var(--sStorm);
+}
+
+.pfMichelle-a{
+    background-color: var(--sStorm);
+    border-color: var(--sStorm);
+    color: var(--Bckd);
+}
+
+
+.pfJohnathan{
+    
+}
+
+.pfJohnathan:hover{
+    border-color: var(--sStorm);
+    color: var(--sStorm);
+}
+
+.pfJohnathan-a{
+    background-color: var(--sStorm);
+    border-color: var(--sStorm);
+    color: var(--Bckd);
+}
+
 </style>
 
 
 <!------- Profile HTML ------->
 <!-- Profile Cards -->
-<div>
-<button class="pf pfStorm">
-    <img src="images/characters/storm_pfp.png" class="pfPic" alt="3d model of storm">
-    <p class="pfName">storm</p>
-</button>
+<div class="pfSection">
+    <button class="pf pfStorm">
+        <img src="images/characters/storm_pfp.png" class="pfPic" alt="3d model of storm">
+        <p class="pfName">storm</p>
+    </button>
 
-<button class="pf pfMayhem">
-    <img src="images/characters/mayhem_pfp.png" class="pfPic" alt="3d model of mayhem">
-    <p class="pfName">mayhem</p>
-</button>
+    <button class="pf pfMayhem">
+        <img src="images/characters/mayhem_pfp.png" class="pfPic" alt="3d model of mayhem">
+        <p class="pfName">mayhem</p>
+    </button>
 
-<button class="pf pfSoph">
-    <img src="images/characters/soph_pfp.png" class="pfPic" alt="3d model of soph">
-    <p class="pfName">soph</p>
-</button>
+    <button class="pf pfSoph">
+        <img src="images/characters/soph_pfp.png" class="pfPic" alt="3d model of soph">
+        <p class="pfName">soph</p>
+    </button>
 
-<button class="pf pfAshley">
-    <img src="images/characters/ashleypfp.png" class="pfPic" alt="3d model of ashley">
-    <p class="pfName">ashley</p>
-</button>
+    <button class="pf pfAshley">
+        <img src="images/characters/ashley_pfp.png" class="pfPic" alt="3d model of ashley">
+        <p class="pfName">ashley</p>
+    </button>
 
-<button class="pf pfMichael">
-    <img src="images/characters/michael_pfp.png" class="pfPic" alt="3d model of michael">
-    <p class="pfName">michael</p>
-</button>
+    <button class="pf pfMichael">
+        <img src="images/characters/michael_pfp.png" class="pfPic" alt="3d model of michael">
+        <p class="pfName">michael</p>
+    </button>
 
-<button class="pf pfDev">
-    <img src="images/characters/dev_pfp.png" class="pfPic" alt="3d model of dev">
-    <p class="pfName">dev</p>
-</button>
+    <button class="pf pfDev">
+        <img src="images/characters/dev_pfp.png" class="pfPic" alt="3d model of dev">
+        <p class="pfName">dev</p>
+    </button>
 
-<button class="pf pfNova">
-    <img src="images/characters/nova_pfp.png" class="pfPic" alt="3d model of nova">
-    <p class="pfName">nova</p>
-</button>
+    <button class="pf pfNova">
+        <img src="images/characters/nova_pfp.png" class="pfPic" alt="3d model of nova">
+        <p class="pfName">nova</p>
+    </button>
 </div>
 
 <!-- Profile Content -->
@@ -838,6 +927,350 @@ function hbMenu() {
         </a>
     </ul>
 </div>
+
+<hr class="a">
+
+<!-- Profile Cards -->
+<div class="pfSection">
+
+    <button class="pf pfAda">
+        <img src="images/characters/default_pfp.png" class="pfPic" alt="profile picture for ada">
+        <p class="pfName">ada</p>
+    </button>
+    
+    <button class="pf pfDave">
+        <img src="images/characters/default_pfp.png" class="pfPic" alt="profile picture for dave">
+        <p class="pfName">dave</p>
+    </button>
+    
+    <button class="pf pfAndrew">
+        <img src="images/characters/default_pfp.png" class="pfPic" alt="profile picture for andrew">
+        <p class="pfName">andrew</p>
+    </button>
+    
+    <button class="pf pfMichelle">
+        <img src="images/characters/default_pfp.png" class="pfPic" alt="profile picture for michelle">
+        <p class="pfName">michelle</p>
+    </button>
+    
+    <button class="pf pfJohnathan">
+        <img src="images/characters/default_pfp.png" class="pfPic" alt="profile picture for johnathan">
+        <p class="pfName">johnathan</p>
+    </button>
+</div>
+
+
+<!-- Profile Content -->
+<div class="pfContent dStorm" id="pfAdaContent">
+
+    <h3 class="sStorm">pronouns:</h3>
+    <ul>
+        <li>he/him</li>
+    </ul>
+
+    <h3 class="sStorm">age:</h3>
+    <ul>
+        <li>23</li>
+    </ul>
+
+    <h3 class="sStorm">hacking motivations:</h3>
+    <ul>
+        <li>was incompetently thought to be a national security threat in past, which resulted in the suicide of his friend. he's against “sicherheitstheater”.</li>
+    </ul>
+
+    <h3 class="sStorm">what drives him in general?</h3>
+    <ul>
+        <li>storm has an idea for doing something to rectify an injustice which he’s very emotionally invested in, and after spending a decent amount of time planning this idea, he is beginning to play the long game and becomes extremely emotionally invested in the success of his plan, to the point where it becomes his perceived predominant purpose in life. Feeling that he is responsible for the safety and well being of the other group members, storm holds this also as an important purpose for him, which pushes him into taking on a leadership role.</li>
+    </ul>
+
+    <h3 class="sStorm">strengths:</h3>
+    <ul>
+        <li>logical thinking + (mostly) rational behaviour</li>
+        <li>curiosity + cechnical creativity</li>
+        <li>passionate / driven</li>
+        <li>unafraid</li>
+    </ul>
+
+    <h3 class="sStorm">flaws:</h3>
+    <ul>
+        <li>occasional violent outbursts, disapproving of things if they aren't being done his way (except for with mayhem, he's seen her smarts and trusts her), trust issues.</li>
+        <li>perfectionism</li>
+        <li>sometimes unpredictable</li>
+        <li>ego</li>
+        <p>(altered version for when younger: reckless, lack of awareness of limitations)</p>
+    </ul>
+
+    <h3 class="sStorm">job:</h3>
+    <ul>
+        <li>works at a certificate authority (a gateway to being able to make certificates is helpful).</li>
+    </ul>
+
+    <h3 class="sStorm">CTF category:</h3>
+    <ul>
+        <li>reverse engineering / RE</li>
+    </ul>
+
+    <h3 class="sStorm">other notes:</h3>
+    <ul>
+        <li>storm founded the group with mayhem and is the driving force behind it.</li>
+    </ul>
+
+    <h3 class="sStorm">moodboard:</h3>
+    <ul>
+        <a href="https://www.pinterest.co.uk/solarblips/storm/" target="_blank">
+            <svg class="_6x6 filldStorm" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
+</div>
+
+<div class="pfContent dMayhem" id="pfDaveContent">
+
+    <h3 class="sMayhem">pronouns:</h3>
+    <ul>
+        <li>she/her</li>
+    </ul>
+
+    <h3 class="sMayhem">age:</h3>
+    <ul>
+        <li>21</li>
+    </ul>
+
+    <h3 class="sMayhem">hacking motivations:</h3>
+    <ul>
+        <li>free speech - people try to shut her up too often.</li>
+    </ul>
+
+    <h3 class="sMayhem">what drives her in general?</h3>
+    <ul>
+        <li>curious af, so learns about all sorts of things and picks up useful skills.</li>
+        <li>has personally experienced racial injustice, so she is very driven to utilise her skills to rectify injustices in general.</li>
+    </ul>
+
+    <h3 class="sMayhem">strengths:</h3>
+    <ul>
+        <li>creative</li>
+        <li>intelligent + clever</li>
+        <li>brave</li>
+        <li>empathetic</li>
+        <li>positive outlook on life</li>
+    </ul>
+
+    <h3 class="sMayhem">flaws:</h3>
+    <ul>
+        <li>does not think far enough ahead / is sometimes irresponsible (her and storm complement each other very well in the sense that he's very rational and grounds her sometimes, and he's kinda too unable to have fun because of it, so she keeps him going and her positive vibes and energy leak into him)</li>
+        <li>stubborn</li>
+        <li>impatient</li>
+    </ul>
+
+    <h3 class="sMayhem">job:</h3>
+    <ul>
+        <li>freelance web development</li>
+    </ul>
+
+    <h3 class="sMayhem">CTF category:</h3>
+    <ul>
+        <li>web</li>
+    </ul>
+
+    <h3 class="sMayhem">other notes:</h3>
+    <ul>
+        <li>mayhem co-founded the group out of interest for hacking, and investment in the issues it goes against.</li>
+        <li>chews gum and often has headphones on.</li>
+    </ul>
+
+    <h3 class="sMayhem">moodboard:</h3>
+    <ul>
+        <a href="https://www.pinterest.co.uk/solarblips/mayhem/" target="_blank">
+            <svg class="_6x6 filldMayhem" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
+</div>
+
+<div class="pfContent dSoph" id="pfAndrewContent">
+
+    <h3 class="sSoph">pronouns:</h3>
+    <ul>
+        <li>she/her</li>
+    </ul>
+
+    <h3 class="sSoph">age:</h3>
+    <ul>
+        <li>23</li>
+    </ul>
+
+    <h3 class="sSoph">hacking motivations:</h3>
+    <ul>
+        <li>initially, she just likes to fuck around with tech, with no higher motivation (for her it is an escape from the struggles of real life). as she talks more with the other group members, she sees and understands the injustices they try to fight against (as a group) better.</li>
+        <li>cipherpunk</li>
+    </ul>
+
+    <h3 class="sSoph">what drives her in general?</h3>
+    <ul>
+        <li>intense drive to keep learning</li>
+        <li>applying the things she has learned to help improve the world.</li>
+    </ul>
+
+    <h3 class="sSoph">strengths:</h3>
+    <ul>
+        <li>knowledge</li>
+        <li>impressive</li>
+        <li>curious</li>
+        <li>driven</li>
+    </ul>
+
+    <h3 class="sSoph">flaws:</h3>
+    <ul>
+        <li>addictive personality (substances in the past, now redirected to hunger for knowledge, she needs to always be learning, this could make her burnt out).</li>
+        <li>fear of limitations</li>
+        <li>manipulates in the direction of better hacking techniques, and feels empowered to do so.</li>
+    </ul>
+
+    <h3 class="sSoph">job:</h3>
+    <ul>
+        <li>reverse engineering and exploit development, finding stuff like zero days for a big company she doesn't like, but she likes the job because she's always learning new stuff.</li>
+    </ul>
+
+    <h3 class="sSoph">CTF category:</h3>
+    <ul>
+        <li>pwn</li>
+    </ul>
+
+    <h3 class="sSoph">other notes:</h3>
+    <ul>
+        <li>she can be a bit cold sometimes.</li>
+        <li>she's in a relationship with ashley.</li>
+    </ul>
+
+    <h3 class="sSoph">moodboard:</h3>
+    <ul>
+        <a href="https://www.pinterest.co.uk/solarblips/soph/" target="_blank">
+            <svg class="_6x6 filldSoph" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
+</div>
+
+<div class="pfContent dAshley" id="pfMichelleContent">
+
+    <h3 class="sAshley">pronouns:</h3>
+    <ul>
+        <li>she/her</li>
+    </ul>
+
+    <h3 class="sAshley">age:</h3>
+    <ul>
+        <li>24</li>
+    </ul>
+
+    <h3 class="sAshley">what does she do/what drives her?</h3>
+    <ul>
+        <li>creates music (bassist in "Ugly Giants") for the passion of the music itself and the lifestyle of playing concerts.</li>
+    </ul>
+
+    <h3 class="sAshley">strengths:</h3>
+    <ul>
+        <li>empathy + charisma</li>
+        <li>creativity + passion</li>
+    </ul>
+
+    <h3 class="sAshley">flaws:</h3>
+    <ul>
+        <li>overly concerned / worried about her loved ones (including her gf soph) to the point where it negatively impacts her and possibly her relationships.</li>
+        <li>moody + impulsive</li>
+    </ul>
+
+    <h3 class="sAshley">job:</h3>
+    <ul>
+        <li>dayjob: social work in immigration (part time)</li>
+        <li>nightjob: bassist in a fairly successful band ("Ugly Giants")</li>
+    </ul>
+
+    <h3 class="sAshley">other notes:</h3>
+    <ul>
+        <li>she's in a relationship with soph.</li>
+        <li>she's got a bit of a badass image due to her band.</li>
+        <li>she likes jokingly flirting with people (soph's okay with that).</li>
+    </ul>
+
+    <h3 class="sAshley">moodboard:</h3>
+    <ul>
+        <a href="https://www.pinterest.co.uk/solarblips/ashley/" target="_blank">
+            <svg class="_6x6 filldAshley" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
+</div>
+
+<div class="pfContent dMichael" id="pfJohnathanContent">
+
+    <h3 class="sMichael">pronouns:</h3>
+    <ul>
+        <li>he/him</li>
+    </ul>
+
+    <h3 class="sMichael">age:</h3>
+    <ul>
+        <li>28</li>
+    </ul>
+
+    <h3 class="sMichael">hacking motivations:</h3>
+    <ul>
+        <li>he's in it for sense of community/family within the group, and absorbs the motivations of the others over time (empathy).</li>
+    </ul>
+
+    <h3 class="sMichael">what drives him in general?</h3>
+    <ul>
+        <li>the joy of helping people using his skills (e.g. working on free amd open sourced projects).</li>
+        <li>friendship</li>
+    </ul>
+
+    <h3 class="sMichael">strengths:</h3>
+    <ul>
+        <li>devotion to friendships</li>
+        <li>passion</li>
+        <li>empathy</li>
+    </ul>
+
+    <h3 class="sMichael">flaws:</h3>
+    <ul>
+        <li>struggles with mental health, which holds him back.</li>
+        <li>is kind of a follower (goes along with what others say). he is willing to adapt his identity slightly to find friendship, but only to a certain extent.</li>
+        <li>can be easily taken advantage of.</li>
+    </ul>
+
+    <h3 class="sMichael">job:</h3>
+    <ul>
+        <li>on disability because of mental health.</li>
+        <li>volunteers at an animal shelter.</li>
+    </ul>
+
+    <h3 class="sMichael">CTF category:</h3>
+    <ul>
+        <li>forensics</li>
+    </ul>
+
+    <h3 class="sMichael">other notes:</h3>
+    <ul>
+        <li>michael meets storm as he is about to jump off a bridge. storm persuades him to talk, ends up stopping him, and invites him to spend the night at the squat where the group is set up. they end up talking throughout the night, getting to know that they like each other as people and also have similar/complimentary technical interests, and so storm ends up recruiting him.</li>
+    </ul>
+
+    <h3 class="sMichael">moodboard:</h3>
+    <ul>
+        <a href="https://www.pinterest.co.uk/solarblips/michael/" target="_blank">
+            <svg class="_6x6 filldMichael" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
+</div>
+
+
 
 
 

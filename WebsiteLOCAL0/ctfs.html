@@ -3,10 +3,10 @@
 <head>
 
 <meta charset="UTF-8">
-<title>tracerats - places</title>
+<title>tracerats - CTFs</title>
 <link rel="icon" type="image/x-icon" href="favicon.png">
-<base href="http://127.0.0.1:8000/" target="_top">
-<!-- <base href="http://tracerats.org/" target="_top"> -->
+<!-- <base href="http://127.0.0.1:8000/" target="_top"> -->
+<base href="http://tracerats.org/" target="_top">
 <!--<base href="https://darioacg.org/" target="_top">-->
 <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
 
@@ -107,10 +107,10 @@
   </button>
 
   <a href="welcome.html">welcome</a>
-  <a href="ctfs.html">CTFs</a>
+  <a href="ctfs.html" class="active">CTFs</a>
   <a href="story.html">story</a>
   <a href="characters.html">characters</a>
-  <a href="places.html" class="active">places</a>
+  <a href="places.html">places</a>
   <a href="updates.html">updates</a>
   <a href="participate.html">participate</a>
   <a href="https://github.com/yvmqznrm/tracerats" target="_blank">github</a>
@@ -203,126 +203,72 @@ function hbMenu() {
 
 <div class="pageContent">
 
-<a href="places.html#navbar" style="position:fixed; bottom:5%; right: 5%"><button class="button-0">to top</button></a>
-
-<h1>places within the game</h1>
-
-<a href="places.html#mornington_sports_centre">>mornington_sports_centre</a><br>
-<a href="places.html#hackerspace">>hackerspace</a><br>
-<a href="places.html#fish_n_chip_shop">>fish_'n'_chip_shop</a><br>
-<a href="places.html#st_pauls_cathedral">>saint_paul's_cathedral</a><br>
-<a href="places.html#east_end">>east_end</a><br>
-<a href="places.html#down_street_station">>down_street_station</a><br>
-<a href="places.html#physical_hack_place">>PHYSICAL_HACK_PLACE</a><br>
-<a href="places.html#prison">>prison</a><br>
-<a href="places.html#police_station">>police_station</a><br>
-<a href="places.html#cemetery">>city_of_london_cemetery_and_crematorium</a><br>
-<hr class="b" style="margin-top:1.5rem">
-<br>
-
 <style>
-  .pageContent img {
-    max-height: 20rem;
-    max-width: 100%;
-    border-radius: 1.5rem;
+.ctfCategories {
+  display: flex;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 35rem) {
+  .ctfCategories {
+    flex-direction: column;
   }
+}
+
+.ctfCategory {
+  width: 47%;
+}
+
+@media screen and (max-width: 35rem) {
+  .ctfCategory {
+    width: 100%;
+  }
+}
 </style>
 
-<h2 id="mornington_sports_centre">mornington_sports_centre</h2>
-<img src="images/places/mornington_sports_centre.png" alt="mornington sports centre"> 
-<p>
-  the mornington sports centre is the place of the squat that tracerats have joined. the anarchist group that squats it has made it into a community project. it looks very chaotic, but cozy!
+<h1>what are CTFs?</h1>
+
+<p>capture the flag in a cybersecurity context is a competition meant to teach fundamentals of information security from an attacker's perspective. the two most common forms of ctf competitions are attack and defense and jeopardy.
+  <br><br>attack and defense usually entails players attacking other player's machines in an attempt of capturing their flag while attempting to defend their own against cyber attacks. these kinds of competitions are usually reserved for the finals of a competition.
+  <br><br>jeopardy which is the more common of the two usually has various challenges aimed at testing different areas of knowledge. they are also meant to range in difficulty to let players of all skill levels participate and learn. the category a challenge is under usually can give an insight of what kind of skills will be required and in many cases, a small blurb will also provide a hint which can direct new players on what areas they might want to study or touch up on before taking on said challenge. the goal for players is to utilize various hacking techniques to find and submit the flag hidden in the challenge. this will provide the player with points which usually coincide with the level of difficulty for the challenge.
 </p>
 
-<br>
-<br>
-<br>
+<h2 style="margin-top: 3rem">common categories:</h2>
 
-<h2 id="hackerspace">hackerspace</h2>
-<img src="images/places/michaels_corner_hackerspace.png" alt="hackerspace">
-<p>
-  the hackerspace is an area within the squat, that tracerats decided to do their hacking in. it's got cool graffiti and fun little trinkets and colourful blinking LED lights everywhere!
-</p>
+<div class="ctfCategories">
+  <div class="ctfCategory">
+    <h3 style="color:var(--sSoph)">pwn:</h3>
+    <p style="color:var(--cSoph)">a challenge that typically requires exploitation of a binary to gain access to the flag. these are typically solved by discovering vulnerabilities common in binaries such as memory corruption (buffer overflows, use after frees, etc), race conditions, or the like.</p>
+  </div>
 
-<br>
-<br>
-<br>
+  <div class="ctfCategory">
+    <h3 style="color:var(--sMayhem)">web:</h3>
+    <p style="color:var(--cMayhem)">similarly to pwn, these typically require exploitation of a target, however, these are specifically web based. these challenges typically require common web application vulnerability knowledge such as cross-site scripting (XSS), path traversal, SQL injection and the like.</p>
+  </div>
 
-<h2 id="fish_n_chip_shop">fish_'n'_chip_shop</h2>
-<img src="images/places/fish_n_chip_shop.png" alt="fish and chip shop">
-<p>
-  a fish and chip shop near the squat / hackerspace where the characters sometimes eat and chat or get takeaways from if they don't feel like cooking
-</p>
+  <div class="ctfCategory">
+    <h3 style="color:var(--sStorm)">reverse engineering / RE:</h3>
+    <p style="color:var(--cStorm)">although these sometimes require exploitation, the goal of reverse engineering challenges typically is to understand how a program or application functions in order to discover a secret in the application. it is common for this category to overlap with the crypto category as this also typically requires understanding of the algorithms used. this category typically requires disassembly or decompiling of binaries so tools such as Ghidra are recommended.</p>
+  </div>
 
-<br>
-<br>
-<br>
+  <div class="ctfCategory">
+    <h3 style="color:var(--sMichael)">forensics:</h3>
+    <p style="color:var(--cMichael)">not as common as the other categories, this category usually centers around a more defensive approach of finding hidden information or attempt of compromise. some examples could include finding hidden files in network traffic, finding hidden flags in image or files (steganography), or simply finding files in a data dump.</p>
+  </div>
 
-<h2 id="st_pauls_cathedral">saint_paul's_cathedral</h2>
-<img src="images/places/saint_pauls_cathedral.png" alt="saint paul's cathedral"> 
-<p>
-  <!-- REVIEW --> saint paul's cathedral is the place where the protest in the beginning of the game takes place. it is one of the places that the group could pick up the player character.
-</p>
+  <div class="ctfCategory">
+    <h3 style="color:var(--sNova)">crypto:</h3>
+    <p style="color:var(--cNova)">this type of challenge usually centers around the breaking of cryptographic algorithms. this can either take the form of custom crypto algorithms with mathematical flaws, or, the use of algorithms known to have issues such as padding oracles or simple brute force attacks. this category typically is more mathematically focused compared to the others.</p>
+  </div>
 
-<br>
-<br>
-<br>
+  <div class="ctfCategory">
+    <h3 style="color:var(--sDev)">misc:</h3>
+    <p style="color:var(--cDev)">a category usually reserved for miscellaneous and fun challenges that do not exactly fit in the other categories. this can sometimes include fun recon problems that involve finding information about a certain person to finding information in RF frequencies or even sometimes making phone calls. the possibilities here are endless :)</p>
+  </div>
+</div>
 
-<h2 id="east_end">east_end</h2>
-<img src="images/places/east_end.png" alt="east end"> 
-<p>
-  the east end has lots of cool graffitis. mayhem can take the player and storm graffitiing there at some point during the story.
-</p>
-
-<br>
-<br>
-<br>
-
-<h2 id="down_street_station">down_street_station</h2>
-<img src="images/places/down_street_station.png" alt="down street station"> 
-<p>
-  down street station is an abandoned tube station which was used as an underground bunker during WWII. it is also where dev, nova and the player go for some urban exploring.
-</p>
-
-<br>
-<br>
-<br>
-
-<h2 id="physical_hack_place">PHYSICAL_HACK_PLACE</h2>
-<img src="INSERT" alt="IMG DESCRIPTION"> <!--INSERT ONCE WE KNOW-->
-<p>
-  FILL IN AS SOON AS WE DO THE RESEARCH ON HOW THEY DO THE HACK
-</p>
-
-<br>
-<br>
-<br>
-
-<h2 id="prison">prison</h2>
-<img src="images/places/prison_cell.png" alt="prison"> <!--REPLACE ONCE WE FOUND THE PRISON-->
-<p>
-  the characters may end up in this prison.
-</p>
-
-<br>
-<br>
-<br>
-
-<h2 id="police_station">police_station</h2>
-<img src="images/places/interrogation_room.png" alt="police station"> 
-<p>
-  this is the police station where the characters get arrested (if they do).
-</p>
-
-<br>
-<br>
-<br>
-
-<h2 id="cemetery">city_of_london_cemetery_and_crematorium</h2>
-<img src="images/places/CoL_Cemetary_and_Crematorium.png" alt="city of london cemetery and crematorium"> 
-<p>
-  no comment.
-</p>
 
 <hr class="a" style="clear:left">
 
