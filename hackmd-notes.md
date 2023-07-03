@@ -495,6 +495,32 @@ class="myimg" /><img src="https://i5.walmartimages.com/asr/c551593a-53dd-4eb7-8d
 class="myimg" />
 <br>
 
+
+### Player
+Phone
+Phone charger
+Power bank
+Laptop
+Power supply
+Wallet
+Meds
+
+
+Things you can pick up / acquire:
+USB flash drives
+Ethernet cable
+Ripped off stickers
+Smoking supplies
+Sharpie
+
+
+Depending on personalisation:
+Neck mask thingy
+If glasses: glasses case.
+Tampons
+Headphones ???
+Bag type
+
 ___
 
 # What is each character's biggest weakness?
@@ -531,6 +557,11 @@ undisciplined, can't keep schedules and sometimes inattentive + lack of life exp
 doesn't form deep emotional connections (-> loneliness?)
 prejudiced (as in doesn't understand and judges other moral systems)
 <br>
+
+
+### Player
+distractability
+intense emotions
 
 ___
 
@@ -611,6 +642,9 @@ They borrow some money from mayhem and go to live in a squat in London
 high expectations
 <br>
 
+### Player
+Parents not in the picture
+
 ___
 
 # Which characters have a criminal history?
@@ -632,6 +666,9 @@ See last question (r.e. relationship with parents).
 
 ### Nova
 Petty crimes when they were homeless
+
+### Player
+\-
 <br>
 
 
@@ -668,6 +705,9 @@ Takes people on adventures with him
 ### Nova
 Puts on a movie to watch together or makes tea for you, etc
 <br>
+
+### Player
+\-
 
 
 ___
@@ -761,6 +801,9 @@ Doesn't experience much happiness, because mental health overshadows it. Things 
 ### Ada
  - "justice", everything being in order
 
+### Player
+
+
 ___
 
 # How many languages does each character speak and what are these languages?
@@ -815,6 +858,9 @@ switch between fighting sports (beat the shit out of a boxing bag) and sitting b
 burying self in work, rock bottom -> alcohol
 <br>
 
+### Player
+They find it hard to cope and suffer fro panic attacks, however, we can show the others helping them out and maybe bring attention to a few methods that could help people irl
+
 ___
 
 # Does each character see themself as a hero or a anti-hero?
@@ -852,6 +898,8 @@ ___
 - sees herself as someone who "does the right thing" and "keeps everything in order"
 <br>
 
+### Player
+\-
 ___
 
 # Is each character more of a leader or a follower?
@@ -889,6 +937,9 @@ flexible
 leader to group, follower to law
 <br>
 
+### Player
+\-
+
 ___
 
 # How are each of the characters with kids?
@@ -925,6 +976,9 @@ fairly neutral, but might try to explain nihilism to them...
 pretty good w kids (has daughter)
 <br>
 
+### Player
+Neutral
+
 ___
 
 # What are the characters' pet peeves?
@@ -956,7 +1010,7 @@ slow internet
 slut shaming
 
 ### Soph
-coughing or sneezing without covering mouth
+coughing or sneezing without covering mouth and nose
 laziness
 being added to superfluous group chats
 when her door is closed, then someone walks into the room, but leaves the door open when they exit
@@ -1009,6 +1063,8 @@ interrupting
 smell of smoke
 <br>
 
+### Player
+
 ___
 
 # Which character has an obscure hidden talent?
@@ -1050,6 +1106,9 @@ ___
 - Detective Chief Inspector
 <br>
 
+### Player
+
+
 ___
 
 # What flaws does each character have?
@@ -1089,6 +1148,17 @@ inflexible
 cold
 mistrustful
 <br>
+
+### Player
+Easily distracted
+Lack of object permanence
+Frog of thought
+Oversharing
+Easily bored
+Not caring enough
+confrontational?
+Distractibility
+Intense emotions
 
 
 
@@ -1199,6 +1269,12 @@ ___
 <br>
  - on weekend: reading/crocheting/getting other stuff done when work would be
 <br>
+
+### Player
+Scincare routine
+Breakfast etc
+Lots of daily player shit
+
 
 
 ## *earlier backstory*
@@ -1349,6 +1425,10 @@ redeemed by: not that bad of a flaw, and they're generally a good person
 *too* by the books, morals align with law very rigidly
 <br>
 
+### Player
+bad listener
+redeemed by: dependent on player
+
 
 
 # Which place does each character hate; and why?
@@ -1421,6 +1501,9 @@ normal crying things (not an excessive crier, but also not someone who doesn't c
 ### Ada
 something happening to her daughter, but other than that not much
 <br>
+
+### Player
+Overstimulation
 
 ---
 
@@ -1562,6 +1645,9 @@ make a borderline uncrackeable encryption algorithm
 restoring justice
 <br>
 
+### Player
+
+
 ---
 
 # Plans for the future?
@@ -1598,7 +1684,12 @@ wants to get into security researcher/cryptography scene and have a positive imp
 promotion and keep putting away "bad guys"
 <br>
 
+### Player
+Are spontaneous and don't plan ahead a lot
+
 ---
+
+
 
 # Where did each character grow up?
 
