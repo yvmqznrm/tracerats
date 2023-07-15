@@ -1,11 +1,12 @@
 :root {
-  --Bckd: #1a1b26;
-  --Light: #a9b1d6;
+  /*--Bckd: #1a1b26;*/
+  --Bckd: #000000;
+  --Light: #808080;
   /*--Middle: #42465d;*/
-  --Text: #62667e;
-  --Middle: #2c3044;
+  --Text: #404040;
+  --Middle: #202020;
   /*--Dark: #2c3044;*/
-  --Dark: #16161f;
+  --Dark: #101010;
   --PERMsStorm: #2a71e9;
   --PERMdStorm: #21549e;
   --PERMcStorm: #3c567b;
