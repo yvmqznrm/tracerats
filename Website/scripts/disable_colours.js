@@ -10,12 +10,16 @@ function dcEnable() {
       r.style.setProperty(("--" + colours[i]), rs.getPropertyValue('--Text'));
     }
   }
+  document.getElementById("colourToggleGay").style.display = "none";
+  document.getElementById("colourToggleGray").style.display = "block";
 }
 
 function dcDisable() {
   for(i = 0; i < colours.length; i++) {
     r.style.setProperty("--" + colours[i], rs.getPropertyValue("--PERM" + colours[i]));
   }
+  document.getElementById("colourToggleGray").style.display = "none";
+  document.getElementById("colourToggleGay").style.display = "block";
 }
 
 function dcToggle() {
@@ -33,9 +37,11 @@ function dcToggle() {
 if (document.cookie == "") {
   dcDisable();
   var dcOn = false;
-  document.getElementById("dcCheckbox").checked = false;
+  document.getElementById("colourToggleGray").style.display = "none";
+  document.getElementById("colourToggleGay").style.display = "block";
 } else {
   dcEnable();
   var dcOn = true;
-  document.getElementById("dcCheckbox").checked = true;
+  document.getElementById("colourToggleGay").style.display = "none";
+  document.getElementById("colourToggleGray").style.display = "block";
 }
