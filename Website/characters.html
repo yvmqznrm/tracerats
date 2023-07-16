@@ -71,6 +71,18 @@
   display: none;
 }
 
+#navbar_button {
+    border:none;
+    padding:0rem;
+    margin-top:0.6rem;
+    margin-bottom:0.6rem;
+    margin-right:1.25rem;
+    height:2.1rem;
+    width:2.1rem;
+    cursor:pointer;
+    background-color:var(--Middle);
+}
+
 @media screen and (max-width: 90rem) {
   .navbar a {display: none;}
   .navbar a.active {display: flex;}
@@ -91,7 +103,7 @@
 
 <nav class="navbar" id="navbar">
 
-  <button style="border:none; padding:0rem; margin-top:0.6rem; margin-bottom:0.6rem; margin-right:1.25rem; height:2.1rem; width:2.1rem; cursor:pointer; background-color:var(--Dark);" type="button" onclick="hbMenu()">
+  <button type="button" onclick="hbMenu()" id="navbar_button">
     <style>
       .hbSVG {
         width: 2.1rem;
