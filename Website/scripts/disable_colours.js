@@ -1,4 +1,4 @@
-var colours = ["sStorm", "dStorm", "sMayhem", "dMayhem", "sSoph", "dSoph", "sAshley", "dAshley", "sMichael", "dMichael", "sDev", "dDev", "sNova", "dNova", "cStorm", "cMayhem", "cSoph", "cMichael", "cDev", "cNova"];
+var colours = ["sStorm", "dStorm", "sMayhem", "dMayhem", "sSoph", "dSoph", "sMichael", "dMichael", "sDev", "dDev", "sNova", "dNova", "sPolice", "dPolice", "sPoliticians", "dPoliticians", "sNazis", "dNazis", "sSquatters", "dSquatters", "sActivists", "dActivists", "sBand", "dBand", "sMedics", "dMedics"];
 var r = document.querySelector(':root');
 var rs = getComputedStyle(r);
 
