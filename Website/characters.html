@@ -399,6 +399,27 @@ function hbMenu() {
     color: var(--Bckd);
 }
 
+
+
+.pcPolice {
+    color: var(--dPolice);
+}
+
+.pcPolice :is(h1, h2, h3, h4, h5, h6) {
+    color: var(--sPolice);
+}
+
+.pcPolice button:hover {
+    border-color: var(--sPolice);
+    color: var(--sPolice);
+}
+
+.pcPolice button .active {
+    background-color: var(--sNova);
+    border-color: var(--sNova);
+    color: var(--Bckd);
+}
+
 /* .band {
     color: var(--dAshley);
 }
@@ -864,6 +885,7 @@ function hbMenu() {
 
 
 
+<div class="pcPolice">
 <!-- Profile Cards POLICE -->
 <div class="pfSection">
 
@@ -1052,6 +1074,7 @@ function hbMenu() {
 </div>
 
 </div>
+</div>
 
 
 
@@ -1064,8 +1087,10 @@ function hbMenu() {
 
 
 
+
+<div class="pcPoliticians">
 <!-- Profile Cards POLITICIANS -->
-<div class="pfSection">    
+<div class="pfSection">
     <button class="pf pfMichelle">
         <img src="images/characters/michelle_pfp.png" class="pfPic" alt="profile picture for michelle">
         <p class="pfName">michelle</p>
@@ -1189,7 +1214,7 @@ function hbMenu() {
     </ul>
 </div>
 </div>
-
+</div>
 
 
 
@@ -1200,8 +1225,9 @@ function hbMenu() {
 
 
 
+<div class="pcNazis">
 <!-- Profile Cards NAZIS -->
-<div class="pfSection">    
+<div class="pfSection">
     <button class="pf pfHeinrich">
         <img src="images/characters/heinrich_pfp.png" class="pfPic" alt="profile picture for heinrich">
         <p class="pfName">heinrich</p>
@@ -1446,7 +1472,7 @@ function hbMenu() {
 </div>
 
 </div>
-
+</div>
 
 
 
@@ -1457,6 +1483,7 @@ function hbMenu() {
 
 
 
+<div class="pcSquatters">
 <!-- Profile Cards SQUATTERS -->
 <div class="pfSection">
 
@@ -1881,6 +1908,7 @@ function hbMenu() {
 </div>
 
 </div>
+</div>
 
 
 
@@ -1892,6 +1920,7 @@ function hbMenu() {
 
 
 <!-- Profile Cards ACTIVISTS -->
+<div class="pcActivists">
 <div class="pfSection">
 
     <button class="pf pfDevi">
@@ -2020,7 +2049,7 @@ function hbMenu() {
 </div>
 
 </div>
-
+</div>
 
 
 
@@ -2030,6 +2059,7 @@ function hbMenu() {
 
 
 
+<div class="pcProtestors">
 <!-- Profile Cards PROTESTORS -->
 <div class="pfSection">
 
@@ -2276,6 +2306,7 @@ function hbMenu() {
 </div>
 
 </div>
+</div>
 
 
 
@@ -2288,8 +2319,9 @@ function hbMenu() {
 
 
 
+<div class="pcBand">
 <!-- Profile Cards BAND-->
-<div class="pfSection band">
+<div class="pfSection">
     <button class="pf pfCourtney">
             <img src="images/characters/courtney_pfp.png" class="pfPic" alt="profile picture for courtney">
             <p class="pfName">courtney</p>
@@ -2320,341 +2352,342 @@ function hbMenu() {
             <p class="pfName">emma</p>
         </button>
         
-    </div>
+</div>
     
-    <!-- Profile Content -->
-    <div>
+<!-- Profile Content -->
+<div>
 
-    <div class="pfContent" id="pfCourtneyContent">
-    
-        <h3>pronouns:</h3>
-        <ul>
-            <li>she/her</li>
-        </ul>
-    
-        <h3>age:</h3>
-        <ul>
-            <li>22</li>
-    
-        <h3>motivations for being a musician:</h3>
-        <ul>
-            <li>she always wanted to front a band and be a badass</li>
-        </ul>
-    
-        <h3>what drives her in general?</h3>
-        <ul>
-            <li>she wants to be cool and she has a lot of frustration to let out</li>
-        </ul>
+<div class="pfContent" id="pfCourtneyContent">
 
-        <h3>strengths:</h3>
-        <ul>
-            <li>charismatic</li>
-            <li>decicive</li>
-        </ul>
-    
-        <h3>flaws:</h3>
-        <ul>
-            <li>arrogant</li>
-            <li>a bit impulsive sometimes</li>
-        </ul>
-    
-        <h3>job:</h3>
-        <ul>
-            <li>dayjob: none, looking for a job</li>
-            <li>nightjob: singer in "Ugly Giants"</li>
-        </ul>
-    
-        <h3>other notes:</h3>
-        <ul>
-            <li>she's got a very grunge vibe to her</li>
-        </ul>
-    
-        <h3>moodboard:</h3>
-        <ul>
-            <a href="https://www.pinterest.co.uk/solarblips/ashley/" target="_blank">
-                <svg class="_6x6 filldAshley" viewBox="0 0 24 24">
-                    <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
-                </svg>
-            </a>
-        </ul>
-    </div> 
+    <h3>pronouns:</h3>
+    <ul>
+        <li>she/her</li>
+    </ul>
 
-    <div class="pfContent" id="pfLanaContent">
-    
-        <h3>pronouns:</h3>
-        <ul>
-            <li>she/her</li>
-        </ul>
-    
-        <h3>age:</h3>
-        <ul>
-            <li>20</li>
-        </ul>
-    
-        <h3>motivations for being a musician:</h3>
-        <ul>
-            <li>it's just really fun for her</li>
-        </ul>
-    
-        <h3>what drives her in general?</h3>
-        <ul>
-            <li>wants to do fun stuff</li>
-        </ul>
+    <h3>age:</h3>
+    <ul>
+        <li>22</li>
 
-        <h3>strengths:</h3>
-        <ul>
-            <li>honest/direct</li>
-            <li>fun to hang out with</li>
-        </ul>
-    
-        <h3>flaws:</h3>
-        <ul>
-            <li>bad at reading social cues</li>
-            <li>not the most empathetic</li>
-        </ul>
-    
-        <h3>job:</h3>
-        <ul>
-            <li>dayjob: studies photography</li>
-            <li>nightjob: guitarist in "Ugly Giants"</li>
-        </ul>
-    
-        <h3>other notes:</h3>
-        <ul>
-            <li>she's very passionate about photography and takes the bands promotional pictures</li>
-        </ul>
-    
-        <h3>moodboard:</h3>
-        <ul>
-            <a href="https://www.pinterest.co.uk/solarblips/ashley/" target="_blank">
-                <svg class="_6x6 filldAshley" viewBox="0 0 24 24">
-                    <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
-                </svg>
-            </a>
-        </ul>
-    </div> 
+    <h3>motivations for being a musician:</h3>
+    <ul>
+        <li>she always wanted to front a band and be a badass</li>
+    </ul>
 
-    <div class="pfContent" id="pfAshleyContent">
-    
-        <h3 class="sAshley">pronouns:</h3>
-        <ul>
-            <li>she/her</li>
-        </ul>
-    
-        <h3 class="sAshley">age:</h3>
-        <ul>
-            <li>24</li>
-        </ul>
-    
-        <h3 class="sAshley">motivations for being a musician:</h3>
-        <ul>
-            <li>she has a big passion for music itself</li>
-        </ul>
-    
-        <h3 class="sAshley">what drives her in general?</h3>
-        <ul>
-            <li>disgust at the horrible crimes the government and police are committing against people</li>
-        </ul>
-    
-        <h3 class="sAshley">strengths:</h3>
-        <ul>
-            <li>empathy + charisma</li>
-            <li>creativity + passion</li>
-        </ul>
-    
-        <h3 class="sAshley">flaws:</h3>
-        <ul>
-            <li>overly concerned / worried about her loved ones (including her gf soph) to the point where it negatively impacts her and possibly her relationships.</li>
-            <li>moody + impulsive</li>
-        </ul>
-    
-        <h3 class="sAshley">job:</h3>
-        <ul>
-            <li>dayjob: social work in immigration (part time)</li>
-            <li>nightjob: bassist in "Ugly Giants"</li>
-        </ul>
-    
-        <h3 class="sAshley">other notes:</h3>
-        <ul>
-            <li>she's in a relationship with soph, but also jokingly flirts with other people, which soph is ok with</li>
-        </ul>
-    
-        <h3 class="sAshley">moodboard:</h3>
-        <ul>
-            <a href="https://www.pinterest.co.uk/solarblips/ashley/" target="_blank">
-                <svg class="_6x6 filldAshley" viewBox="0 0 24 24">
-                    <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
-                </svg>
-            </a>
-        </ul>
-    </div>
+    <h3>what drives her in general?</h3>
+    <ul>
+        <li>she wants to be cool and she has a lot of frustration to let out</li>
+    </ul>
 
-    <div class="pfContent" id="pfBasmaContent">
-    
-        <h3>pronouns:</h3>
-        <ul>
-            <li>she/her</li>
-        </ul>
-    
-        <h3>age:</h3>
-        <ul>
-            <li>23</li>
-        </ul>
-    
-        <h3>motivations for being a musician:</h3>
-        <ul>
-            <li>she just really gets into it and has a lot of fun making music</li>
-        </ul>
-    
-        <h3>what drives her in general?</h3>
-        <ul>
-            <li>just wants to have fun</li>
-        </ul>
+    <h3>strengths:</h3>
+    <ul>
+        <li>charismatic</li>
+        <li>decicive</li>
+    </ul>
 
-        <h3>strengths:</h3>
-        <ul>
-            <li>happy and fun to hang out with</li>
-            <li>very communicative</li>
-        </ul>
-    
-        <h3>flaws:</h3>
-        <ul>
-            <li>doesn't speak up about things bothering her enough</li>
-            <li>seemingly doesn't take things seriously enough (she's more just bad at expressing it)</li>
-        </ul>
-    
-        <h3>job:</h3>
-        <ul>
-            <li>dayjob: works in radio interferences investigations</li>
-            <li>nightjob: keyboarder in "Ugly Giants"</li>
-        </ul>
-    
-        <h3>other notes:</h3>
-        <ul>
-            <li>she really likes skateboarding and detective books</li>
-        </ul>
-    
-        <h3>moodboard:</h3>
-        <ul>
-            <a href="https://www.pinterest.co.uk/solarblips/ashley/" target="_blank">
-                <svg class="_6x6 filldAshley" viewBox="0 0 24 24">
-                    <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
-                </svg>
-            </a>
-        </ul>
-    </div> 
+    <h3>flaws:</h3>
+    <ul>
+        <li>arrogant</li>
+        <li>a bit impulsive sometimes</li>
+    </ul>
 
-    <div class="pfContent" id="pfCharlieContent">
-    
-        <h3>pronouns:</h3>
-        <ul>
-            <li>they/them</li>
-        </ul>
-    
-        <h3>age:</h3>
-        <ul>
-            <li>20</li>
-        </ul>
-    
-        <h3>motivations for being a musician:</h3>
-        <ul>
-            <li>adrenaline of playing shows</li>
-        </ul>
-    
-        <h3>what drives them in general?</h3>
-        <ul>
-            <li>they like the rush of doing fun and scary things</li>
-        </ul>
+    <h3>job:</h3>
+    <ul>
+        <li>dayjob: none, looking for a job</li>
+        <li>nightjob: singer in "Ugly Giants"</li>
+    </ul>
 
-        <h3>strengths:</h3>
-        <ul>
-            <li>brave</li>
-            <li>adaptive</li>
-        </ul>
-    
-        <h3>flaws:</h3>
-        <ul>
-            <li>messy lifestyle</li>
-            <li>reckless</li>
-        </ul>
-    
-        <h3>job:</h3>
-        <ul>
-            <li>dayjob: works at a roofing company</li>
-            <li>nightjob: drummer in "Ugly Giants"</li>
-        </ul>
-    
-        <h3>other notes:</h3>
-        <ul>
-            <li>they would probably get along with dev very well if they were close</li>
-        </ul>
-    
-        <h3>moodboard:</h3>
-        <ul>
-            <a href="https://www.pinterest.co.uk/solarblips/ashley/" target="_blank">
-                <svg class="_6x6 filldAshley" viewBox="0 0 24 24">
-                    <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
-                </svg>
-            </a>
-        </ul>
-    </div> 
+    <h3>other notes:</h3>
+    <ul>
+        <li>she's got a very grunge vibe to her</li>
+    </ul>
 
-    <div class="pfContent" id="pfEmmaContent">
-    
-        <h3>pronouns:</h3>
-        <ul>
-            <li>she/her</li>
-        </ul>
-    
-        <h3>age:</h3>
-        <ul>
-            <li>26</li>
-        </ul>
-    
-        <h3>motivations doing her job:</h3>
-        <ul>
-            <li>she really likes music and has gotten to a point where she has a reputation to uphold</li>
-        </ul>
-    
-        <h3>what drives her in general?</h3>
-        <ul>
-            <li>she wants to archieve big things</li>
-        </ul>
+    <h3>moodboard:</h3>
+    <ul>
+        <a href="https://www.pinterest.co.uk/solarblips/ashley/" target="_blank">
+            <svg class="_6x6 filldAshley" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
+</div> 
 
-        <h3>strengths:</h3>
-        <ul>
-            <li>has a pretty good intuition who it makes sense to invest work into</li>
-            <li>organized</li>
-        </ul>
-    
-        <h3>flaws:</h3>
-        <ul>
-            <li>a bit bossy sometimes</li>
-            <li>dismissive</li>
-        </ul>
-    
-        <h3>job:</h3>
-        <ul>
-            <li>producer for "Ugly Giants" and a few local indie bands</li>
-        </ul>
-    
-        <h3>other notes:</h3>
-        <ul>
-            <li>she's very work focussed and doesn't like to spend a lot of time doing the whole social dance around stuff</li>
-        </ul>
-    
-        <h3>moodboard:</h3>
-        <ul>
-            <a href="https://www.pinterest.co.uk/solarblips/ashley/" target="_blank">
-                <svg class="_6x6 filldAshley" viewBox="0 0 24 24">
-                    <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
-                </svg>
-            </a>
-        </ul>
-    </div> 
+<div class="pfContent" id="pfLanaContent">
 
-    
-    </div>
+    <h3>pronouns:</h3>
+    <ul>
+        <li>she/her</li>
+    </ul>
+
+    <h3>age:</h3>
+    <ul>
+        <li>20</li>
+    </ul>
+
+    <h3>motivations for being a musician:</h3>
+    <ul>
+        <li>it's just really fun for her</li>
+    </ul>
+
+    <h3>what drives her in general?</h3>
+    <ul>
+        <li>wants to do fun stuff</li>
+    </ul>
+
+    <h3>strengths:</h3>
+    <ul>
+        <li>honest/direct</li>
+        <li>fun to hang out with</li>
+    </ul>
+
+    <h3>flaws:</h3>
+    <ul>
+        <li>bad at reading social cues</li>
+        <li>not the most empathetic</li>
+    </ul>
+
+    <h3>job:</h3>
+    <ul>
+        <li>dayjob: studies photography</li>
+        <li>nightjob: guitarist in "Ugly Giants"</li>
+    </ul>
+
+    <h3>other notes:</h3>
+    <ul>
+        <li>she's very passionate about photography and takes the bands promotional pictures</li>
+    </ul>
+
+    <h3>moodboard:</h3>
+    <ul>
+        <a href="https://www.pinterest.co.uk/solarblips/ashley/" target="_blank">
+            <svg class="_6x6 filldAshley" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
+</div> 
+
+<div class="pfContent" id="pfAshleyContent">
+
+    <h3 class="sAshley">pronouns:</h3>
+    <ul>
+        <li>she/her</li>
+    </ul>
+
+    <h3 class="sAshley">age:</h3>
+    <ul>
+        <li>24</li>
+    </ul>
+
+    <h3 class="sAshley">motivations for being a musician:</h3>
+    <ul>
+        <li>she has a big passion for music itself</li>
+    </ul>
+
+    <h3 class="sAshley">what drives her in general?</h3>
+    <ul>
+        <li>disgust at the horrible crimes the government and police are committing against people</li>
+    </ul>
+
+    <h3 class="sAshley">strengths:</h3>
+    <ul>
+        <li>empathy + charisma</li>
+        <li>creativity + passion</li>
+    </ul>
+
+    <h3 class="sAshley">flaws:</h3>
+    <ul>
+        <li>overly concerned / worried about her loved ones (including her gf soph) to the point where it negatively impacts her and possibly her relationships.</li>
+        <li>moody + impulsive</li>
+    </ul>
+
+    <h3 class="sAshley">job:</h3>
+    <ul>
+        <li>dayjob: social work in immigration (part time)</li>
+        <li>nightjob: bassist in "Ugly Giants"</li>
+    </ul>
+
+    <h3 class="sAshley">other notes:</h3>
+    <ul>
+        <li>she's in a relationship with soph, but also jokingly flirts with other people, which soph is ok with</li>
+    </ul>
+
+    <h3 class="sAshley">moodboard:</h3>
+    <ul>
+        <a href="https://www.pinterest.co.uk/solarblips/ashley/" target="_blank">
+            <svg class="_6x6 filldAshley" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
+</div>
+
+<div class="pfContent" id="pfBasmaContent">
+
+    <h3>pronouns:</h3>
+    <ul>
+        <li>she/her</li>
+    </ul>
+
+    <h3>age:</h3>
+    <ul>
+        <li>23</li>
+    </ul>
+
+    <h3>motivations for being a musician:</h3>
+    <ul>
+        <li>she just really gets into it and has a lot of fun making music</li>
+    </ul>
+
+    <h3>what drives her in general?</h3>
+    <ul>
+        <li>just wants to have fun</li>
+    </ul>
+
+    <h3>strengths:</h3>
+    <ul>
+        <li>happy and fun to hang out with</li>
+        <li>very communicative</li>
+    </ul>
+
+    <h3>flaws:</h3>
+    <ul>
+        <li>doesn't speak up about things bothering her enough</li>
+        <li>seemingly doesn't take things seriously enough (she's more just bad at expressing it)</li>
+    </ul>
+
+    <h3>job:</h3>
+    <ul>
+        <li>dayjob: works in radio interferences investigations</li>
+        <li>nightjob: keyboarder in "Ugly Giants"</li>
+    </ul>
+
+    <h3>other notes:</h3>
+    <ul>
+        <li>she really likes skateboarding and detective books</li>
+    </ul>
+
+    <h3>moodboard:</h3>
+    <ul>
+        <a href="https://www.pinterest.co.uk/solarblips/ashley/" target="_blank">
+            <svg class="_6x6 filldAshley" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
+</div> 
+
+<div class="pfContent" id="pfCharlieContent">
+
+    <h3>pronouns:</h3>
+    <ul>
+        <li>they/them</li>
+    </ul>
+
+    <h3>age:</h3>
+    <ul>
+        <li>20</li>
+    </ul>
+
+    <h3>motivations for being a musician:</h3>
+    <ul>
+        <li>adrenaline of playing shows</li>
+    </ul>
+
+    <h3>what drives them in general?</h3>
+    <ul>
+        <li>they like the rush of doing fun and scary things</li>
+    </ul>
+
+    <h3>strengths:</h3>
+    <ul>
+        <li>brave</li>
+        <li>adaptive</li>
+    </ul>
+
+    <h3>flaws:</h3>
+    <ul>
+        <li>messy lifestyle</li>
+        <li>reckless</li>
+    </ul>
+
+    <h3>job:</h3>
+    <ul>
+        <li>dayjob: works at a roofing company</li>
+        <li>nightjob: drummer in "Ugly Giants"</li>
+    </ul>
+
+    <h3>other notes:</h3>
+    <ul>
+        <li>they would probably get along with dev very well if they were close</li>
+    </ul>
+
+    <h3>moodboard:</h3>
+    <ul>
+        <a href="https://www.pinterest.co.uk/solarblips/ashley/" target="_blank">
+            <svg class="_6x6 filldAshley" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
+</div> 
+
+<div class="pfContent" id="pfEmmaContent">
+
+    <h3>pronouns:</h3>
+    <ul>
+        <li>she/her</li>
+    </ul>
+
+    <h3>age:</h3>
+    <ul>
+        <li>26</li>
+    </ul>
+
+    <h3>motivations doing her job:</h3>
+    <ul>
+        <li>she really likes music and has gotten to a point where she has a reputation to uphold</li>
+    </ul>
+
+    <h3>what drives her in general?</h3>
+    <ul>
+        <li>she wants to archieve big things</li>
+    </ul>
+
+    <h3>strengths:</h3>
+    <ul>
+        <li>has a pretty good intuition who it makes sense to invest work into</li>
+        <li>organized</li>
+    </ul>
+
+    <h3>flaws:</h3>
+    <ul>
+        <li>a bit bossy sometimes</li>
+        <li>dismissive</li>
+    </ul>
+
+    <h3>job:</h3>
+    <ul>
+        <li>producer for "Ugly Giants" and a few local indie bands</li>
+    </ul>
+
+    <h3>other notes:</h3>
+    <ul>
+        <li>she's very work focussed and doesn't like to spend a lot of time doing the whole social dance around stuff</li>
+    </ul>
+
+    <h3>moodboard:</h3>
+    <ul>
+        <a href="https://www.pinterest.co.uk/solarblips/ashley/" target="_blank">
+            <svg class="_6x6 filldAshley" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
+</div> 
+
+
+</div>
+</div>
 
 
 
@@ -2666,6 +2699,7 @@ function hbMenu() {
 
 
 
+<div class="pcMedics">
 <!-- Profile Cards MEDICS -->
 <div class="pfSection">
 
@@ -2792,7 +2826,7 @@ function hbMenu() {
 </div>
 
 </div>
-
+</div>
 
 
 
@@ -2819,9 +2853,11 @@ function profiles() {
             pfContentList[y].style.display = "none";
         }
         this.classList.toggle(this.classList[1] + "-a");
+        this.classList.toggle("active");
         content.style.display = "block";
     } else {
         this.classList.toggle(this.classList[1] + "-a");
+        this.classList.toggle("active");
         content.style.display = "none";
     }
 }
