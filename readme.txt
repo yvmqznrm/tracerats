@@ -1,1 +1,1 @@
-Hi, this is just a little readme file to tell you about the current state of things. Right now there is no publicly downloadable playable version yet, but after the talk there will be! Thanks for your patience!
+hi, this is just a little readme file to tell you about the current state of things. right now there is no publicly downloadable playable version yet, but we're on it. thank you for your patience!
