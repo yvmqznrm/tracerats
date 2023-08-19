@@ -39,7 +39,7 @@
 
 
 
-<body>
+<body onresize="checkFadeAndButtons()">
 
 <div>
 <style>
@@ -276,10 +276,72 @@ function hbMenu() {
     /* flex-wrap: nowrap; */
     overflow-x: scroll;
     /* border: 0.5rem solid #ffd700; */
+    scroll-behavior: smooth;
 }
 
+.rightFade {
+    mask-image: linear-gradient(to right, black 0%, black calc(100% - 10rem), transparent 100%);
+}
 
-/* --- Character Specific --- */
+.leftFade {
+    mask-image: linear-gradient(to right, transparent 0%, black 10rem, black 100%);
+}
+
+.bothFade {
+    mask-image: linear-gradient(to right, transparent 0%, black 10rem, black calc(100% - 10rem), transparent 100%);
+}
+
+.cardsDiv {
+    position: relative;
+}
+
+.arrow {
+  border: solid var(--Light);
+  border-width: 0 0.2rem 0.2rem 0;
+  display: none;
+  padding: 1rem;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.arrow:hover {
+    border-color: white;
+}
+
+/* .arrow:hover {
+    transform: scale(1.3);
+} */
+
+.leftButton {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    /* transform: translateY(-50%);
+    transform: translateY(-2rem); */
+    transform: translateY(-50%) rotate(135deg);
+}
+
+/* .leftButon:hover {
+    transform: translateY(-50%) rotate(135deg) scale(1.3);
+} */
+
+.rightButton {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%) rotate(-45deg);
+    /* transform: translateY(calc(-50% - 0.4rem)) rotate(-45deg); */
+
+}
+
+/* .rightButon:hover {
+    transform: translateY(-50%) rotate(-45deg) scale(1.3);
+} */
+
+</style>
+
+<!--/* --- Character Specific --- */-->
+<style>
 
 .pfStorm{
 }
@@ -600,36 +662,40 @@ function hbMenu() {
 
 <!------- Profile HTML ------->
 <!-- Profile Cards TRACERATS -->
-<div class="pfSection">
-    <button class="pf pfStorm">
-        <img src="images/characters/storm_pfp.png" class="pfPic" alt="3d model of storm">
-        <p class="pfName">storm</p>
-    </button>
+<div class="cardsDiv">
+    <i class="arrow leftButton"></i>
+    <div class="pfSection">
+        <button class="pf pfStorm">
+            <img src="images/characters/storm_pfp.png" class="pfPic" alt="3d model of storm">
+            <p class="pfName">storm</p>
+        </button>
 
-    <button class="pf pfMayhem">
-        <img src="images/characters/mayhem_pfp.png" class="pfPic" alt="3d model of mayhem">
-        <p class="pfName">mayhem</p>
-    </button>
+        <button class="pf pfMayhem">
+            <img src="images/characters/mayhem_pfp.png" class="pfPic" alt="3d model of mayhem">
+            <p class="pfName">mayhem</p>
+        </button>
 
-    <button class="pf pfSoph">
-        <img src="images/characters/soph_pfp.png" class="pfPic" alt="3d model of soph">
-        <p class="pfName">soph</p>
-    </button>
+        <button class="pf pfSoph">
+            <img src="images/characters/soph_pfp.png" class="pfPic" alt="3d model of soph">
+            <p class="pfName">soph</p>
+        </button>
 
-    <button class="pf pfMichael">
-        <img src="images/characters/michael_pfp.png" class="pfPic" alt="3d model of michael">
-        <p class="pfName">michael</p>
-    </button>
+        <button class="pf pfMichael">
+            <img src="images/characters/michael_pfp.png" class="pfPic" alt="3d model of michael">
+            <p class="pfName">michael</p>
+        </button>
 
-    <button class="pf pfDev">
-        <img src="images/characters/dev_pfp.png" class="pfPic" alt="3d model of dev">
-        <p class="pfName">dev</p>
-    </button>
+        <button class="pf pfDev">
+            <img src="images/characters/dev_pfp.png" class="pfPic" alt="3d model of dev">
+            <p class="pfName">dev</p>
+        </button>
 
-    <button class="pf pfNova">
-        <img src="images/characters/nova_pfp.png" class="pfPic" alt="3d model of nova">
-        <p class="pfName">nova</p>
-    </button>
+        <button class="pf pfNova">
+            <img src="images/characters/nova_pfp.png" class="pfPic" alt="3d model of nova">
+            <p class="pfName">nova</p>
+        </button>
+    </div>
+    <i class="arrow rightButton"></i>
 </div>
 
 <!-- Profile Content TRACERATS -->
@@ -1039,22 +1105,26 @@ function hbMenu() {
 
 <div class="pcPolice">
 <!-- Profile Cards POLICE -->
-<div class="pfSection">
+<div class="cardsDiv">
+    <i class="arrow leftButton"></i>
+    <div class="pfSection">
 
-    <button class="pf pfAda">
-        <img src="images/characters/ada_pfp.png" class="pfPic" alt="profile picture for ada">
-        <p class="pfName">ada</p>
-    </button>
-    
-    <button class="pf pfDave">
-        <img src="images/characters/dave_pfp.png" class="pfPic" alt="profile picture for dave">
-        <p class="pfName">dave</p>
-    </button>
-    
-    <button class="pf pfAndrew">
-        <img src="images/characters/andrew_pfp.png" class="pfPic" alt="profile picture for andrew">
-        <p class="pfName">andrew</p>
-    </button>
+        <button class="pf pfAda">
+            <img src="images/characters/ada_pfp.png" class="pfPic" alt="profile picture for ada">
+            <p class="pfName">ada</p>
+        </button>
+        
+        <button class="pf pfDave">
+            <img src="images/characters/dave_pfp.png" class="pfPic" alt="profile picture for dave">
+            <p class="pfName">dave</p>
+        </button>
+        
+        <button class="pf pfAndrew">
+            <img src="images/characters/andrew_pfp.png" class="pfPic" alt="profile picture for andrew">
+            <p class="pfName">andrew</p>
+        </button>
+    </div>
+    <i class="arrow rightButton"></i>
 </div>
 
 <!-- Profile Content POLICE -->
@@ -1242,16 +1312,20 @@ function hbMenu() {
 
 <div class="pcPoliticians">
 <!-- Profile Cards POLITICIANS -->
-<div class="pfSection">
-    <button class="pf pfMichelle">
-        <img src="images/characters/michelle_pfp.png" class="pfPic" alt="profile picture for michelle">
-        <p class="pfName">m clarke</p>
-    </button>
-    
-    <button class="pf pfJohnathan">
-        <img src="images/characters/jonathan_pfp.png" class="pfPic" alt="profile picture for johnathan">
-        <p class="pfName">j white</p>
-    </button>
+<div class="cardsDiv">
+    <i class="arrow leftButton"></i>
+    <div class="pfSection">
+        <button class="pf pfMichelle">
+            <img src="images/characters/michelle_pfp.png" class="pfPic" alt="profile picture for michelle">
+            <p class="pfName">m clarke</p>
+        </button>
+        
+        <button class="pf pfJohnathan">
+            <img src="images/characters/jonathan_pfp.png" class="pfPic" alt="profile picture for johnathan">
+            <p class="pfName">j white</p>
+        </button>
+    </div>
+    <i class="arrow rightButton"></i>
 </div>
 
 <!-- Profile Content POLITICIANS -->
@@ -1379,26 +1453,30 @@ function hbMenu() {
 
 <div class="pcNazis">
 <!-- Profile Cards NAZIS -->
-<div class="pfSection">
-    <button class="pf pfHeinrich">
-        <img src="images/characters/heinrich_pfp.png" class="pfPic" alt="profile picture for heinrich">
-        <p class="pfName">heinrich</p>
-    </button>
+<div class="cardsDiv">
+    <i class="arrow leftButton"></i>
+    <div class="pfSection">
+        <button class="pf pfHeinrich">
+            <img src="images/characters/heinrich_pfp.png" class="pfPic" alt="profile picture for heinrich">
+            <p class="pfName">heinrich</p>
+        </button>
 
-    <button class="pf pfIsaac">
-        <img src="images/characters/isaac_pfp.png" class="pfPic" alt="profile picture for isaac">
-        <p class="pfName">isaac</p>
-    </button>
+        <button class="pf pfIsaac">
+            <img src="images/characters/isaac_pfp.png" class="pfPic" alt="profile picture for isaac">
+            <p class="pfName">isaac</p>
+        </button>
 
-    <button class="pf pfTommy">
-        <img src="images/characters/tommy_pfp.png" class="pfPic" alt="profile picture for tommy">
-        <p class="pfName">tommy</p>
-    </button>
+        <button class="pf pfTommy">
+            <img src="images/characters/tommy_pfp.png" class="pfPic" alt="profile picture for tommy">
+            <p class="pfName">tommy</p>
+        </button>
 
-    <button class="pf pfNick">
-        <img src="images/characters/nick_pfp.png" class="pfPic" alt="profile picture for nick">
-        <p class="pfName">nick</p>
-    </button>
+        <button class="pf pfNick">
+            <img src="images/characters/nick_pfp.png" class="pfPic" alt="profile picture for nick">
+            <p class="pfName">nick</p>
+        </button>
+    </div>
+    <i class="arrow rightButton"></i>
 </div>
 
 <!-- Profile Content NAZIS -->
@@ -1637,43 +1715,47 @@ function hbMenu() {
 
 <div class="pcSquatters">
 <!-- Profile Cards SQUATTERS -->
-<div class="pfSection">
+<div class="cardsDiv">
+    <i class="arrow leftButton"></i>
+    <div class="pfSection">
 
-    <button class="pf pfJohnny">
-        <img src="images/characters/johnny_pfp.png" class="pfPic" alt="profile picture for johnny">
-        <p class="pfName">johnny</p>
-    </button>
+        <button class="pf pfJohnny">
+            <img src="images/characters/johnny_pfp.png" class="pfPic" alt="profile picture for johnny">
+            <p class="pfName">johnny</p>
+        </button>
 
-    <button class="pf pfJanet">
-        <img src="images/characters/janet_pfp.png" class="pfPic" alt="profile picture for janet">
-        <p class="pfName">janet</p>
-    </button>
+        <button class="pf pfJanet">
+            <img src="images/characters/janet_pfp.png" class="pfPic" alt="profile picture for janet">
+            <p class="pfName">janet</p>
+        </button>
 
-    <button class="pf pfCherry">
-        <img src="images/characters/cherry_pfp.png" class="pfPic" alt="profile picture for cherry">
-        <p class="pfName">cherry</p>
-    </button>
+        <button class="pf pfCherry">
+            <img src="images/characters/cherry_pfp.png" class="pfPic" alt="profile picture for cherry">
+            <p class="pfName">cherry</p>
+        </button>
 
-    <button class="pf pfEmber">
-        <img src="images/characters/ember_pfp.png" class="pfPic" alt="profile picture for ember">
-        <p class="pfName">ember</p>
-    </button>
+        <button class="pf pfEmber">
+            <img src="images/characters/ember_pfp.png" class="pfPic" alt="profile picture for ember">
+            <p class="pfName">ember</p>
+        </button>
 
-    <button class="pf pfAlex">
-        <img src="images/characters/alex_pfp.png" class="pfPic" alt="profile picture for alex">
-        <p class="pfName">alex</p>
-    </button>
+        <button class="pf pfAlex">
+            <img src="images/characters/alex_pfp.png" class="pfPic" alt="profile picture for alex">
+            <p class="pfName">alex</p>
+        </button>
 
-    <button class="pf pfRufus">
-        <img src="images/characters/rufus_pfp.png" class="pfPic" alt="profile picture for rufus">
-        <p class="pfName">rufus</p>
-    </button>
+        <button class="pf pfRufus">
+            <img src="images/characters/rufus_pfp.png" class="pfPic" alt="profile picture for rufus">
+            <p class="pfName">rufus</p>
+        </button>
 
-    <button class="pf pfSam">
-        <img src="images/characters/sam_pfp.png" class="pfPic" alt="profile picture for sam">
-        <p class="pfName">sam</p>
-    </button>
-    
+        <button class="pf pfSam">
+            <img src="images/characters/sam_pfp.png" class="pfPic" alt="profile picture for sam">
+            <p class="pfName">sam</p>
+        </button>
+        
+    </div>
+    <i class="arrow rightButton"></i>
 </div>
 
 
@@ -2073,18 +2155,22 @@ function hbMenu() {
 
 <!-- Profile Cards ACTIVISTS -->
 <div class="pcActivists">
-<div class="pfSection">
+<div class="cardsDiv">
+    <i class="arrow leftButton"></i>
+    <div class="pfSection">
 
-    <button class="pf pfDevi">
-        <img src="images/characters/devi_pfp.png" class="pfPic" alt="profile picture for devi">
-        <p class="pfName">devi</p>
-    </button>
+        <button class="pf pfDevi">
+            <img src="images/characters/devi_pfp.png" class="pfPic" alt="profile picture for devi">
+            <p class="pfName">devi</p>
+        </button>
 
-    <button class="pf pfBrian">
-        <img src="images/characters/brian_pfp.png" class="pfPic" alt="profile picture for brian">
-        <p class="pfName">brian</p>
-    </button>
-    
+        <button class="pf pfBrian">
+            <img src="images/characters/brian_pfp.png" class="pfPic" alt="profile picture for brian">
+            <p class="pfName">brian</p>
+        </button>
+        
+    </div>
+    <i class="arrow rightButton"></i>
 </div>
 
 
@@ -2213,28 +2299,32 @@ function hbMenu() {
 
 <div class="pcProtestors">
 <!-- Profile Cards PROTESTORS -->
-<div class="pfSection">
+<div class="cardsDiv">
+    <i class="arrow leftButton"></i>
+    <div class="pfSection">
 
-    <button class="pf pfAaron">
-        <img src="images/characters/aaron_pfp.png" class="pfPic" alt="profile picture for aaron">
-        <p class="pfName">aaron</p>
-    </button>
-    
-    <button class="pf pfKenji">
-        <img src="images/characters/kenji_pfp.png" class="pfPic" alt="profile picture for kenji">
-        <p class="pfName">kenji</p>
-    </button>
+        <button class="pf pfAaron">
+            <img src="images/characters/aaron_pfp.png" class="pfPic" alt="profile picture for aaron">
+            <p class="pfName">aaron</p>
+        </button>
+        
+        <button class="pf pfKenji">
+            <img src="images/characters/kenji_pfp.png" class="pfPic" alt="profile picture for kenji">
+            <p class="pfName">kenji</p>
+        </button>
 
-    <button class="pf pfEleanor">
-        <img src="images/characters/eleanor_pfp.png" class="pfPic" alt="profile picture for eleanor">
-        <p class="pfName">eleanor</p>
-    </button>
+        <button class="pf pfEleanor">
+            <img src="images/characters/eleanor_pfp.png" class="pfPic" alt="profile picture for eleanor">
+            <p class="pfName">eleanor</p>
+        </button>
 
-    <button class="pf pfDeborah">
-        <img src="images/characters/deborah_pfp.png" class="pfPic" alt="profile picture for deborah">
-        <p class="pfName">deborah</p>
-    </button>
-    
+        <button class="pf pfDeborah">
+            <img src="images/characters/deborah_pfp.png" class="pfPic" alt="profile picture for deborah">
+            <p class="pfName">deborah</p>
+        </button>
+        
+    </div>
+    <i class="arrow rightButton"></i>
 </div>
 
 
@@ -2473,37 +2563,41 @@ function hbMenu() {
 
 <div class="pcBand">
 <!-- Profile Cards BAND-->
-<div class="pfSection">
-    <button class="pf pfCourtney">
-            <img src="images/characters/courtney_pfp.png" class="pfPic" alt="profile picture for courtney">
-            <p class="pfName">courtney</p>
-        </button>
-    
-    <button class="pf pfLana">
-            <img src="images/characters/lana_pfp.png" class="pfPic" alt="profile picture for lana">
-            <p class="pfName">lana</p>
-        </button>
-    
-    <button class="pf pfAshley">
-            <img src="images/characters/ashley_pfp.png" class="pfPic" alt="profile picture for ashley">
-            <p class="pfName">ashley</p>
-        </button>
-    
-    <button class="pf pfBasma">
-            <img src="images/characters/basma_pfp.png" class="pfPic" alt="profile picture for basma">
-            <p class="pfName">basma</p>
-        </button>
+<div class="cardsDiv">
+    <i class="arrow leftButton"></i>
+    <div class="pfSection">
+        <button class="pf pfCourtney">
+                <img src="images/characters/courtney_pfp.png" class="pfPic" alt="profile picture for courtney">
+                <p class="pfName">courtney</p>
+            </button>
         
-    <button class="pf pfCharlie">
-            <img src="images/characters/charlie_pfp.png" class="pfPic" alt="profile picture for charlie">
-            <p class="pfName">charlie</p>
-        </button>
+        <button class="pf pfLana">
+                <img src="images/characters/lana_pfp.png" class="pfPic" alt="profile picture for lana">
+                <p class="pfName">lana</p>
+            </button>
         
-    <button class="pf pfEmma">
-            <img src="images/characters/emma_pfp.png" class="pfPic" alt="profile picture for emma">
-            <p class="pfName">emma</p>
-        </button>
+        <button class="pf pfAshley">
+                <img src="images/characters/ashley_pfp.png" class="pfPic" alt="profile picture for ashley">
+                <p class="pfName">ashley</p>
+            </button>
         
+        <button class="pf pfBasma">
+                <img src="images/characters/basma_pfp.png" class="pfPic" alt="profile picture for basma">
+                <p class="pfName">basma</p>
+            </button>
+            
+        <button class="pf pfCharlie">
+                <img src="images/characters/charlie_pfp.png" class="pfPic" alt="profile picture for charlie">
+                <p class="pfName">charlie</p>
+            </button>
+            
+        <button class="pf pfEmma">
+                <img src="images/characters/emma_pfp.png" class="pfPic" alt="profile picture for emma">
+                <p class="pfName">emma</p>
+            </button>
+            
+    </div>
+    <i class="arrow rightButton"></i>
 </div>
     
 <!-- Profile Content -->
@@ -2853,17 +2947,21 @@ function hbMenu() {
 
 <div class="pcMedics">
 <!-- Profile Cards MEDICS -->
-<div class="pfSection">
+<div class="cardsDiv">
+    <i class="arrow leftButton"></i>
+    <div class="pfSection">
 
-    <button class="pf pfDrEllis">
-        <img src="images/characters/drellis_pfp.png" class="pfPic" alt="profile picture for dr ellis">
-        <p class="pfName">dr ellis</p>
-    </button>
+        <button class="pf pfDrEllis">
+            <img src="images/characters/drellis_pfp.png" class="pfPic" alt="profile picture for dr ellis">
+            <p class="pfName">dr ellis</p>
+        </button>
 
-    <button class="pf pfJames">
-        <img src="images/characters/james_pfp.png" class="pfPic" alt="profile picture for james">
-        <p class="pfName">james</p>
-    </button>
+        <button class="pf pfJames">
+            <img src="images/characters/james_pfp.png" class="pfPic" alt="profile picture for james">
+            <p class="pfName">james</p>
+        </button>
+    </div>
+    <i class="arrow rightButton"></i>
 </div>
 
 
@@ -3040,4 +3138,126 @@ for (i = 0; i < pfbs.length; i++) {
 
 
 </body>
+
+<script>
+    pfSections = document.querySelectorAll(".pfSection");
+    function checkFadeAndButtons() {
+        for (let i=0; i < pfSections.length; i++) {
+            let dispWidth = pfSections[i].clientWidth;
+            let fullWidth = pfSections[i].scrollWidth;
+            let scrollPos = pfSections[i].scrollLeft;
+    
+            cList = pfSections[i].classList;
+    
+            if (((fullWidth - scrollPos) > dispWidth) && (scrollPos > 0)) {
+                //if both
+                pfSections[i].nextElementSibling.style.display = "inline-block";
+                pfSections[i].previousElementSibling.style.display = "inline-block";
+                cList.add("bothFade");
+                cList.remove("rightFade");
+                cList.remove("leftFade");
+            } else if ((fullWidth - scrollPos) > dispWidth){
+                // if right fade only
+                pfSections[i].nextElementSibling.style.display = "inline-block";
+                pfSections[i].previousElementSibling.style.display = "none";
+                cList.add("rightFade");
+                cList.remove("bothFade");
+                cList.remove("leftFade");
+            } else if (scrollPos > 0) {
+                // if left fade only
+                pfSections[i].previousElementSibling.style.display = "inline-block";
+                pfSections[i].nextElementSibling.style.display = "none";
+                cList.add("leftFade");
+                cList.remove("bothFade");
+                cList.remove("rightFade");
+            } else {
+                // if no fade
+                pfSections[i].nextElementSibling.style.display = "none";
+                pfSections[i].previousElementSibling.style.display = "none";
+                cList.remove("bothFade");
+                cList.remove("rightFade");
+                cList.remove("leftFade");
+            }
+    
+            if ((fullWidth - scrollPos) > dispWidth) {
+                pfSections[i].nextElementSibling.style.display = "inline-block";
+                // for if right
+            } else {
+                pfSections[i].nextElementSibling.style.display = "none";
+            };
+            if (scrollPos > 0) {
+                pfSections[i].previousElementSibling.style.display = "inline-block";
+                // for if left
+            } else {
+                pfSections[i].previousElementSibling.style.display = "none";
+            };
+        }
+    }
+    
+    function moveRight(){
+        let cardsDiv = this.previousElementSibling;
+        let cards = cardsDiv.children;
+        let cardPos = cards.length;
+        while (cardPos > 0){
+            cardPos--;
+            if ((cards[cardPos].offsetLeft + cards[cardPos].offsetWidth) < (cardsDiv.scrollLeft + cardsDiv.clientWidth)) {
+                break
+            }
+        }
+        cardPos++;
+        cardsDiv.scrollLeft = cards[cardPos].offsetLeft - cardsDiv.clientWidth + cards[cardPos].offsetWidth + 1;// + cards[cardPos].borderWidth;
+    };
+    
+    function moveLeft() {
+        let cardsDiv = this.nextElementSibling;
+        let cards = cardsDiv.children;
+        let cardPos = 0;
+        while (cardPos < cards.length){
+            if (cards[cardPos].offsetLeft > cardsDiv.scrollLeft) {
+                break
+            }
+            cardPos++;
+        }
+        cardPos--;
+        cardsDiv.scrollLeft = cards[cardPos].offsetLeft - 1;// + cards[cardPos].borderWidth;
+        console.log(cards[cardPos].offsetLeft);
+        console.log(cardsDiv.scrollLeft);
+    };
+    
+    // console.log(cards[cardPos].offsetLeft);
+    
+    for (let i = 0; i < pfSections.length; i++) {
+        let cards = pfSections[i].children;
+        cards[cards.length-1].style.marginRight = 0;
+        // cards[0].style.marginLeft = 0;
+    }
+    
+    let lButtons = document.querySelectorAll(".leftButton");
+    let rButtons = document.querySelectorAll(".rightButton");
+    // let arrows = document.querySelectorAll(".arrow");
+    
+    for (let i = 0; i < lButtons.length; i++) {
+        lButtons[i].addEventListener("click", moveLeft);
+        lButtons[i].style.zIndex = "31";
+    }
+    
+    for (let i = 0; i < rButtons.length; i++) {
+        rButtons[i].addEventListener("click", moveRight);
+        rButtons[i].style.zIndex = "31";
+    }
+    
+    for (let i=0; i < pfSections.length; i++) {
+        pfSections[i].addEventListener("scroll", checkFadeAndButtons);
+    }
+    
+    checkFadeAndButtons();
+    
+    
+    // for (let i = 0; i < arrows.length; i++) {
+    //     arrows[i].addEventListener("mouseenter", arrows[i].style.transform += " scale(1.3)");
+    // }
+    
+    
+    </script>
+
 </html>
