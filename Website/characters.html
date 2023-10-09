@@ -39,7 +39,7 @@
 
 
 
-<body onresize="checkFadeAndButtons()">
+<body>
 
 <div>
 <style>
@@ -257,7 +257,7 @@ function hbMenu() {
 }
 
 .pfName{
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     text-align: center;
     margin: 0rem 0.5rem;
 }
@@ -276,72 +276,10 @@ function hbMenu() {
     /* flex-wrap: nowrap; */
     overflow-x: scroll;
     /* border: 0.5rem solid #ffd700; */
-    scroll-behavior: smooth;
 }
 
-.rightFade {
-    mask-image: linear-gradient(to right, black 0%, black calc(100% - 10rem), transparent 100%);
-}
 
-.leftFade {
-    mask-image: linear-gradient(to right, transparent 0%, black 10rem, black 100%);
-}
-
-.bothFade {
-    mask-image: linear-gradient(to right, transparent 0%, black 10rem, black calc(100% - 10rem), transparent 100%);
-}
-
-.cardsDiv {
-    position: relative;
-}
-
-.arrow {
-  border: solid var(--Light);
-  border-width: 0 0.2rem 0.2rem 0;
-  display: none;
-  padding: 1rem;
-  transition: all 0.4s ease;
-  cursor: pointer;
-}
-
-.arrow:hover {
-    border-color: white;
-}
-
-/* .arrow:hover {
-    transform: scale(1.3);
-} */
-
-.leftButton {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    /* transform: translateY(-50%);
-    transform: translateY(-2rem); */
-    transform: translateY(-50%) rotate(135deg);
-}
-
-/* .leftButon:hover {
-    transform: translateY(-50%) rotate(135deg) scale(1.3);
-} */
-
-.rightButton {
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%) rotate(-45deg);
-    /* transform: translateY(calc(-50% - 0.4rem)) rotate(-45deg); */
-
-}
-
-/* .rightButon:hover {
-    transform: translateY(-50%) rotate(-45deg) scale(1.3);
-} */
-
-</style>
-
-<!--/* --- Character Specific --- */-->
-<style>
+/* --- Character Specific --- */
 
 .pfStorm{
 }
@@ -571,22 +509,22 @@ function hbMenu() {
 
 
 .pcProtestors {
-    color: var(--Text);
+    color: var(--dProtestors);
 }
 
 .pcProtestors :is(h1, h2, h3, h4, h5, h6) {
-    color: var(--Light);
+    color: var(--sProtestors);
 }
 
 .pcProtestors button:hover {
     background-color: var(--Bckd);
-    border-color: var(--Light);
-    color: var(--Light);
+    border-color: var(--sProtestors);
+    color: var(--sProtestors);
 }
 
 .pcProtestors .active {
-    background-color: var(--Light);
-    border-color: var(--Light);
+    background-color: var(--sProtestors);
+    border-color: var(--sProtestors);
     color: var(--Bckd);
 }
 
@@ -662,40 +600,36 @@ function hbMenu() {
 
 <!------- Profile HTML ------->
 <!-- Profile Cards TRACERATS -->
-<div class="cardsDiv">
-    <i class="arrow leftButton"></i>
-    <div class="pfSection">
-        <button class="pf pfStorm">
-            <img src="images/characters/storm_pfp.png" class="pfPic" alt="3d model of storm">
-            <p class="pfName">storm</p>
-        </button>
+<div class="pfSection">
+    <button class="pf pfStorm">
+        <img src="images/characters/storm_pfp.png" class="pfPic" alt="3d model of storm">
+        <p class="pfName">storm</p>
+    </button>
 
-        <button class="pf pfMayhem">
-            <img src="images/characters/mayhem_pfp.png" class="pfPic" alt="3d model of mayhem">
-            <p class="pfName">mayhem</p>
-        </button>
+    <button class="pf pfMayhem">
+        <img src="images/characters/mayhem_pfp.png" class="pfPic" alt="3d model of mayhem">
+        <p class="pfName">mayhem</p>
+    </button>
 
-        <button class="pf pfSoph">
-            <img src="images/characters/soph_pfp.png" class="pfPic" alt="3d model of soph">
-            <p class="pfName">soph</p>
-        </button>
+    <button class="pf pfSoph">
+        <img src="images/characters/soph_pfp.png" class="pfPic" alt="3d model of soph">
+        <p class="pfName">soph</p>
+    </button>
 
-        <button class="pf pfMichael">
-            <img src="images/characters/michael_pfp.png" class="pfPic" alt="3d model of michael">
-            <p class="pfName">michael</p>
-        </button>
+    <button class="pf pfMichael">
+        <img src="images/characters/michael_pfp.png" class="pfPic" alt="3d model of michael">
+        <p class="pfName">michael</p>
+    </button>
 
-        <button class="pf pfDev">
-            <img src="images/characters/dev_pfp.png" class="pfPic" alt="3d model of dev">
-            <p class="pfName">dev</p>
-        </button>
+    <button class="pf pfDev">
+        <img src="images/characters/dev_pfp.png" class="pfPic" alt="3d model of dev">
+        <p class="pfName">dev</p>
+    </button>
 
-        <button class="pf pfNova">
-            <img src="images/characters/nova_pfp.png" class="pfPic" alt="3d model of nova">
-            <p class="pfName">nova</p>
-        </button>
-    </div>
-    <i class="arrow rightButton"></i>
+    <button class="pf pfNova">
+        <img src="images/characters/nova_pfp.png" class="pfPic" alt="3d model of nova">
+        <p class="pfName">nova</p>
+    </button>
 </div>
 
 <!-- Profile Content TRACERATS -->
@@ -725,7 +659,7 @@ function hbMenu() {
     <h3 class="sStorm">strengths:</h3>
     <ul>
         <li>logical thinking + (mostly) rational behaviour</li>
-        <li>curiosity + technical creativity</li>
+        <li>curiosity + cechnical creativity</li>
         <li>passionate / driven</li>
         <li>unafraid</li>
     </ul>
@@ -1105,26 +1039,22 @@ function hbMenu() {
 
 <div class="pcPolice">
 <!-- Profile Cards POLICE -->
-<div class="cardsDiv">
-    <i class="arrow leftButton"></i>
-    <div class="pfSection">
+<div class="pfSection">
 
-        <button class="pf pfAda">
-            <img src="images/characters/ada_pfp.png" class="pfPic" alt="profile picture for ada">
-            <p class="pfName">ada</p>
-        </button>
-        
-        <button class="pf pfDave">
-            <img src="images/characters/dave_pfp.png" class="pfPic" alt="profile picture for dave">
-            <p class="pfName">dave</p>
-        </button>
-        
-        <button class="pf pfAndrew">
-            <img src="images/characters/andrew_pfp.png" class="pfPic" alt="profile picture for andrew">
-            <p class="pfName">andrew</p>
-        </button>
-    </div>
-    <i class="arrow rightButton"></i>
+    <button class="pf pfAda">
+        <img src="images/characters/ada_pfp.png" class="pfPic" alt="profile picture for ada">
+        <p class="pfName">ada</p>
+    </button>
+    
+    <button class="pf pfDave">
+        <img src="images/characters/dave_pfp.png" class="pfPic" alt="profile picture for dave">
+        <p class="pfName">dave</p>
+    </button>
+    
+    <button class="pf pfAndrew">
+        <img src="images/characters/andrew_pfp.png" class="pfPic" alt="profile picture for andrew">
+        <p class="pfName">andrew</p>
+    </button>
 </div>
 
 <!-- Profile Content POLICE -->
@@ -1175,6 +1105,14 @@ function hbMenu() {
         <li> she lives a fairly lonely life, between her daughter living in a flat on her own (ada still tries to provide for her and help her as much as possible) and ada not being very sociable and having very few people she gets along with well</li>
     </ul>
 
+    <h3>moodboard:</h3>
+    <ul>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            <svg class="_6x6 filldText" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
 </div>
 
 <div class="pfContent" id="pfDaveContent">
@@ -1222,6 +1160,14 @@ function hbMenu() {
         <li>dave is one of the grumpier coppers and does not get along with ada at all, him and andrew however are pretty good friends</li>
     </ul>
 
+    <h3>moodboard:</h3>
+    <ul>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            <svg class="_6x6 filldText" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
 </div>
 
 <div class="pfContent" id="pfAndrewContent">
@@ -1269,6 +1215,14 @@ function hbMenu() {
         <li>despite his best efforts to make the world around him better, being a part of the police has made him a part of an oppressive and corrupt system</li>
     </ul>
 
+    <h3>moodboard:</h3>
+    <ul>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            <svg class="_6x6 filldText" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
 </div>
 
 </div>
@@ -1288,20 +1242,16 @@ function hbMenu() {
 
 <div class="pcPoliticians">
 <!-- Profile Cards POLITICIANS -->
-<div class="cardsDiv">
-    <i class="arrow leftButton"></i>
-    <div class="pfSection">
-        <button class="pf pfMichelle">
-            <img src="images/characters/michelle_pfp.png" class="pfPic" alt="profile picture for michelle">
-            <p class="pfName">m clarke</p>
-        </button>
-        
-        <button class="pf pfJohnathan">
-            <img src="images/characters/jonathan_pfp.png" class="pfPic" alt="profile picture for johnathan">
-            <p class="pfName">j white</p>
-        </button>
-    </div>
-    <i class="arrow rightButton"></i>
+<div class="pfSection">
+    <button class="pf pfMichelle">
+        <img src="images/characters/michelle_pfp.png" class="pfPic" alt="profile picture for michelle">
+        <p class="pfName">michelle</p>
+    </button>
+    
+    <button class="pf pfJohnathan">
+        <img src="images/characters/jonathan_pfp.png" class="pfPic" alt="profile picture for johnathan">
+        <p class="pfName">johnathan</p>
+    </button>
 </div>
 
 <!-- Profile Content POLITICIANS -->
@@ -1352,6 +1302,14 @@ function hbMenu() {
         <li>she's the politician who pushes for more and more invasive video surveillance. she was attacked by a group of criminal youth in the past which drove her to put herself up for elections</li>
     </ul>
 
+    <h3>moodboard:</h3>
+    <ul>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            <svg class="_6x6 filldText" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
 </div>
 
 <div class="pfContent" id="pfJohnathanContent">
@@ -1398,6 +1356,14 @@ function hbMenu() {
         <li>he's a racist cunt, there's no way around it</li>
     </ul>
 
+    <h3>moodboard:</h3>
+    <ul>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            <svg class="_6x6 filldText" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
 </div>
 </div>
 </div>
@@ -1413,30 +1379,26 @@ function hbMenu() {
 
 <div class="pcNazis">
 <!-- Profile Cards NAZIS -->
-<div class="cardsDiv">
-    <i class="arrow leftButton"></i>
-    <div class="pfSection">
-        <button class="pf pfHeinrich">
-            <img src="images/characters/heinrich_pfp.png" class="pfPic" alt="profile picture for heinrich">
-            <p class="pfName">heinrich</p>
-        </button>
+<div class="pfSection">
+    <button class="pf pfHeinrich">
+        <img src="images/characters/heinrich_pfp.png" class="pfPic" alt="profile picture for heinrich">
+        <p class="pfName">heinrich</p>
+    </button>
 
-        <button class="pf pfIsaac">
-            <img src="images/characters/isaac_pfp.png" class="pfPic" alt="profile picture for isaac">
-            <p class="pfName">isaac</p>
-        </button>
+    <button class="pf pfIsaac">
+        <img src="images/characters/isaac_pfp.png" class="pfPic" alt="profile picture for isaac">
+        <p class="pfName">isaac</p>
+    </button>
 
-        <button class="pf pfTommy">
-            <img src="images/characters/tommy_pfp.png" class="pfPic" alt="profile picture for tommy">
-            <p class="pfName">tommy</p>
-        </button>
+    <button class="pf pfTommy">
+        <img src="images/characters/tommy_pfp.png" class="pfPic" alt="profile picture for tommy">
+        <p class="pfName">tommy</p>
+    </button>
 
-        <button class="pf pfNick">
-            <img src="images/characters/nick_pfp.png" class="pfPic" alt="profile picture for nick">
-            <p class="pfName">nick</p>
-        </button>
-    </div>
-    <i class="arrow rightButton"></i>
+    <button class="pf pfNick">
+        <img src="images/characters/nick_pfp.png" class="pfPic" alt="profile picture for nick">
+        <p class="pfName">nick</p>
+    </button>
 </div>
 
 <!-- Profile Content NAZIS -->
@@ -1486,6 +1448,14 @@ function hbMenu() {
         <li>he's a pedophile on top of everything and touched little children at school inappropriately</li> <!--check this, spoiler-->
     </ul>
 
+    <h3>moodboard:</h3>
+    <ul>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            <svg class="_6x6 filldText" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
 </div>
 
 <div class="pfContent" id="pfIsaacContent">
@@ -1532,6 +1502,14 @@ function hbMenu() {
         <li>he's usually very quiet</li>
     </ul>
 
+    <h3>moodboard:</h3>
+    <ul>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            <svg class="_6x6 filldText" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
 </div>
 
 <div class="pfContent" id="pfTommyContent">
@@ -1578,6 +1556,14 @@ function hbMenu() {
         <li>he's the one out of the group who's still the most connected with the real world</li>
     </ul>
 
+    <h3>moodboard:</h3>
+    <ul>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            <svg class="_6x6 filldText" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
 </div>
 
 <div class="pfContent" id="pfNickContent">
@@ -1627,6 +1613,14 @@ function hbMenu() {
         <li>he is a sexual predator and needs to be steered clear of</li> <!--check this, spoiler-->
     </ul>
 
+    <h3>moodboard:</h3>
+    <ul>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            <svg class="_6x6 filldText" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
 </div>
 
 </div>
@@ -1643,47 +1637,43 @@ function hbMenu() {
 
 <div class="pcSquatters">
 <!-- Profile Cards SQUATTERS -->
-<div class="cardsDiv">
-    <i class="arrow leftButton"></i>
-    <div class="pfSection">
+<div class="pfSection">
 
-        <button class="pf pfJohnny">
-            <img src="images/characters/johnny_pfp.png" class="pfPic" alt="profile picture for johnny">
-            <p class="pfName">johnny</p>
-        </button>
+    <button class="pf pfJohnny">
+        <img src="images/characters/johnny_pfp.png" class="pfPic" alt="profile picture for johnny">
+        <p class="pfName">johnny</p>
+    </button>
 
-        <button class="pf pfJanet">
-            <img src="images/characters/janet_pfp.png" class="pfPic" alt="profile picture for janet">
-            <p class="pfName">janet</p>
-        </button>
+    <button class="pf pfJanet">
+        <img src="images/characters/janet_pfp.png" class="pfPic" alt="profile picture for janet">
+        <p class="pfName">janet</p>
+    </button>
 
-        <button class="pf pfCherry">
-            <img src="images/characters/cherry_pfp.png" class="pfPic" alt="profile picture for cherry">
-            <p class="pfName">cherry</p>
-        </button>
+    <button class="pf pfCherry">
+        <img src="images/characters/cherry_pfp.png" class="pfPic" alt="profile picture for cherry">
+        <p class="pfName">cherry</p>
+    </button>
 
-        <button class="pf pfEmber">
-            <img src="images/characters/ember_pfp.png" class="pfPic" alt="profile picture for ember">
-            <p class="pfName">ember</p>
-        </button>
+    <button class="pf pfEmber">
+        <img src="images/characters/ember_pfp.png" class="pfPic" alt="profile picture for ember">
+        <p class="pfName">ember</p>
+    </button>
 
-        <button class="pf pfAlex">
-            <img src="images/characters/alex_pfp.png" class="pfPic" alt="profile picture for alex">
-            <p class="pfName">alex</p>
-        </button>
+    <button class="pf pfAlex">
+        <img src="images/characters/alex_pfp.png" class="pfPic" alt="profile picture for alex">
+        <p class="pfName">alex</p>
+    </button>
 
-        <button class="pf pfRufus">
-            <img src="images/characters/rufus_pfp.png" class="pfPic" alt="profile picture for rufus">
-            <p class="pfName">rufus</p>
-        </button>
+    <button class="pf pfRufus">
+        <img src="images/characters/rufus_pfp.png" class="pfPic" alt="profile picture for rufus">
+        <p class="pfName">rufus</p>
+    </button>
 
-        <button class="pf pfSam">
-            <img src="images/characters/sam_pfp.png" class="pfPic" alt="profile picture for sam">
-            <p class="pfName">sam</p>
-        </button>
-        
-    </div>
-    <i class="arrow rightButton"></i>
+    <button class="pf pfSam">
+        <img src="images/characters/sam_pfp.png" class="pfPic" alt="profile picture for sam">
+        <p class="pfName">sam</p>
+    </button>
+    
 </div>
 
 
@@ -1733,6 +1723,14 @@ function hbMenu() {
         <li>johnny is a very creative person who easily gets frustrated with people</li>
     </ul>
 
+    <h3>moodboard:</h3>
+    <ul>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            <svg class="_6x6 filldText" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
 </div>
 
 <div class="pfContent" id="pfJanetContent">
@@ -1779,6 +1777,14 @@ function hbMenu() {
         <li>she's kind of the mom friend of the squat</li>
     </ul>
 
+    <h3>moodboard:</h3>
+    <ul>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            <svg class="_6x6 filldText" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
 </div>
 
 <div class="pfContent" id="pfCherryContent">
@@ -1825,6 +1831,14 @@ function hbMenu() {
         <li>she goes to a lot of protests and is very politically active</li>
     </ul>
 
+    <h3>moodboard:</h3>
+    <ul>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            <svg class="_6x6 filldText" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
 </div>
 
 <div class="pfContent" id="pfEmberContent">
@@ -1871,6 +1885,14 @@ function hbMenu() {
         <li>she used to study biology and environmental science in college, but dropped out after becoming increasingly disillusioned with the education system and she structures it supports. she is still very much interested and concerned about the environment and is a climate activist</li>
     </ul>
 
+    <h3>moodboard:</h3>
+    <ul>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            <svg class="_6x6 filldText" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
 </div>
 
 <div class="pfContent" id="pfAlexContent">
@@ -1918,6 +1940,14 @@ function hbMenu() {
         <li>they're deeply committed to intersectional cooperation and very actively confront discrimination wherever possible. they also really like photography and cycling and are active in ambers greenhouse project</li> <!--check this, dunno if you can say this like that-->
     </ul>
 
+    <h3>moodboard:</h3>
+    <ul>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            <svg class="_6x6 filldText" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
 </div>
 
 <div class="pfContent" id="pfRufusContent">
@@ -1964,6 +1994,14 @@ function hbMenu() {
         <li>rufus is a very active advocate for equity</li>
     </ul>
 
+    <h3>moodboard:</h3>
+    <ul>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            <svg class="_6x6 filldText" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
 </div>
 
 <div class="pfContent" id="pfSamContent">
@@ -2011,6 +2049,14 @@ function hbMenu() {
         <li>they became politically interested at a very young age and started reading about anarchy in their early teens. they strongly believe in the power of decentralization and find it very regrettable that the artist community is not very cooperative in general. on top of this they are a strong advocate for lgbtq+ rights and are in a polyamorous relationship themself</li>
     </ul>
 
+    <h3>moodboard:</h3>
+    <ul>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            <svg class="_6x6 filldText" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
 </div>
 
 </div>
@@ -2027,22 +2073,18 @@ function hbMenu() {
 
 <!-- Profile Cards ACTIVISTS -->
 <div class="pcActivists">
-<div class="cardsDiv">
-    <i class="arrow leftButton"></i>
-    <div class="pfSection">
+<div class="pfSection">
 
-        <button class="pf pfDevi">
-            <img src="images/characters/devi_pfp.png" class="pfPic" alt="profile picture for devi">
-            <p class="pfName">devi</p>
-        </button>
+    <button class="pf pfDevi">
+        <img src="images/characters/devi_pfp.png" class="pfPic" alt="profile picture for devi">
+        <p class="pfName">devi</p>
+    </button>
 
-        <button class="pf pfBrian">
-            <img src="images/characters/brian_pfp.png" class="pfPic" alt="profile picture for brian">
-            <p class="pfName">brian</p>
-        </button>
-        
-    </div>
-    <i class="arrow rightButton"></i>
+    <button class="pf pfBrian">
+        <img src="images/characters/brian_pfp.png" class="pfPic" alt="profile picture for brian">
+        <p class="pfName">brian</p>
+    </button>
+    
 </div>
 
 
@@ -2093,6 +2135,14 @@ function hbMenu() {
         <li>due to her constant drive to work and make things better she is very bad at taking a break and it's pushing her towards a burnout</li>
     </ul>
 
+    <h3>moodboard:</h3>
+    <ul>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            <svg class="_6x6 filldText" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
 </div>
 
 <div class="pfContent" id="pfBrianContent">
@@ -2140,6 +2190,14 @@ function hbMenu() {
         <li>he is known for his aid in leaking documents that demonstrate the prevalence of police brutality. he also was to be a warzone reporter but stopped due to how traumatizing that was</li> <!--check this-->
     </ul>
 
+    <h3>moodboard:</h3>
+    <ul>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            <svg class="_6x6 filldText" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
 </div>
 
 </div>
@@ -2155,32 +2213,28 @@ function hbMenu() {
 
 <div class="pcProtestors">
 <!-- Profile Cards PROTESTORS -->
-<div class="cardsDiv">
-    <i class="arrow leftButton"></i>
-    <div class="pfSection">
+<div class="pfSection">
 
-        <button class="pf pfAaron">
-            <img src="images/characters/aaron_pfp.png" class="pfPic" alt="profile picture for aaron">
-            <p class="pfName">aaron</p>
-        </button>
-        
-        <button class="pf pfKenji">
-            <img src="images/characters/kenji_pfp.png" class="pfPic" alt="profile picture for kenji">
-            <p class="pfName">kenji</p>
-        </button>
+    <button class="pf pfAaron">
+        <img src="images/characters/aaron_pfp.png" class="pfPic" alt="profile picture for aaron">
+        <p class="pfName">aaron</p>
+    </button>
+    
+    <button class="pf pfKenji">
+        <img src="images/characters/kenji_pfp.png" class="pfPic" alt="profile picture for kenji">
+        <p class="pfName">kenji</p>
+    </button>
 
-        <button class="pf pfEleanor">
-            <img src="images/characters/eleanor_pfp.png" class="pfPic" alt="profile picture for eleanor">
-            <p class="pfName">eleanor</p>
-        </button>
+    <button class="pf pfEleanor">
+        <img src="images/characters/eleanor_pfp.png" class="pfPic" alt="profile picture for eleanor">
+        <p class="pfName">eleanor</p>
+    </button>
 
-        <button class="pf pfDeborah">
-            <img src="images/characters/deborah_pfp.png" class="pfPic" alt="profile picture for deborah">
-            <p class="pfName">deborah</p>
-        </button>
-        
-    </div>
-    <i class="arrow rightButton"></i>
+    <button class="pf pfDeborah">
+        <img src="images/characters/deborah_pfp.png" class="pfPic" alt="profile picture for deborah">
+        <p class="pfName">deborah</p>
+    </button>
+    
 </div>
 
 
@@ -2231,6 +2285,14 @@ function hbMenu() {
         <li>he's a very kind and determined person who cannot stand the current state of things in terms of racism. he also grew up bilingual (english and french) and is a very skilled translator</li>
     </ul>
 
+    <h3>moodboard:</h3>
+    <ul>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            <svg class="_6x6 filldText" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
 </div>
 
 <div class="pfContent" id="pfKenjiContent">
@@ -2277,6 +2339,14 @@ function hbMenu() {
         <li>they're a very creative person who wants the world to be a lot kinder and to allow for people to just coexist peacefully. they just kind of love everyone around them</li>
     </ul>
 
+    <h3>moodboard:</h3>
+    <ul>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            <svg class="_6x6 filldText" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
 </div>
 
 <div class="pfContent" id="pfEleanorContent">
@@ -2322,6 +2392,14 @@ function hbMenu() {
         <li>she's got a big family that she cares for and is a very respected woman in her community</li>
     </ul>
 
+    <h3>moodboard:</h3>
+    <ul>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            <svg class="_6x6 filldText" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
 </div>
 
 <div class="pfContent" id="pfDeborahContent">
@@ -2369,6 +2447,14 @@ function hbMenu() {
         <li>she's a very rational person and tries to find a solution to every problem, however this becomes a problem when there is no clear solution and they end up stuck and frustrated</li>
     </ul>
 
+    <h3>moodboard:</h3>
+    <ul>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            <svg class="_6x6 filldText" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
 </div>
 
 </div>
@@ -2387,41 +2473,37 @@ function hbMenu() {
 
 <div class="pcBand">
 <!-- Profile Cards BAND-->
-<div class="cardsDiv">
-    <i class="arrow leftButton"></i>
-    <div class="pfSection">
-        <button class="pf pfCourtney">
-                <img src="images/characters/courtney_pfp.png" class="pfPic" alt="profile picture for courtney">
-                <p class="pfName">courtney</p>
-            </button>
+<div class="pfSection">
+    <button class="pf pfCourtney">
+            <img src="images/characters/courtney_pfp.png" class="pfPic" alt="profile picture for courtney">
+            <p class="pfName">courtney</p>
+        </button>
+    
+    <button class="pf pfLana">
+            <img src="images/characters/lana_pfp.png" class="pfPic" alt="profile picture for lana">
+            <p class="pfName">lana</p>
+        </button>
+    
+    <button class="pf pfAshley">
+            <img src="images/characters/ashley_pfp.png" class="pfPic" alt="profile picture for ashley">
+            <p class="pfName">ashley</p>
+        </button>
+    
+    <button class="pf pfBasma">
+            <img src="images/characters/basma_pfp.png" class="pfPic" alt="profile picture for basma">
+            <p class="pfName">basma</p>
+        </button>
         
-        <button class="pf pfLana">
-                <img src="images/characters/lana_pfp.png" class="pfPic" alt="profile picture for lana">
-                <p class="pfName">lana</p>
-            </button>
+    <button class="pf pfCharlie">
+            <img src="images/characters/charlie_pfp.png" class="pfPic" alt="profile picture for charlie">
+            <p class="pfName">charlie</p>
+        </button>
         
-        <button class="pf pfAshley">
-                <img src="images/characters/ashley_pfp.png" class="pfPic" alt="profile picture for ashley">
-                <p class="pfName">ashley</p>
-            </button>
+    <button class="pf pfEmma">
+            <img src="images/characters/emma_pfp.png" class="pfPic" alt="profile picture for emma">
+            <p class="pfName">emma</p>
+        </button>
         
-        <button class="pf pfBasma">
-                <img src="images/characters/basma_pfp.png" class="pfPic" alt="profile picture for basma">
-                <p class="pfName">basma</p>
-            </button>
-            
-        <button class="pf pfCharlie">
-                <img src="images/characters/charlie_pfp.png" class="pfPic" alt="profile picture for charlie">
-                <p class="pfName">charlie</p>
-            </button>
-            
-        <button class="pf pfEmma">
-                <img src="images/characters/emma_pfp.png" class="pfPic" alt="profile picture for emma">
-                <p class="pfName">emma</p>
-            </button>
-            
-    </div>
-    <i class="arrow rightButton"></i>
 </div>
     
 <!-- Profile Content -->
@@ -2470,6 +2552,15 @@ function hbMenu() {
     <ul>
         <li>she's got a very grunge vibe to her</li>
     </ul>
+
+    <h3>moodboard:</h3>
+    <ul>
+        <a href="https://www.pinterest.co.uk/solarblips/ashley/" target="_blank">
+            <svg class="_6x6 filldAshley" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
 </div> 
 
 <div class="pfContent" id="pfLanaContent">
@@ -2515,6 +2606,15 @@ function hbMenu() {
     <h3>other notes:</h3>
     <ul>
         <li>she's very passionate about photography and takes the bands promotional pictures</li>
+    </ul>
+
+    <h3>moodboard:</h3>
+    <ul>
+        <a href="https://www.pinterest.co.uk/solarblips/ashley/" target="_blank">
+            <svg class="_6x6 filldAshley" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
     </ul>
 </div> 
 
@@ -2562,6 +2662,15 @@ function hbMenu() {
     <ul>
         <li>she's in a relationship with soph, but also jokingly flirts with other people, which soph is ok with</li>
     </ul>
+
+    <h3 class="sAshley">moodboard:</h3>
+    <ul>
+        <a href="https://www.pinterest.co.uk/solarblips/ashley/" target="_blank">
+            <svg class="_6x6 filldAshley" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
 </div>
 
 <div class="pfContent" id="pfBasmaContent">
@@ -2607,6 +2716,15 @@ function hbMenu() {
     <h3>other notes:</h3>
     <ul>
         <li>she really likes skateboarding and detective books</li>
+    </ul>
+
+    <h3>moodboard:</h3>
+    <ul>
+        <a href="https://www.pinterest.co.uk/solarblips/ashley/" target="_blank">
+            <svg class="_6x6 filldAshley" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
     </ul>
 </div> 
 
@@ -2654,6 +2772,15 @@ function hbMenu() {
     <ul>
         <li>they would probably get along with dev very well if they were close</li>
     </ul>
+
+    <h3>moodboard:</h3>
+    <ul>
+        <a href="https://www.pinterest.co.uk/solarblips/ashley/" target="_blank">
+            <svg class="_6x6 filldAshley" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
 </div> 
 
 <div class="pfContent" id="pfEmmaContent">
@@ -2699,6 +2826,15 @@ function hbMenu() {
     <ul>
         <li>she's very work focussed and doesn't like to spend a lot of time doing the whole social dance around stuff</li>
     </ul>
+
+    <h3>moodboard:</h3>
+    <ul>
+        <a href="https://www.pinterest.co.uk/solarblips/ashley/" target="_blank">
+            <svg class="_6x6 filldAshley" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
 </div> 
 
 
@@ -2717,27 +2853,23 @@ function hbMenu() {
 
 <div class="pcMedics">
 <!-- Profile Cards MEDICS -->
-<div class="cardsDiv">
-    <i class="arrow leftButton"></i>
-    <div class="pfSection">
+<div class="pfSection">
 
-        <button class="pf pfDrEllis">
-            <img src="images/characters/drellis_pfp.png" class="pfPic" alt="profile picture for dr ellis">
-            <p class="pfName">dr ellis</p>
-        </button>
+    <button class="pf pfDrRobinson">
+        <img src="images/characters/drrobinson_pfp.png" class="pfPic" alt="profile picture for dr robinson">
+        <p class="pfName">dr robinson</p>
+    </button>
 
-        <button class="pf pfJames">
-            <img src="images/characters/james_pfp.png" class="pfPic" alt="profile picture for james">
-            <p class="pfName">james</p>
-        </button>
-    </div>
-    <i class="arrow rightButton"></i>
+    <button class="pf pfJames">
+        <img src="images/characters/james_pfp.png" class="pfPic" alt="profile picture for james">
+        <p class="pfName">james</p>
+    </button>
 </div>
 
 
 <!-- Profile Content -->
 <div>
-<div class="pfContent" id="pfDrEllisContent">
+<div class="pfContent" id="pfDrRobinsonContent">
 
     <h3>pronouns:</h3>
     <ul>
@@ -2781,6 +2913,14 @@ function hbMenu() {
         <li>she does not appreciate james' openness and not being serious all the time</li> <!--check this, help me reformulate that better-->
     </ul>
 
+    <h3>moodboard:</h3>
+    <ul>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            <svg class="_6x6 filldText" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
 </div>
 
 <div class="pfContent" id="pfJamesContent">
@@ -2827,6 +2967,14 @@ function hbMenu() {
         <li>they're a good cook and like to cool nice meals for their boyfriend. he also really likes horror movies.</li>
     </ul>
 
+    <h3>moodboard:</h3>
+    <ul>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            <svg class="_6x6 filldText" viewBox="0 0 24 24">
+                <path d="M0 12c0 5.123 3.211 9.497 7.73 11.218-.11-.937-.227-2.482.025-3.566.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9 1.02 0 1.512.765 1.512 1.682 0 1.025-.653 2.557-.99 3.978-.281 1.189.597 2.159 1.769 2.159 2.123 0 3.756-2.239 3.756-5.471 0-2.861-2.056-4.86-4.991-4.86-3.398 0-5.393 2.549-5.393 5.184 0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355-.053.218-.173.265-.4.159-1.492-.694-2.424-2.875-2.424-4.627 0-3.769 2.737-7.229 7.892-7.229 4.144 0 7.365 2.953 7.365 6.899 0 4.117-2.595 7.431-6.199 7.431-1.211 0-2.348-.63-2.738-1.373 0 0-.599 2.282-.744 2.84-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12"></path>
+            </svg>
+        </a>
+    </ul>
 </div>
 
 </div>
@@ -2892,126 +3040,4 @@ for (i = 0; i < pfbs.length; i++) {
 
 
 </body>
-
-<script>
-    pfSections = document.querySelectorAll(".pfSection");
-    function checkFadeAndButtons() {
-        for (let i=0; i < pfSections.length; i++) {
-            let dispWidth = pfSections[i].clientWidth;
-            let fullWidth = pfSections[i].scrollWidth;
-            let scrollPos = pfSections[i].scrollLeft;
-    
-            cList = pfSections[i].classList;
-    
-            if (((fullWidth - scrollPos) > dispWidth) && (scrollPos > 0)) {
-                //if both
-                pfSections[i].nextElementSibling.style.display = "inline-block";
-                pfSections[i].previousElementSibling.style.display = "inline-block";
-                cList.add("bothFade");
-                cList.remove("rightFade");
-                cList.remove("leftFade");
-            } else if ((fullWidth - scrollPos) > dispWidth){
-                // if right fade only
-                pfSections[i].nextElementSibling.style.display = "inline-block";
-                pfSections[i].previousElementSibling.style.display = "none";
-                cList.add("rightFade");
-                cList.remove("bothFade");
-                cList.remove("leftFade");
-            } else if (scrollPos > 0) {
-                // if left fade only
-                pfSections[i].previousElementSibling.style.display = "inline-block";
-                pfSections[i].nextElementSibling.style.display = "none";
-                cList.add("leftFade");
-                cList.remove("bothFade");
-                cList.remove("rightFade");
-            } else {
-                // if no fade
-                pfSections[i].nextElementSibling.style.display = "none";
-                pfSections[i].previousElementSibling.style.display = "none";
-                cList.remove("bothFade");
-                cList.remove("rightFade");
-                cList.remove("leftFade");
-            }
-    
-            if ((fullWidth - scrollPos) > dispWidth) {
-                pfSections[i].nextElementSibling.style.display = "inline-block";
-                // for if right
-            } else {
-                pfSections[i].nextElementSibling.style.display = "none";
-            };
-            if (scrollPos > 0) {
-                pfSections[i].previousElementSibling.style.display = "inline-block";
-                // for if left
-            } else {
-                pfSections[i].previousElementSibling.style.display = "none";
-            };
-        }
-    }
-    
-    function moveRight(){
-        let cardsDiv = this.previousElementSibling;
-        let cards = cardsDiv.children;
-        let cardPos = cards.length;
-        while (cardPos > 0){
-            cardPos--;
-            if ((cards[cardPos].offsetLeft + cards[cardPos].offsetWidth) < (cardsDiv.scrollLeft + cardsDiv.clientWidth)) {
-                break
-            }
-        }
-        cardPos++;
-        cardsDiv.scrollLeft = cards[cardPos].offsetLeft - cardsDiv.clientWidth + cards[cardPos].offsetWidth + 1;// + cards[cardPos].borderWidth;
-    };
-    
-    function moveLeft() {
-        let cardsDiv = this.nextElementSibling;
-        let cards = cardsDiv.children;
-        let cardPos = 0;
-        while (cardPos < cards.length){
-            if (cards[cardPos].offsetLeft > cardsDiv.scrollLeft) {
-                break
-            }
-            cardPos++;
-        }
-        cardPos--;
-        cardsDiv.scrollLeft = cards[cardPos].offsetLeft - 1;// + cards[cardPos].borderWidth;
-        console.log(cards[cardPos].offsetLeft);
-        console.log(cardsDiv.scrollLeft);
-    };
-    
-    // console.log(cards[cardPos].offsetLeft);
-    
-    for (let i = 0; i < pfSections.length; i++) {
-        let cards = pfSections[i].children;
-        cards[cards.length-1].style.marginRight = 0;
-        // cards[0].style.marginLeft = 0;
-    }
-    
-    let lButtons = document.querySelectorAll(".leftButton");
-    let rButtons = document.querySelectorAll(".rightButton");
-    // let arrows = document.querySelectorAll(".arrow");
-    
-    for (let i = 0; i < lButtons.length; i++) {
-        lButtons[i].addEventListener("click", moveLeft);
-        lButtons[i].style.zIndex = "31";
-    }
-    
-    for (let i = 0; i < rButtons.length; i++) {
-        rButtons[i].addEventListener("click", moveRight);
-        rButtons[i].style.zIndex = "31";
-    }
-    
-    for (let i=0; i < pfSections.length; i++) {
-        pfSections[i].addEventListener("scroll", checkFadeAndButtons);
-    }
-    
-    checkFadeAndButtons();
-    
-    
-    // for (let i = 0; i < arrows.length; i++) {
-    //     arrows[i].addEventListener("mouseenter", arrows[i].style.transform += " scale(1.3)");
-    // }
-    
-    
-    </script>
-
 </html>

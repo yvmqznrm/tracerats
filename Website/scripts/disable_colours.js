@@ -34,6 +34,7 @@ function dcToggle() {
   }
 }
 
+console.log(document.getElementById("colourToggleGray").style);
 
 if (document.cookie == "") {
   dcDisable();
