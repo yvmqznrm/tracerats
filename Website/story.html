@@ -11,11 +11,6 @@
 <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
 
 
-<script src="scripts/jquery-3.6.2.slim.js"></script>
-
-<script src="scripts/panzoom.min.js"></script>
-
-
 <!------- General ------->
 <link rel="stylesheet" href="stylesheets/general.css">
 
@@ -232,81 +227,16 @@
 
 <style>
 #flexdiv {
-  display: flex;
-  flex-direction: row;
-}
-
-#flowchartflex {
-  flex-basis: 45%;
-  margin-right: 2rem;
-}
-
-#textflex {
-  flex-basis: 55%;
+  display: block;
 }
 
 #textflex p {
   margin: 0;
   text-align: justify;
 }
-
-@media screen and (max-width: 90rem) {
-  #flexdiv {
-    flex-direction: column-reverse;
-  }
-
-  #flowchartflex {
-    flex-basis: auto;
-    width: 80%;
-    margin-top: 3rem;
-    margin-right: 0rem;
-    align-self: center;
-  }
-
-  #textflex {
-    flex-basis: auto;
-  }
-}
 </style>
 
 <div id="flexdiv">
-
-<!--<div id="flowchartflex">
-
-<style>
-
-#flowchart_container_outer {
-  position: relative;
-}
-
-#flowchart_container, #story_flowchart, #story_flowchart_spoilered {
-  width: 100%;
-}
-</style>
-
-<div id="flowchart_container_outer">
-  <script>
-  function unspoiler(button) {
-    button.previousElementSibling.style.display = "none";
-    button.nextElementSibling.style.display = "block";
-    button.style.display = "none";
-  }
-  </script>
-  <img id="story_flowchart_spoilered" src="images/story_flowchart.png" alt="blurred story flowchart" style="filter:blur(20px);">
-  <button style="position:absolute; bottom:50%; right:50%; transform:translate(50%, 50%);" class="button-0" onclick="unspoiler(this)">unspoiler</button>
-  <div id="flowchart_container" style="display:none">
-    <img id="story_flowchart" src="images/story_flowchart.png" alt="story flowchart">
-  </div>
-</div>
-
-<script>
-image_to_zoom = document.getElementById("story_flowchart");
-const panzoom = Panzoom(image_to_zoom, {contain: 'outside', maxScale:10});
-image_to_zoom.addEventListener('wheel', panzoom.zoomWithWheel);
-</script>
-
-</div>-->
-
 
 <div id="textflex">
 <p>while the ingame mechanics are more focused on teaching the player stuff about technology and ctfs, the purpose of the game's story is to demonstrate what real hackers and anarchists are confronted with in their activism as well as touching on mental health.<br><br>
@@ -326,8 +256,10 @@ image_to_zoom.addEventListener('wheel', panzoom.zoomWithWheel);
 </p>
 </div>
 
-    feel free to try the current text demo <a href="tracerats.org/demo" style="font-weight: bold; color: yellow;">here</a>
+    feel free to try the current text demo <a href="tracerats.org/demo" style="font-weight: bold; color: var(--Light);">here</a>
     please note the demo does not have a button to return to this website, use your browser's back function for that
+
+</div>
 
 </div>
 
